@@ -1,0 +1,4 @@
+@lxde-settings-daemon
+@xscreensaver -no-splash
+@lxpanel --profile Lubuntu
+@pcmanfm -d

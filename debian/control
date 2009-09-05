@@ -1,0 +1,15 @@
+Source: lubuntu-default-settings
+Section: x11
+Priority: optional
+Maintainer: Lubuntu Team <lubuntu-desktop@lists.launchpad.net>
+Build-Depends: debhelper (>= 7), intltool
+Standards-Version: 3.8.3
+Homepage:
+Vcs-Bzr: 
+Vcs-Browser: 
+
+Package: lubuntu-default-settings
+Architecture: all
+Depends: ${misc:Depends}
+Description: default settings for Lubuntu
+ Various system settings tailored for Lubuntu.
