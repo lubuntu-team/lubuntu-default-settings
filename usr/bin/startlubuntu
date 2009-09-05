@@ -18,13 +18,8 @@ if [ ! -f "$OPENBOX_CONF_DIR/lubuntu-rc.xml" ]; then
     cp /usr/share/lubuntu/openbox/rc.xml "$OPENBOX_CONF_DIR/lubuntu-rc.xml"
 fi
 
-# Workaround for gdm, openbox and the number of desktops
-NUMBER_DESKTOPS=`grep \<number\> "$OPENBOX_CONF_DIR/llubuntu-rc.xml" | awk -F \> {'print $2}' | awk -F \< {'print $1}'`
-if test x"`which wmctrl 2>/dev/null`" != x""; then
-    (until [ `wmctrl -d | wc -l ` = "$NUMBER_DESKTOPS" ];do
-	wmctrl -n "$NUMBER_DESKTOPS"
-    done) &
-fi
+# Clean up after GDM (GDM sets the number of desktops to one)
+xprop -root -remove _NET_NUMBER_OF_DESKTOPS -remove _NET_DESKTOP_NAMES -remove _NET_CURRENT_DESKTOP 2> /dev/null
 
 # Enable GTK+2 integration for OpenOffice.org, if available.
 export SAL_USE_VCLPLUGIN=gtk
