@@ -1,5 +1,5 @@
-lubuntu-default-settings (0.1) karmic; urgency=low
+lubuntu-default-settings (0.1) lucid; urgency=low
 
-  * Initial release
+  * Initial upload (LP: #475649)
 
- -- Julien Lavergne <gilir@ubuntu.com>  Tue, 15 Sep 2009 01:43:45 +0200
+ -- Julien Lavergne <gilir@ubuntu.com>  Thu, 05 Nov 2009 18:52:56 +0100
