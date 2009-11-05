@@ -1,15 +1,15 @@
 Source: lubuntu-default-settings
 Section: x11
 Priority: optional
-Maintainer: Lubuntu Team <lubuntu-desktop@lists.launchpad.net>
+Maintainer: Julien Lavergne <gilir@ubuntu.com>
 Build-Depends: debhelper (>= 7), intltool
 Standards-Version: 3.8.3
-Homepage:
-Vcs-Bzr: 
-Vcs-Browser: 
+Homepage: https://launchpad.net/~lubuntu-desktop
+Vcs-Bzr: lp:~lubuntu-desktop/+junk/lubuntu-default-settings
+Vcs-Browser: http://bazaar.launchpad.net/~lubuntu-desktop/+junk/lubuntu-default-settings/files
 
 Package: lubuntu-default-settings
 Architecture: all
-Depends: ${misc:Depends}, lxsession (>= 0.3.9), gnome-brave-icon-theme
+Depends: ${misc:Depends}, lxsession (>= 0.3.9), lubuntu-artwork
 Description: default settings for Lubuntu
  Various system settings tailored for Lubuntu.
