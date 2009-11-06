@@ -1,3 +1,9 @@
+lubuntu-default-settings (0.2) UNRELEASED; urgency=low
+
+  * 
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Fri, 06 Nov 2009 18:58:46 +0100
+
 lubuntu-default-settings (0.1) lucid; urgency=low
 
   * Initial upload (LP: #475649)
