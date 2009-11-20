@@ -16,7 +16,7 @@ Global {
     usefontcolor=1
     fontcolor=#ffffff
     background=1
-    backgroundfile=/usr/share/lxpanel/images/background.png
+    backgroundfile=/usr/share/lxpanel/images/lubuntu-background.png
 }
 
 Plugin {

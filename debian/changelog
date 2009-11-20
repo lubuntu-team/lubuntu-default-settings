@@ -5,6 +5,7 @@ lubuntu-default-settings (0.2) UNRELEASED; urgency=low
   * Autostart gnome-power-manager to add power management support and 
     the battery icon in notification-area
   * Set the terminal for pcmanfm to lxterminal
+  * Move lxpanel background for Lubuntu to a specific file. 
 
  -- Julien Lavergne <gilir@ubuntu.com>  Fri, 06 Nov 2009 18:58:46 +0100
 
