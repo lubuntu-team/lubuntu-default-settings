@@ -4,6 +4,15 @@ if [ -z "$XDG_CONFIG_HOME" ]; then
     export XDG_CONFIG_HOME="$HOME/.config"
 fi
 
+#Allow custom configuration files in /etc/xdg/lubuntu
+if test "x$XDG_CONFIG_DIRS" = "x"
+then
+  XDG_CONFIG_DIRS="/etc/xdg/lubuntu:/etc/xdg"
+else
+  XDG_CONFIG_DIRS="/etc/xdg/lubuntu/:$XDG_CONFIG_DIRS:/etc/xdg"
+fi
+export XDG_CONFIG_DIRS
+
 # Ensure the existance of pcmanfm config file
 PCMANFM_CONF_DIR="$XDG_CONFIG_HOME/pcmanfm"
 if [ ! -f "$PCMANFM_CONF_DIR/main.lubuntu" ]; then
