@@ -5,6 +5,7 @@ if [ -z "$XDG_CONFIG_HOME" ]; then
 fi
 
 #Allow custom configuration files in /etc/xdg/lubuntu
+#Patch stolen from Xubuntu
 if test "x$XDG_CONFIG_DIRS" = "x"
 then
   XDG_CONFIG_DIRS="/etc/xdg/lubuntu:/etc/xdg"
@@ -12,6 +13,14 @@ else
   XDG_CONFIG_DIRS="/etc/xdg/lubuntu/:$XDG_CONFIG_DIRS:/etc/xdg"
 fi
 export XDG_CONFIG_DIRS
+
+if test "x$XDG_DATA_DIRS" = "x"
+then
+ XDG_DATA_DIRS="/etc/xdg/lubuntu:/usr/local/share:/usr/share:/usr/share"
+ else
+ XDG_DATA_DIRS="/etc/xdg/lubuntu:$XDG_DATA_DIRS:/usr/share"
+fi
+export XDG_DATA_DIRS
 
 # Ensure the existance of pcmanfm config file
 PCMANFM_CONF_DIR="$XDG_CONFIG_HOME/pcmanfm"
