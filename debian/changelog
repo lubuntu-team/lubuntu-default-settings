@@ -8,8 +8,6 @@ lubuntu-default-settings (0.2) UNRELEASED; urgency=low
   * Move lxpanel background for Lubuntu to a specific file.
   * Use /etc/xdg/lubuntu to store custom configuration files.
   * Remove config file for lxsession, all is in desktop.conf
-  * Move lxsession configuration in etc/xdg/lubuntu, and launch a LXDE 
-    session to workaround the bug of muliples icons in the menu. 
   * Depends on lubuntu-artwork (>= 0.2) to bring the new lxpanel background.
 
  -- Julien Lavergne <gilir@ubuntu.com>  Fri, 06 Nov 2009 18:58:46 +0100
