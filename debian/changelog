@@ -1,4 +1,4 @@
-lubuntu-default-settings (0.2) UNRELEASED; urgency=low
+lubuntu-default-settings (0.2) lucid; urgency=low
 
   * Add the volume applet to the panel to have a way to configure 
     the sound
@@ -10,7 +10,7 @@ lubuntu-default-settings (0.2) UNRELEASED; urgency=low
   * Remove config file for lxsession, all is in desktop.conf
   * Depends on lubuntu-artwork (>= 0.2) to bring the new lxpanel background.
 
- -- Julien Lavergne <gilir@ubuntu.com>  Fri, 06 Nov 2009 18:58:46 +0100
+ -- Julien Lavergne <gilir@ubuntu.com>  Sat, 28 Nov 2009 00:21:07 +0100
 
 lubuntu-default-settings (0.1) lucid; urgency=low
 
