@@ -2,6 +2,7 @@ lubuntu-default-settings (0.3) UNRELEASED; urgency=low
 
   * Pass -e LXDE to lxsession to behave like a LXDE session.
     Bump depends on lxsession to >= 0.4.1 to use this feature.
+  * Remove autostart for lxde-settings-daemon, it merged with lxsession.
 
  -- Julien Lavergne <gilir@ubuntu.com>  Sat, 28 Nov 2009 00:40:40 +0100
 
