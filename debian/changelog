@@ -1,3 +1,9 @@
+lubuntu-default-settings (0.4) UNRELEASED; urgency=low
+
+  * 
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Sun, 13 Dec 2009 17:45:38 +0100
+
 lubuntu-default-settings (0.3) lucid; urgency=low
 
   * Pass -e LXDE to lxsession to behave like a LXDE session.
