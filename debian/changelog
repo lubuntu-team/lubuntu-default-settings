@@ -1,4 +1,4 @@
-lubuntu-default-settings (0.3) UNRELEASED; urgency=low
+lubuntu-default-settings (0.3) lucid; urgency=low
 
   * Pass -e LXDE to lxsession to behave like a LXDE session.
     Bump depends on lxsession to >= 0.4.1 to use this feature.
@@ -6,7 +6,7 @@ lubuntu-default-settings (0.3) UNRELEASED; urgency=low
   * Change path to the wallpaper to a png file rather than a jpg. Bump depends
     on lubuntu-artwork (>= 0.3) 
 
- -- Julien Lavergne <gilir@ubuntu.com>  Fri, 11 Dec 2009 00:56:50 +0100
+ -- Julien Lavergne <gilir@ubuntu.com>  Sun, 13 Dec 2009 11:19:35 +0100
 
 lubuntu-default-settings (0.2) lucid; urgency=low
 
