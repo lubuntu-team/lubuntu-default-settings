@@ -1,6 +1,6 @@
 lubuntu-default-settings (0.4) UNRELEASED; urgency=low
 
-  * 
+  * Remove spacer before the menu applet on the panel.
 
  -- Julien Lavergne <gilir@ubuntu.com>  Sun, 13 Dec 2009 17:45:38 +0100
 

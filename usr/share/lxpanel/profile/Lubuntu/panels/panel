@@ -20,13 +20,6 @@ Global {
 }
 
 Plugin {
-    type = space
-    Config {
-        Size=2
-    }
-}
-
-Plugin {
     type = menu
     Config {
         image=/usr/share/lubuntu/images/lubuntu-logo.png
