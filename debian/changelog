@@ -4,8 +4,9 @@ lubuntu-default-settings (0.4) UNRELEASED; urgency=low
   * Use openbox menu on the desktop indead of pcmanfm one.
   * Install configuration file for QT apps if no one is installed, and set
     QT style=GTK+.
+  * Merge Leszek Lesner openbox settings. 
 
- -- Julien Lavergne <gilir@ubuntu.com>  Sun, 13 Dec 2009 17:45:38 +0100
+ -- Julien Lavergne <gilir@ubuntu.com>  Sat, 23 Jan 2010 00:59:48 +0100
 
 lubuntu-default-settings (0.3) lucid; urgency=low
 
