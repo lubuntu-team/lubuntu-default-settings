@@ -1,4 +1,4 @@
-lubuntu-default-settings (0.4) UNRELEASED; urgency=low
+lubuntu-default-settings (0.4) lucid; urgency=low
 
   * Remove spacer before the menu applet on the panel.
   * Use openbox menu on the desktop indead of pcmanfm one.
@@ -6,7 +6,7 @@ lubuntu-default-settings (0.4) UNRELEASED; urgency=low
     QT style=GTK+.
   * Merge Leszek Lesner openbox settings. 
 
- -- Julien Lavergne <gilir@ubuntu.com>  Sat, 23 Jan 2010 00:59:48 +0100
+ -- Julien Lavergne <gilir@ubuntu.com>  Sun, 24 Jan 2010 19:57:14 +0100
 
 lubuntu-default-settings (0.3) lucid; urgency=low
 
