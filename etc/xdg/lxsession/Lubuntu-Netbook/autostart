@@ -1,5 +1,6 @@
-@xscreensaver -no-splash
 @nm-applet
 @lxlauncher
+@lxpanel --profile Lubuntu
+@xscreensaver -no-splash
 @gnome-power-manager
 @pcmanfm -d

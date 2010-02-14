@@ -9,6 +9,7 @@ lubuntu-default-settings (0.5) UNRELEASED; urgency=low
       elementary-icon-theme.
     - desktop.conf : Use elementary-monochrome for icon theme.
     - Use Clearlooks for Openbox theme.
+  * autostart : Add nm-applet to the sessions.
 
  -- Julien Lavergne <gilir@ubuntu.com>  Sun, 14 Feb 2010 11:44:16 +0100
 
