@@ -1,6 +1,7 @@
 lubuntu-default-settings (0.5) UNRELEASED; urgency=low
 
   * Add new Lubuntu-Netbook session, which launched lxlauncher by default.
+  * Add new configuration of lxdm for Lubuntu.
 
  -- Julien Lavergne <gilir@ubuntu.com>  Sun, 14 Feb 2010 11:44:16 +0100
 
