@@ -4,18 +4,18 @@ lubuntu-default-settings (0.5) UNRELEASED; urgency=low
   * Add new configuration of lxdm for Lubuntu.
   * debian/postinst & debian/prerm: Add a alternative lxdm.conf for Lubuntu
     settings.
-  * Switch to Lubuntu custom theme :
-    - debian/control : Depends on lubuntu-artwork (>= 0.4) and 
-      elementary-icon-theme.
-    - desktop.conf : Use elementary-monochrome for icon theme.
-    - Use Clearlooks for Openbox theme.
-    - Use black font color for the panel.
   * autostart : Add nm-applet to the sessions.
   * Use system-shutdown-panel icon for shutdown command and clean Encoding keys
   * Use Chromium instead of Firefox inthe  panel and openbox configuration.
   * Remove cpu and netstat plugin, and move volume applet before the tray.
   * Complete openbox keybindings for taking screenshot. Thanks Adam for the
     patch.
+  * Switch to Lubuntu custom theme :
+    - debian/control : Depends on lubuntu-artwork (>= 0.4) and 
+      elementary-icon-theme.
+    - desktop.conf : Use elementary-monochrome for icon theme.
+    - Use Clearlooks for Openbox theme.
+    - Use black font color for the panel.
 
  -- Julien Lavergne <gilir@ubuntu.com>  Sun, 14 Feb 2010 11:44:16 +0100
 
