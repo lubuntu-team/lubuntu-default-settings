@@ -103,11 +103,7 @@ Plugin {
 }
 
 Plugin {
-    type = netstat
-}
-
-Plugin {
-    type = cpu
+    type = volumealsa
 }
 
 Plugin {
@@ -130,8 +126,4 @@ Plugin {
             id=lubuntu-logout.desktop
         }
     }
-}
-
-Plugin {
-    type = volumealsa
 }
