@@ -7,6 +7,7 @@ lubuntu-default-settings (0.5) UNRELEASED; urgency=low
   * Switch to Lubuntu custom theme :
     - debian/control : Depends on lubuntu-artwork (>= 0.4) and 
       elementary-icon-theme.
+    - desktop.conf : Use elementary-monochrome for icon theme.
 
  -- Julien Lavergne <gilir@ubuntu.com>  Sun, 14 Feb 2010 11:44:16 +0100
 
