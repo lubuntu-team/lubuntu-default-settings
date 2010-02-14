@@ -1,0 +1,5 @@
+@xscreensaver -no-splash
+@nm-applet
+@lxlauncher
+@gnome-power-manager
+@pcmanfm -d
