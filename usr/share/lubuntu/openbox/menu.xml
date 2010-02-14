@@ -11,8 +11,8 @@
   <item label="Lxterminal">
     <action name="Execute"><command>lxterminal</command></action>
   </item>
-  <item label="Firefox">
-    <action name="Execute"><command>firefox</command></action>
+  <item label="Browser">
+    <action name="Execute"><command>chromium-browser</command></action>
   </item>
 </menu>
 
