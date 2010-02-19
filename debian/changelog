@@ -1,6 +1,7 @@
 lubuntu-default-settings (0.6) UNRELEASED; urgency=low
 
-  * 
+  * Set iconsize to 22 and panel height to 24 for panel settings. It displays
+    correct icons size for panel icons. Thanks Leszek Lesner.
 
  -- Julien Lavergne <gilir@ubuntu.com>  Fri, 19 Feb 2010 22:28:28 +0100
 

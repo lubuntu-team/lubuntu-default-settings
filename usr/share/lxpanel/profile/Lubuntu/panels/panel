@@ -7,7 +7,7 @@ Global {
     margin=0
     widthtype=percent
     width=100
-    height=26
+    height=24
     transparent=0
     tintcolor=#000000
     alpha=0
@@ -17,6 +17,7 @@ Global {
     fontcolor=#000000
     background=1
     backgroundfile=/usr/share/lxpanel/images/lubuntu-background.png
+    iconsize=22
 }
 
 Plugin {
