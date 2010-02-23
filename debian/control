@@ -10,6 +10,6 @@ Vcs-Browser: http://bazaar.launchpad.net/~lubuntu-desktop/+junk/lubuntu-default-
 
 Package: lubuntu-default-settings
 Architecture: all
-Depends: ${misc:Depends}, lxsession (>= 0.4.1), lubuntu-artwork (>= 0.4), elementary-icon-theme
+Depends: ${misc:Depends}, lxsession (>= 0.4.1), lubuntu-artwork (>= 0.4), elementary-icon-theme, pcmanfm (>= 0.9.0~)
 Description: default settings for Lubuntu
  Various system settings tailored for Lubuntu.
