@@ -29,6 +29,18 @@ if [ ! -f "$PCMANFM_CONF_DIR/main.lubuntu" ]; then
     cp /usr/share/lubuntu/pcmanfm/main.lubuntu "$PCMANFM_CONF_DIR/main.lubuntu"
 fi
 
+if [ ! -f "$PCMANFM_CONF_DIR/pcmanfm.conf" ]; then
+    mkdir -p "$PCMANFM_CONF_DIR"
+    cp /usr/share/lubuntu/pcmanfm/main.lubuntu "$PCMANFM_CONF_DIR/pcmanfm.conf"
+fi
+
+# Ensure the existance of pcmanfm config file
+LIBFM_CONF_DIR="$XDG_CONFIG_HOME/libfm"
+if [ ! -f "$LIBFM_CONF_DIR/libfm.conf" ]; then
+    mkdir -p "$LIBFM_CONF_DIR"
+    cp /etc/xdg/lubuntu/libfm/libfm.conf "$LIBFM_CONF_DIR/libfm.conf"
+fi
+
 # Ensure the existance of openbox config file
 OPENBOX_CONF_DIR="$XDG_CONFIG_HOME/openbox"
 if [ ! -f "$OPENBOX_CONF_DIR/lubuntu-rc.xml" ]; then

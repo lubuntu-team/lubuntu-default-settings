@@ -5,6 +5,7 @@ lubuntu-default-settings (0.6) UNRELEASED; urgency=low
   * debian/control: Depends on the re-written pcmanfm (>= 0.9.0)
   * autostart: Use new pcmanfm --desktop command to start pcmanfm with desktop
     management.
+  * usr/bin/start* : Ensure configuration files for libfm and pcmanfm2.
 
  -- Julien Lavergne <gilir@ubuntu.com>  Fri, 19 Feb 2010 22:28:28 +0100
 
