@@ -3,4 +3,4 @@
 @lxpanel --profile Lubuntu
 @xscreensaver -no-splash
 @gnome-power-manager
-@pcmanfm -d
+@pcmanfm --desktop
