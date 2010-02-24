@@ -6,8 +6,9 @@ lubuntu-default-settings (0.6) UNRELEASED; urgency=low
   * autostart: Use new pcmanfm --desktop command to start pcmanfm with desktop
     management.
   * usr/bin/start* : Ensure configuration files for libfm and pcmanfm2.
+  * Use pcmanfm2.desktop in lxpanel panel settings. 
 
- -- Julien Lavergne <gilir@ubuntu.com>  Fri, 19 Feb 2010 22:28:28 +0100
+ -- Julien Lavergne <gilir@ubuntu.com>  Wed, 24 Feb 2010 21:40:19 +0100
 
 lubuntu-default-settings (0.5) lucid; urgency=low
 

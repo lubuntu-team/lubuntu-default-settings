@@ -44,7 +44,7 @@ Plugin {
     type = launchbar
     Config {
         Button {
-            id=pcmanfm.desktop
+            id=pcmanfm2.desktop
         }
         Button {
             id=chromium-browser.desktop
