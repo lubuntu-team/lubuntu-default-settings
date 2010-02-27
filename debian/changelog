@@ -3,8 +3,8 @@ lubuntu-default-settings (0.6) UNRELEASED; urgency=low
   * Set iconsize to 22 and panel height to 24 for panel settings. It displays
     correct icons size for panel icons. Thanks Leszek Lesner.
   * debian/control: Depends on the re-written pcmanfm2 (>= 0.7.0)
-  * autostart: Use new pcmanfm --desktop command to start pcmanfm with desktop
-    management.
+  * autostart: 
+   - Use new pcmanfm --desktop command to start pcmanfm with desktop management
   * usr/bin/start* : 
    - Ensure configuration files for libfm and pcmanfm2.
    - From LXDE upstream, make sur dbus is launched when it's necessary.
