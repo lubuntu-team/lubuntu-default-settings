@@ -5,6 +5,7 @@ lubuntu-default-settings (0.6) UNRELEASED; urgency=low
   * debian/control: Depends on the re-written pcmanfm2 (>= 0.7.0)
   * autostart: 
    - Use new pcmanfm --desktop command to start pcmanfm with desktop management
+   - Add polkit-gnome-authentification-agent-1
   * usr/bin/start* : 
    - Ensure configuration files for libfm and pcmanfm2.
    - From LXDE upstream, make sur dbus is launched when it's necessary.

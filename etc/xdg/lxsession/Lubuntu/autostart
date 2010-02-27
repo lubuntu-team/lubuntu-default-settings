@@ -3,3 +3,4 @@
 @xscreensaver -no-splash
 @gnome-power-manager
 @pcmanfm --desktop
+@/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
