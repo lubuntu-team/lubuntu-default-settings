@@ -11,6 +11,7 @@ lubuntu-default-settings (0.6) UNRELEASED; urgency=low
    - From LXDE upstream, make sur dbus is launched when it's necessary.
   * Use pcmanfm2.desktop in lxpanel panel settings. 
   * Add custom defaults.list for applications by default.
+  * dirs: Add /etc/lxdm, to be sure the directory exit (LP: #527482)
 
  -- Julien Lavergne <gilir@ubuntu.com>  Wed, 24 Feb 2010 21:40:19 +0100
 
