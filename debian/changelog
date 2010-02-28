@@ -4,7 +4,7 @@ lubuntu-default-settings (0.6) UNRELEASED; urgency=low
     correct icons size for panel icons. Thanks Leszek Lesner.
   * usr/bin/start* : 
    - From LXDE upstream, make sure dbus is launched when it's necessary.
-   - Add polkit-gnome-authentification-agent-1
+   - Add polkit-gnome-authentification-agent-1 to make polkit working again.
   * Add custom defaults.list for applications by default.
   * dirs: Add /etc/lxdm, to be sure the directory exit (LP: #527482)
 
