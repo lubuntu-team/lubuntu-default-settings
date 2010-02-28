@@ -4,6 +4,7 @@ lubuntu-default-settings (0.6) UNRELEASED; urgency=low
     correct icons size for panel icons. Thanks Leszek Lesner.
   * usr/bin/start* : 
    - From LXDE upstream, make sure dbus is launched when it's necessary.
+   - Add polkit-gnome-authentification-agent-1
   * Add custom defaults.list for applications by default.
 
  -- Julien Lavergne <gilir@ubuntu.com>  Fri, 19 Feb 2010 22:28:28 +0100
