@@ -1,19 +1,24 @@
-lubuntu-default-settings (0.6) UNRELEASED; urgency=low
+lubuntu-default-settings (0.7) UNRELEASED; urgency=low
 
-  * Set iconsize to 22 and panel height to 24 for panel settings. It displays
-    correct icons size for panel icons. Thanks Leszek Lesner.
   * debian/control: Depends on the re-written pcmanfm2 (>= 0.7.0)
   * autostart: 
    - Use new pcmanfm --desktop command to start pcmanfm with desktop management
-   - Add polkit-gnome-authentification-agent-1
-  * usr/bin/start* : 
    - Ensure configuration files for libfm and pcmanfm2.
-   - From LXDE upstream, make sur dbus is launched when it's necessary.
-  * Use pcmanfm2.desktop in lxpanel panel settings. 
-  * Add custom defaults.list for applications by default.
-  * dirs: Add /etc/lxdm, to be sure the directory exit (LP: #527482)
+  * Use pcmanfm2.desktop in lxpanel panel settings.
 
- -- Julien Lavergne <gilir@ubuntu.com>  Wed, 24 Feb 2010 21:40:19 +0100
+ -- Julien Lavergne <gilir@ubuntu.com>  Mon, 01 Mar 2010 00:38:35 +0100
+
+lubuntu-default-settings (0.6) lucid; urgency=low
+
+  * Set iconsize to 22 and panel height to 24 for panel settings. It displays
+    correct icons size for panel icons. Thanks Leszek Lesner.
+  * usr/bin/start* : 
+   - From LXDE upstream, make sure dbus is launched when it's necessary.
+   - Add polkit-gnome-authentification-agent-1 to make polkit working again.
+  * Add custom defaults.list for applications by default.
+  * debian/dirs: Add /etc/lxdm, to be sure the directory exit (LP: #527482).
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Mon, 01 Mar 2010 00:35:26 +0100
 
 lubuntu-default-settings (0.5) lucid; urgency=low
 
