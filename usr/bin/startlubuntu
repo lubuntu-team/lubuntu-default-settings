@@ -31,7 +31,7 @@ fi
 
 if [ ! -f "$PCMANFM_CONF_DIR/pcmanfm.conf" ]; then
     mkdir -p "$PCMANFM_CONF_DIR"
-    cp /usr/share/lubuntu/pcmanfm/pcmanfm.conf "$PCMANFM_CONF_DIR/pcmanfm.conf"
+    cp /etc/xdg/lubuntu/pcmanfm/pcmanfm.conf "$PCMANFM_CONF_DIR/pcmanfm.conf"
 fi
 
 # Ensure the existance of pcmanfm config file
