@@ -3,7 +3,6 @@ lubuntu-default-settings (0.7) UNRELEASED; urgency=low
   * debian/control: Depends on the re-written pcmanfm2 (>= 0.7.0)
   * autostart: 
    - Use new pcmanfm --desktop command to start pcmanfm with desktop management
-   - Ensure configuration files for libfm and pcmanfm2.
   * Use pcmanfm2.desktop in lxpanel panel settings.
   * usr/bin/start* : 
    - Install a custom preferences file for Chromium.
