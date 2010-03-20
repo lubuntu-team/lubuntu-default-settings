@@ -7,8 +7,9 @@ lubuntu-default-settings (0.7) UNRELEASED; urgency=low
   * usr/bin/start* : 
    - Install a custom preferences file for Chromium.
    - Ensure the menu prefix
+  * openbox/menu.xml : Use new command to launch desktop settings. 
 
- -- Julien Lavergne <gilir@ubuntu.com>  Mon, 01 Mar 2010 00:38:35 +0100
+ -- Julien Lavergne <gilir@ubuntu.com>  Sat, 20 Mar 2010 10:58:33 +0100
 
 lubuntu-default-settings (0.6) lucid; urgency=low
 
