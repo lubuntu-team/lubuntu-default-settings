@@ -6,7 +6,6 @@ lubuntu-default-settings (0.7) UNRELEASED; urgency=low
   * etc/xdg/lubuntu/lxdm/lxdm.conf
    - Make Lubuntu the default session by using the [base] session key.
    - Remove last_*, not provided by lxdm.conf in recent lxdm version.
-   - Put "username" in the autologin key.
   * debian/control
    - Wrap build-depends and depends.
 
