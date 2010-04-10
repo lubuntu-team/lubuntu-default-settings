@@ -43,6 +43,7 @@ fi
 
 # Install custom chromium-browser configuration
 if [ ! -f "$XDG_CONFIG_HOME/chromium/Default/Preferences" ]; then
+    mkdir -p "$XDG_CONFIG_HOME/chromium/Default/"
     cp /etc/xdg/lubuntu/chromium-browser/Preferences "$XDG_CONFIG_HOME/chromium/Default/Preferences"
 fi
 
