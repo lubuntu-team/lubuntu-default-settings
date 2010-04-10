@@ -3,6 +3,10 @@ lubuntu-default-settings (0.7) UNRELEASED; urgency=low
   * usr/bin/start* : 
    - Install a custom preferences file for Chromium.
    - Ensure the menu prefix
+  * etc/xdg/lubuntu/lxdm/lxdm.conf
+   - Make Lubuntu the default session by using the [base] session key.
+   - Remove last_*, not provided by lxdm.conf in recent lxdm version.
+   - Put "username" in the autologin key.
 
  -- Julien Lavergne <gilir@ubuntu.com>  Mon, 01 Mar 2010 00:38:35 +0100
 
