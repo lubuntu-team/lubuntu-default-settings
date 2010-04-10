@@ -1,6 +1,8 @@
 lubuntu-default-settings (0.7) UNRELEASED; urgency=low
 
-  * debian/control: Depends on the re-written pcmanfm2 (>= 0.7.0)
+  * debian/control: 
+   - Depends on the re-written pcmanfm2 (>= 0.7.0)
+   - Wrap build-depends and depends.
   * autostart: 
    - Use new pcmanfm --desktop command to start pcmanfm with desktop management
   * Use pcmanfm2.desktop in lxpanel panel settings.
@@ -8,6 +10,10 @@ lubuntu-default-settings (0.7) UNRELEASED; urgency=low
    - Install a custom preferences file for Chromium.
    - Ensure the menu prefix
   * openbox/menu.xml : Use new command to launch desktop settings. 
+  * etc/xdg/lubuntu/lxdm/lxdm.conf
+   - Make Lubuntu the default session by using the [base] session key.
+   - Remove last_*, not provided by lxdm.conf in recent lxdm version.
+   - Put "username" in the autologin key.
 
  -- Julien Lavergne <gilir@ubuntu.com>  Sat, 20 Mar 2010 10:58:33 +0100
 
