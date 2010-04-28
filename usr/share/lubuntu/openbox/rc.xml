@@ -329,6 +329,48 @@
       </action>
     </keybind>  
     
+    <keybind key="XF86AudioRaiseVolume">
+      <action name="Execute">
+          <command>amixer -q sset Master 3%+</command>
+      </action>
+    </keybind>
+
+    <keybind key="XF86AudioLowerVolume">
+      <action name="Execute">
+          <command>amixer -q sset Master 3%-</command>
+      </action>
+    </keybind>
+
+    <keybind key="XF86AudioMute">
+      <action name="Execute">
+          <command>amixer -q sset Master toggle</command>
+      </action>
+    </keybind>
+
+    <keybind key="XF86WWW">
+      <action name="Execute">
+          <command>x-terminal-emulator</command>
+      </action>
+    </keybind>
+
+    <keybind key="XF86Calculator">
+      <action name="Execute">
+          <command>galculator</command>
+      </action>
+    </keybind>
+
+    <keybind key="XF86MyComputer">
+      <action name="Execute">
+          <command>pcmanfm2</command>
+      </action>
+    </keybind>
+
+    <keybind key="XF86Terminal">
+      <action name="Execute">
+          <command>x-terminal-emulator</command>
+      </action>
+    </keybind>
+
    <!-- Keybindings for Multimedia Keys and LCD Backlight (alternative when not using gnome-power-manager or xfce4-volumed)
    <keybind key="XF86AudioMute">
       <action name="Execute">
@@ -360,13 +402,6 @@
         <execute>xbacklight -inc 10</execute>
       </action>
     </keybind> -->
-
-    <!-- Taking Screenshots -->
-    <keybind key="Print">
-      <action name="Execute">
-        <execute>scrot</execute>
-      </action>
-    </keybind>
 
   </keyboard>
   <mouse>
