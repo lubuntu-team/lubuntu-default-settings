@@ -1,4 +1,4 @@
-lubuntu-default-settings (0.7) UNRELEASED; urgency=low
+lubuntu-default-settings (0.7) maverick; urgency=low
 
   * usr/bin/start* :
    - Ensure the menu prefix
@@ -11,7 +11,7 @@ lubuntu-default-settings (0.7) UNRELEASED; urgency=low
   * debian/control
    - Wrap build-depends and depends.
 
- -- Julien Lavergne <gilir@ubuntu.com>  Mon, 01 Mar 2010 00:38:35 +0100
+ -- Julien Lavergne <gilir@ubuntu.com>  Fri, 21 May 2010 19:13:16 +0200
 
 lubuntu-default-settings (0.6) lucid; urgency=low
 
