@@ -1,7 +1,7 @@
 lubuntu-default-settings (0.8) UNRELEASED; urgency=low
 
   * debian/control
-   - Depends on the re-written pcmanfm2 (>= 0.7.0)
+   - Depends on the re-written pcmanfm (>= 0.9.5).
   * usr/share/lubuntu/openbox/menu.xml:
    - Use new command to launch desktop settings.
   * autostart: 
