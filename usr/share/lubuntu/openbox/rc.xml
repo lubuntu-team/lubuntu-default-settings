@@ -361,7 +361,7 @@
 
     <keybind key="XF86MyComputer">
       <action name="Execute">
-          <command>pcmanfm2</command>
+          <command>pcmanfm</command>
       </action>
     </keybind>
 
