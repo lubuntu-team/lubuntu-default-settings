@@ -1,3 +1,9 @@
+lubuntu-default-settings (0.9) UNRELEASED; urgency=low
+
+  * 
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Wed, 02 Jun 2010 01:47:20 +0200
+
 lubuntu-default-settings (0.8) maverick; urgency=low
 
   * debian/control
