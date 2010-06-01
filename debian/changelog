@@ -1,4 +1,16 @@
-lubuntu-default-settings (0.7) UNRELEASED; urgency=low
+lubuntu-default-settings (0.8) UNRELEASED; urgency=low
+
+  * debian/control
+   - Depends on the re-written pcmanfm2 (>= 0.7.0)
+  * usr/share/lubuntu/openbox/menu.xml:
+   - Use new command to launch desktop settings.
+  * autostart: 
+   - Use new pcmanfm --desktop command to start pcmanfm with desktop management
+  * Use pcmanfm2.desktop in lxpanel panel settings.
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Fri, 21 May 2010 19:32:01 +0200
+
+lubuntu-default-settings (0.7) maverick; urgency=low
 
   * usr/bin/start* :
    - Ensure the menu prefix
@@ -9,15 +21,9 @@ lubuntu-default-settings (0.7) UNRELEASED; urgency=low
    - Add missing shortcuts for volume-up and volume-down, and launching
      various applications. Thanks Kendall Weaver for the patch.
   * debian/control
-   - Depends on the re-written pcmanfm2 (>= 0.7.0)
    - Wrap build-depends and depends.
-  * usr/share/lubuntu/openbox/menu.xml:
-   - Use new command to launch desktop settings.
-  * autostart: 
-   - Use new pcmanfm --desktop command to start pcmanfm with desktop management
-  * Use pcmanfm2.desktop in lxpanel panel settings.
 
- -- Julien Lavergne <gilir@ubuntu.com>  Sat, 20 Mar 2010 10:58:33 +0100
+ -- Julien Lavergne <gilir@ubuntu.com>  Fri, 21 May 2010 19:13:16 +0200
 
 lubuntu-default-settings (0.6) lucid; urgency=low
 
