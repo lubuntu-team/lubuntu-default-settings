@@ -6,7 +6,6 @@ lubuntu-default-settings (0.8) UNRELEASED; urgency=low
    - Use new command to launch desktop settings.
   * autostart: 
    - Use new pcmanfm --desktop command to start pcmanfm with desktop management
-  * Use pcmanfm2.desktop in lxpanel panel settings.
 
  -- Julien Lavergne <gilir@ubuntu.com>  Fri, 21 May 2010 19:32:01 +0200
 
