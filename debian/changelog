@@ -1,4 +1,4 @@
-lubuntu-default-settings (0.8) UNRELEASED; urgency=low
+lubuntu-default-settings (0.8) maverick; urgency=low
 
   * debian/control
    - Depends on the re-written pcmanfm (>= 0.9.5).
@@ -7,7 +7,7 @@ lubuntu-default-settings (0.8) UNRELEASED; urgency=low
   * autostart: 
    - Use new pcmanfm --desktop command to start pcmanfm with desktop management
 
- -- Julien Lavergne <gilir@ubuntu.com>  Fri, 21 May 2010 19:32:01 +0200
+ -- Julien Lavergne <gilir@ubuntu.com>  Wed, 02 Jun 2010 01:28:01 +0200
 
 lubuntu-default-settings (0.7) maverick; urgency=low
 
