@@ -1,8 +1,10 @@
 lubuntu-default-settings (0.9) UNRELEASED; urgency=low
 
-  * 
+  * usr/bin
+   - Add export XLIB_SKIP_ARGB_VISUALS=1 to disable rgba support, since
+     lxpanel doesn't support it. (See #589763)
 
- -- Julien Lavergne <gilir@ubuntu.com>  Wed, 02 Jun 2010 01:47:20 +0200
+ -- Julien Lavergne <gilir@ubuntu.com>  Sat, 12 Jun 2010 14:25:48 +0200
 
 lubuntu-default-settings (0.8) maverick; urgency=low
 
