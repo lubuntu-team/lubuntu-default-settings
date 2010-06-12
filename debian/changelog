@@ -5,6 +5,8 @@ lubuntu-default-settings (0.9) UNRELEASED; urgency=low
      lxpanel doesn't support it. (See #589763)
    - Add a new binary lubuntu-common, which is used by all startlubuntu*
      binary. (LP: #579524).
+   - Remove check for pcmanfm conf file in home directory, pcmanfm2 handle
+     it correctly.
 
  -- Julien Lavergne <gilir@ubuntu.com>  Sat, 12 Jun 2010 14:25:48 +0200
 

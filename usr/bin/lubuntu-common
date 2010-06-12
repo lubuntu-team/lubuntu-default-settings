@@ -25,13 +25,6 @@ then
 fi
 export XDG_DATA_DIRS
 
-# Ensure the existance of pcmanfm config file
-PCMANFM_CONF_DIR="$XDG_CONFIG_HOME/pcmanfm"
-if [ ! -f "$PCMANFM_CONF_DIR/main.lubuntu" ]; then
-    mkdir -p "$PCMANFM_CONF_DIR"
-    cp /usr/share/lubuntu/pcmanfm/main.lubuntu "$PCMANFM_CONF_DIR/main.lubuntu"
-fi
-
 # Ensure the existance of openbox config file
 OPENBOX_CONF_DIR="$XDG_CONFIG_HOME/openbox"
 if [ ! -f "$OPENBOX_CONF_DIR/lubuntu-rc.xml" ]; then
