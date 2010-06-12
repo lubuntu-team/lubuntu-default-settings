@@ -3,6 +3,8 @@ lubuntu-default-settings (0.9) UNRELEASED; urgency=low
   * usr/bin
    - Add export XLIB_SKIP_ARGB_VISUALS=1 to disable rgba support, since
      lxpanel doesn't support it. (See #589763)
+   - Add a new binary lubuntu-common, which is used by all startlubuntu*
+     binary. (LP: #579524).
 
  -- Julien Lavergne <gilir@ubuntu.com>  Sat, 12 Jun 2010 14:25:48 +0200
 
