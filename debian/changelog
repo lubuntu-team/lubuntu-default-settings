@@ -1,4 +1,4 @@
-lubuntu-default-settings (0.9) UNRELEASED; urgency=low
+lubuntu-default-settings (0.9) maverick; urgency=low
 
   * usr/bin
    - Add export XLIB_SKIP_ARGB_VISUALS=1 to disable rgba support, since
@@ -6,7 +6,7 @@ lubuntu-default-settings (0.9) UNRELEASED; urgency=low
    - Remove check for pcmanfm conf file in home directory, pcmanfm2 handle
      it correctly.
 
- -- Julien Lavergne <gilir@ubuntu.com>  Sat, 12 Jun 2010 14:25:48 +0200
+ -- Julien Lavergne <gilir@ubuntu.com>  Sun, 13 Jun 2010 10:54:23 +0200
 
 lubuntu-default-settings (0.8) maverick; urgency=low
 
