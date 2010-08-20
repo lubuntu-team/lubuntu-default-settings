@@ -294,7 +294,7 @@
     <!-- Launch Task Manager with Ctrl+Alt+Del -->
     <keybind key="A-C-Delete">
       <action name="Execute">
-        <command>xfce4-taskmanager</command>
+        <command>lxtask</command>
       </action>
     </keybind>
 
