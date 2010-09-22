@@ -2,6 +2,8 @@ lubuntu-default-settings (0.11) UNRELEASED; urgency=low
 
   * usr/share/lubuntu/openbox/rc.xml:
    - Use lxtask instead of xfce4-taskmanager (LP: #621317)
+  * debian/prerm:
+   - Don't remove alternative on upgrade (LP: #625485)
 
  -- Julien Lavergne <gilir@ubuntu.com>  Fri, 20 Aug 2010 22:34:42 +0200
 
