@@ -14,7 +14,7 @@ Architecture: all
 Depends: ${misc:Depends}, 
          lxsession (>= 0.4.1), 
          lubuntu-artwork (>= 0.4), 
-         elementary-icon-theme,
+         lubuntu-icon-theme,
          pcmanfm (>= 0.9.5)
 Description: default settings for Lubuntu
  Various system settings tailored for Lubuntu.
