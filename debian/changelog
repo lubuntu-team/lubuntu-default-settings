@@ -4,8 +4,6 @@ lubuntu-default-settings (0.11~ppa1) maverick; urgency=low
    - Use lxtask instead of xfce4-taskmanager (LP: #621317)
   * etc/xdg/lxsession/Lubuntu*/desktop.conf
    - Switch to lubuntu icon them.
-  * debian/prerm:
-   - Don't remove alternative on upgrade (LP: #625485)
   * debian/control:
    - Depends on lubuntu-icon-theme.
 
