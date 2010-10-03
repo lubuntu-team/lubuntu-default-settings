@@ -2,6 +2,12 @@
 
 set -e
 
+# Remove alternative file if it's not a symlink, workaround for broken upgrade
+# See bug #625485
+if [ ! -h "/etc/alternatives/lxdm.conf" ] ; then
+  rm "/etc/alternatives/lxdm.conf"
+fi
+
 if [ "$1" = configure ]; then
   update-alternatives --install /etc/lxdm/default.conf \
     lxdm.conf /etc/xdg/lubuntu/lxdm/lxdm.conf 60 
