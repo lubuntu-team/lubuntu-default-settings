@@ -2,6 +2,8 @@ lubuntu-default-settings (0.12) UNRELEASED; urgency=low
 
   * debian/postinst:
    - Remove alternatives file if it's not a symlink (LP: #625485).
+  * debian/prerm:
+   - Don't remove alternative on upgrade.
 
  -- Julien Lavergne <gilir@ubuntu.com>  Wed, 29 Sep 2010 00:46:48 +0200
 
