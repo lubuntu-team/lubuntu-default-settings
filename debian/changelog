@@ -1,3 +1,10 @@
+lubuntu-default-settings (0.13) UNRELEASED; urgency=low
+
+  * etc/xdg/lubuntu/lxdm/lxdm.conf
+   - Enable user list in lxdm 0.3.0.
+
+ -- Julien Lavergne <julien.lavergne@gmail.com>  Mon, 25 Oct 2010 21:52:36 -0400
+
 lubuntu-default-settings (0.12) maverick; urgency=low
 
   * debian/postinst:
