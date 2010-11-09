@@ -4,8 +4,10 @@ set -e
 
 # Remove alternative file if it's not a symlink, workaround for broken upgrade
 # See bug #625485
-if [ ! -h "/etc/alternatives/lxdm.conf" ] ; then
-  rm "/etc/alternatives/lxdm.conf"
+if [ -f /etc/alternatives/lxdm.conf ] ; then
+  if [ ! -h "/etc/alternatives/lxdm.conf" ] ; then
+    rm -f "/etc/alternatives/lxdm.conf"
+  fi
 fi
 
 if [ "$1" = configure ]; then

@@ -7,6 +7,13 @@ lubuntu-default-settings (0.13) natty; urgency=low
 
  -- Julien Lavergne <gilir@ubuntu.com>  Tue, 09 Nov 2010 20:47:03 +0100
 
+lubuntu-default-settings (0.13) maverick; urgency=low
+ 
+  * debian/postinst:
+   - Don't fail if the alternative file doesn't exist. (LP: #654211)
+ 
+ -- Julien Lavergne <gilir@ubuntu.com>  Mon, 04 Oct 2010 23:16:56 +0200
+
 lubuntu-default-settings (0.12) maverick; urgency=low
 
   * debian/postinst:
