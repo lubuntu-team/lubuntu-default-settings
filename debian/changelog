@@ -1,11 +1,11 @@
-lubuntu-default-settings (0.13) UNRELEASED; urgency=low
+lubuntu-default-settings (0.13) natty; urgency=low
 
   * etc/xdg/lubuntu/lxdm/lxdm.conf
    - Enable user list in lxdm 0.3.0.
   * etc/xdg/lubuntu/applications/default.list
    - Replace epdfview by evince. LP: #657335
 
- -- Julien Lavergne <julien.lavergne@gmail.com>  Mon, 25 Oct 2010 21:52:36 -0400
+ -- Julien Lavergne <gilir@ubuntu.com>  Tue, 09 Nov 2010 20:47:03 +0100
 
 lubuntu-default-settings (0.12) maverick; urgency=low
 
