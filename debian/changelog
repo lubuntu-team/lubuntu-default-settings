@@ -1,6 +1,8 @@
 lubuntu-default-settings (0.15) UNRELEASED; urgency=low
 
-  * 
+  * usr/bin/startlubuntu*
+   - Remove export XLIB_SKIP_ARGB_VISUALS=1, not needed since rgba support was
+     removed from gtk (LP: #673704).
 
  -- Julien Lavergne <gilir@ubuntu.com>  Tue, 09 Nov 2010 23:11:10 +0100
 

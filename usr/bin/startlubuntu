@@ -2,8 +2,8 @@
 
 #Workaround to disable rgba, because lxpanel in Lubuntu doesn't support it
 #(see bug #589763)
-
-export XLIB_SKIP_ARGB_VISUALS=1
+#
+#export XLIB_SKIP_ARGB_VISUALS=1
 
 if [ -z "$XDG_CONFIG_HOME" ]; then
     export XDG_CONFIG_HOME="$HOME/.config"
