@@ -5,6 +5,9 @@ lubuntu-default-settings (0.15) UNRELEASED; urgency=low
      removed from gtk (LP: #673704).
   * etc/xdg/lubuntu/applications/default.list:
    - Set file-roller to open archives instead of xarchiver.
+   - Set audacious to open music files instead of aqualung.
+  * etc/xdg/lxsession/Lubuntu*/desktop.conf
+   - Switch to Ubuntu 11 font.
 
  -- Julien Lavergne <gilir@ubuntu.com>  Tue, 09 Nov 2010 23:11:10 +0100
 
