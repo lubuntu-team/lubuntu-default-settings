@@ -8,6 +8,8 @@ lubuntu-default-settings (0.15) UNRELEASED; urgency=low
    - Set audacious to open music files instead of aqualung.
   * etc/xdg/lxsession/Lubuntu*/desktop.conf
    - Switch to Ubuntu 11 font.
+  * debian/control:
+   - Depends on ttf-ubuntu-font-family.
 
  -- Julien Lavergne <gilir@ubuntu.com>  Tue, 09 Nov 2010 23:11:10 +0100
 

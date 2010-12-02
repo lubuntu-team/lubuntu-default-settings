@@ -15,6 +15,7 @@ Depends: ${misc:Depends},
          lxsession (>= 0.4.1), 
          lubuntu-artwork (>= 0.4), 
          lubuntu-icon-theme,
-         pcmanfm (>= 0.9.5)
+         pcmanfm (>= 0.9.5),
+         ttf-ubuntu-font-family
 Description: default settings for Lubuntu
  Various system settings tailored for Lubuntu.
