@@ -1,4 +1,4 @@
-lubuntu-default-settings (0.15) UNRELEASED; urgency=low
+lubuntu-default-settings (0.15) natty; urgency=low
 
   * usr/bin/startlubuntu*
    - Remove export XLIB_SKIP_ARGB_VISUALS=1, not needed since rgba support was
@@ -11,7 +11,7 @@ lubuntu-default-settings (0.15) UNRELEASED; urgency=low
   * debian/control:
    - Depends on ttf-ubuntu-font-family.
 
- -- Julien Lavergne <gilir@ubuntu.com>  Tue, 09 Nov 2010 23:11:10 +0100
+ -- Julien Lavergne <gilir@ubuntu.com>  Fri, 03 Dec 2010 00:01:34 +0100
 
 lubuntu-default-settings (0.14) natty; urgency=low
 
