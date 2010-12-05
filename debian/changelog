@@ -1,3 +1,10 @@
+lubuntu-default-settings (0.16) UNRELEASED; urgency=low
+
+  * usr/bin
+   - Sync XDG_DATA_DIRS with lxde-common
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Sun, 05 Dec 2010 18:56:49 +0100
+
 lubuntu-default-settings (0.15) natty; urgency=low
 
   * usr/bin/startlubuntu*

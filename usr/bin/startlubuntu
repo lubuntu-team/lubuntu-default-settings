@@ -21,9 +21,9 @@ export XDG_CONFIG_DIRS
 
 if test "x$XDG_DATA_DIRS" = "x"
 then
- XDG_DATA_DIRS="/etc/xdg/lubuntu:/usr/local/share:/usr/share:/usr/share"
+ XDG_DATA_DIRS="/etc/xdg/lubuntu:/usr/local/share:/usr/share:/usr/share/gdm:/var/lib/menu-xdg"
  else
- XDG_DATA_DIRS="/etc/xdg/lubuntu:$XDG_DATA_DIRS:/usr/share"
+ XDG_DATA_DIRS="/etc/xdg/lubuntu:$XDG_DATA_DIRS:/usr/share:/usr/share/gdm:/var/lib/menu-xdg"
 fi
 export XDG_DATA_DIRS
 
