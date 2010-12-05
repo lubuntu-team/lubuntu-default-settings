@@ -8,6 +8,7 @@ lubuntu-default-settings (0.16) UNRELEASED; urgency=low
    - Recommends amixer, scrot and galculator for some openbox keybindings.
   * etc/xdg/pcmanfm/lubuntu.conf
    - Move configuration file to etc/xdg/pcmanfm/lubuntu/lubuntu.conf
+     (LP: #684796)
   * debian/postrm,preinst,postinst
    - Handle the location change for pcmanfm configuration using
      dpkg-maintscript-helper.
