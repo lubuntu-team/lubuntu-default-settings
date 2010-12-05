@@ -2,6 +2,8 @@ lubuntu-default-settings (0.16) UNRELEASED; urgency=low
 
   * usr/bin
    - Sync XDG_DATA_DIRS with lxde-common
+  * usr/share/lubuntu/openbox/rc.xml:
+   - Remove some unused code. 
 
  -- Julien Lavergne <gilir@ubuntu.com>  Sun, 05 Dec 2010 18:56:49 +0100
 

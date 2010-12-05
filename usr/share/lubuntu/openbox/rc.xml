@@ -327,8 +327,9 @@
       <action name="Execute">
        <execute>scrot -s</execute>
       </action>
-    </keybind>  
-    
+    </keybind> 
+
+    <!-- Keybinding for Volume management -->
     <keybind key="XF86AudioRaiseVolume">
       <action name="Execute">
           <command>amixer -q sset Master 3%+</command>
@@ -372,21 +373,6 @@
     </keybind>
 
    <!-- Keybindings for Multimedia Keys and LCD Backlight (alternative when not using gnome-power-manager or xfce4-volumed)
-   <keybind key="XF86AudioMute">
-      <action name="Execute">
-        <execute>/usr/bin/volume.sh mute</execute>
-      </action>
-    </keybind>
-     <keybind key="XF86AudioRaiseVolume">
-      <action name="Execute">
-        <execute>/usr/bin/volume.sh up</execute>
-      </action>
-    </keybind>
-     <keybind key="XF86AudioLowerVolume">
-      <action name="Execute">
-        <execute>/usr/bin/volume.sh down</execute>
-      </action>
-    </keybind>
      <keybind key="C-F7">
       <action name="Execute">
         <execute>sleep 2;xset dpms force off</execute>
