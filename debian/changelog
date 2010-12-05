@@ -5,7 +5,12 @@ lubuntu-default-settings (0.16) UNRELEASED; urgency=low
   * usr/share/lubuntu/openbox/rc.xml:
    - Remove some unused code.
   * debian/control
-   - Recommends amixer, scrot and galculator for some openbox keybindings. 
+   - Recommends amixer, scrot and galculator for some openbox keybindings.
+  * etc/xdg/pcmanfm/lubuntu.conf
+   - Move configuration file to etc/xdg/pcmanfm/lubuntu/lubuntu.conf
+  * debian/postrm,preinst,postinst
+   - Handle the location change for pcmanfm configuration using
+     dpkg-maintscript-helper.
 
  -- Julien Lavergne <gilir@ubuntu.com>  Sun, 05 Dec 2010 18:56:49 +0100
 
