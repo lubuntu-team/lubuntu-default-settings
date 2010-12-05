@@ -17,6 +17,8 @@ Depends: ${misc:Depends},
          lubuntu-icon-theme,
          pcmanfm (>= 0.9.5),
          ttf-ubuntu-font-family,
-         amixer
+Recommends: amixer,
+            scrot,
+            galculator
 Description: default settings for Lubuntu
  Various system settings tailored for Lubuntu.
