@@ -1,4 +1,4 @@
-lubuntu-default-settings (0.16) UNRELEASED; urgency=low
+lubuntu-default-settings (0.16) natty; urgency=low
 
   * usr/bin
    - Sync XDG_DATA_DIRS with lxde-common
@@ -13,7 +13,7 @@ lubuntu-default-settings (0.16) UNRELEASED; urgency=low
    - Handle the location change for pcmanfm configuration using
      dpkg-maintscript-helper.
 
- -- Julien Lavergne <gilir@ubuntu.com>  Sun, 05 Dec 2010 18:56:49 +0100
+ -- Julien Lavergne <gilir@ubuntu.com>  Mon, 06 Dec 2010 01:12:57 +0100
 
 lubuntu-default-settings (0.15) natty; urgency=low
 
