@@ -1,0 +1,170 @@
+<!DOCTYPE Menu PUBLIC "-//freedesktop//DTD Menu 1.0//EN"
+  "http://www.freedesktop.org/standards/menu-spec/1.0/menu.dtd">
+
+<Menu>
+    <Name>Lubuntu</Name>
+    
+    <DefaultAppDirs/>
+    <DefaultDirectoryDirs/>
+    <DefaultMergeDirs/>
+
+<!-- Applications Menu -->
+    <Menu>
+        <Name>Accessories</Name>
+        <Directory>lxde-utility.directory</Directory>
+        <Include>
+            <And>
+                <Category>Utility</Category>
+                <Not><Category>Accessibility</Category></Not>
+                <Not><Category>System</Category></Not>
+            </And>
+        </Include>
+    </Menu>
+
+    <Menu>
+        <Name>Universal Access</Name>
+        <Directory>lxde-utility-accessibility.directory</Directory>
+        <Include>
+            <And>
+                <Category>Accessibility</Category>
+                <Not><Category>Settings</Category></Not>
+            </And>
+        </Include>
+    </Menu>
+
+    <Menu>
+        <Name>Development</Name>
+        <Directory>lxde-development.directory</Directory>
+        <Include>
+            <And>
+                <Category>Development</Category>
+            </And>
+            <Filename>emacs.desktop</Filename>
+        </Include>
+    </Menu>
+
+    <Menu>
+        <Name>Education</Name>
+        <Directory>lxde-education.directory</Directory>
+        <Include>
+            <And>
+                <Category>Education</Category>
+            </And>
+        </Include>
+    </Menu> 
+
+    <Menu>
+        <Name>Games</Name>
+        <Directory>lxde-game.directory</Directory>
+        <Include>
+            <And>
+                <Category>Game</Category>
+            </And>
+        </Include>
+    </Menu>
+
+    <Menu>
+        <Name>Graphics</Name>
+        <Directory>lxde-graphics.directory</Directory>
+        <Include>
+            <And>
+                <Category>Graphics</Category>
+                <Not><Category>Utility</Category></Not>
+            </And>
+        </Include>
+    </Menu>
+
+    <Menu>
+        <Name>Internet</Name>
+        <Directory>lxde-network.directory</Directory>
+        <Include>
+            <And>
+                <Category>Network</Category>
+            </And>
+        </Include>
+    </Menu>
+
+    <Menu>
+        <Name>Multimedia</Name>
+        <Directory>lxde-audio-video.directory</Directory>
+        <Include>
+            <And>
+                <Category>AudioVideo</Category>
+            </And>
+        </Include>
+    </Menu>
+
+    <Menu>
+        <Name>Office</Name>
+        <Directory>lxde-office.directory</Directory>
+        <Include>
+            <And>
+                <Category>Office</Category>
+            </And>
+        </Include>
+    </Menu>
+
+    <Menu>
+        <Name>System</Name>
+        <Directory>lxde-system-tools.directory</Directory>
+        <Include>
+            <And>
+                <Category>System</Category>
+                <Not><Category>Settings</Category></Not>
+                <Not><Category>PackageManager</Category></Not>
+            </And>
+        </Include>
+    </Menu>
+
+    <Menu>
+        <Name>Other</Name>
+        <Directory>lxde-other.directory</Directory>
+        <OnlyUnallocated/>
+        <Include>
+            <And>
+                <Not><Category>Core</Category></Not>
+                <Not><Category>Settings</Category></Not>
+                <Not><Category>Screensaver</Category></Not>
+            </And>
+        </Include>
+    </Menu>
+
+
+<!-- Preferences Menu, to include in Layout section -->
+    <Menu>
+        <Name>DesktopSettings</Name>
+        <Directory>lxde-settings.directory</Directory>
+        <OnlyUnallocated/>
+        <Include>
+            <Or>
+                <Category>Settings</Category>
+                <Category>PackageManager</Category>
+                <Category>System</Category>
+            </Or>
+        </Include>
+        <Layout>
+            <Merge type="menus"/>
+            <Merge type="files"/>
+        </Layout>
+    </Menu>
+
+<!-- Include additional entry in menu -->
+    <Include>
+        <Filename>synaptic.desktop</Filename>
+        <Filename>pcmanfm.desktop</Filename>
+    </Include>
+
+<!-- General layout of the whole menu -->
+    <Layout>
+        <Menuname>Settings</Menuname>
+        <Separator/>
+        <Merge type="all"/>
+        <Separator/>
+        <Menuname>DesktopSettings</Menuname>
+        <Separator/>
+        <Filename>synaptic.desktop</Filename>
+        <Separator/>
+        <Filename>pcmanfm.desktop</Filename>
+    </Layout>
+
+</Menu>

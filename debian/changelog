@@ -1,3 +1,10 @@
+lubuntu-default-settings (0.17) UNRELEASED; urgency=low
+
+  * etc/xdg/lubuntu/menus/lxde-applications.menu:
+   - Add a specific menu structure for lubuntu session.
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Sat, 11 Dec 2010 17:56:20 +0100
+
 lubuntu-default-settings (0.16) natty; urgency=low
 
   * usr/bin
