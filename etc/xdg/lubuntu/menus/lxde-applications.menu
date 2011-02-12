@@ -117,47 +117,36 @@
         </Include>
     </Menu>
 
+<!-- Administration Menu, to include in Layout section -->
+    <Menu>
+        <Name>Administration</Name>
+        <Directory>lxde-system-tools.directory</Directory>
+        <Include>
+            <And>
+                <Category>Settings</Category>
+                <Category>System</Category>
+            </And>
+            <Or>
+                <Category>System</Category>
+            </Or>
+        </Include>
+    </Menu>
+
 <!-- Preferences Menu, to include in Layout section -->
     <Menu>
         <Name>DesktopSettings</Name>
         <Directory>lxde-settings.directory</Directory>
-        <OnlyUnallocated/>
         <Include>
-            <Or>
+            <And>
                 <Category>Settings</Category>
-                <Not><Category>PackageManager</Category><Not>
-                <Not><Category>System</Category><Not>
-            </Or>
+                <Not>
+                    <Or>
+                        <Category>System</Category>
+                    </Or>
+                </Not>
+            </And>
         </Include>
-        <Layout>
-            <Merge type="menus"/>
-            <Merge type="files"/>
-        </Layout>
     </Menu>
-
-<!-- System Menu, to include in Layout section -->
-    <Menu>
-        <Name>System</Name>
-        <Directory>lxde-system-tools.directory</Directory>
-        <OnlyUnallocated/>
-        <Include>
-            <Or>
-                <Category>System</Category>
-                <Category>PackageManager</Category>
-                <Not><Category>Settings</Category></Not>
-            </Or>
-        </Include>
-        <Layout>
-            <Merge type="menus"/>
-            <Merge type="files"/>
-        </Layout>
-    </Menu>
-
-<!-- Include additional entry in menu -->
-    <Include>
-        <Filename>synaptic.desktop</Filename>
-        <Filename>pcmanfm.desktop</Filename>
-    </Include>
 
 <!-- General layout of the whole menu -->
     <Layout>
@@ -165,13 +154,8 @@
         <Separator/>
         <Merge type="all"/>
         <Separator/>
-        <Menuname>System</Menuname>
-        <Separator/>
+        <Menuname>Administration</Menuname>
         <Menuname>DesktopSettings</Menuname>
-        <Separator/>
-        <Filename>synaptic.desktop</Filename>
-        <Separator/>
-        <Filename>pcmanfm.desktop</Filename>
     </Layout>
 
 </Menu>
