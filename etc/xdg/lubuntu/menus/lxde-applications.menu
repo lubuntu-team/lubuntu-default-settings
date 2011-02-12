@@ -105,18 +105,6 @@
     </Menu>
 
     <Menu>
-        <Name>System</Name>
-        <Directory>lxde-system-tools.directory</Directory>
-        <Include>
-            <And>
-                <Category>System</Category>
-                <Not><Category>Settings</Category></Not>
-                <Not><Category>PackageManager</Category></Not>
-            </And>
-        </Include>
-    </Menu>
-
-    <Menu>
         <Name>Other</Name>
         <Directory>lxde-other.directory</Directory>
         <OnlyUnallocated/>
@@ -129,7 +117,6 @@
         </Include>
     </Menu>
 
-
 <!-- Preferences Menu, to include in Layout section -->
     <Menu>
         <Name>DesktopSettings</Name>
@@ -138,8 +125,26 @@
         <Include>
             <Or>
                 <Category>Settings</Category>
-                <Category>PackageManager</Category>
+                <Not><Category>PackageManager</Category><Not>
+                <Not><Category>System</Category><Not>
+            </Or>
+        </Include>
+        <Layout>
+            <Merge type="menus"/>
+            <Merge type="files"/>
+        </Layout>
+    </Menu>
+
+<!-- System Menu, to include in Layout section -->
+    <Menu>
+        <Name>System</Name>
+        <Directory>lxde-system-tools.directory</Directory>
+        <OnlyUnallocated/>
+        <Include>
+            <Or>
                 <Category>System</Category>
+                <Category>PackageManager</Category>
+                <Not><Category>Settings</Category></Not>
             </Or>
         </Include>
         <Layout>
@@ -159,6 +164,8 @@
         <Menuname>Settings</Menuname>
         <Separator/>
         <Merge type="all"/>
+        <Separator/>
+        <Menuname>System</Menuname>
         <Separator/>
         <Menuname>DesktopSettings</Menuname>
         <Separator/>
