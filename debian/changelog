@@ -6,8 +6,10 @@ lubuntu-default-settings (0.17) UNRELEASED; urgency=low
   * etc/xdg/lubuntu/lxdm/lxdm.conf
    - Remove background option, it's already defined by the theme, and can break
      it sometimes (LP: #703658).
+  * etc/skel/.Xdefault:
+   - Set xscreensaver to blank mode (LP: #578789). 
 
- -- Julien Lavergne <gilir@ubuntu.com>  Sat, 11 Dec 2010 17:56:20 +0100
+ -- Julien Lavergne <gilir@ubuntu.com>  Sat, 12 Feb 2011 21:52:50 +0100
 
 lubuntu-default-settings (0.16) natty; urgency=low
 

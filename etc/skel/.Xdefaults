@@ -1,0 +1,5 @@
+! xscreensaver ---------------------------------------------------------------
+
+!set mode to blank only, random screensavers can be heavyweight for us (see LP: #578789)
+xscreensaver.mode:    blank
+
