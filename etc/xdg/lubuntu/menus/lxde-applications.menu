@@ -18,6 +18,11 @@
                 <Not><Category>Accessibility</Category></Not>
                 <Not><Category>System</Category></Not>
             </And>
+                <Or>
+                    <Category>Core</Category>
+                    <Category>Legacy</Category>
+                    <Category>Utility</Category>
+                </Or>
         </Include>
     </Menu>
 
@@ -47,9 +52,10 @@
         <Name>Education</Name>
         <Directory>lxde-education.directory</Directory>
         <Include>
-            <And>
+            <Or>
                 <Category>Education</Category>
-            </And>
+                <Category>Science</Category>
+            </Or>
         </Include>
     </Menu> 
 
@@ -57,9 +63,7 @@
         <Name>Games</Name>
         <Directory>lxde-game.directory</Directory>
         <Include>
-            <And>
-                <Category>Game</Category>
-            </And>
+            <Category>Game</Category>
         </Include>
     </Menu>
 
@@ -78,9 +82,7 @@
         <Name>Internet</Name>
         <Directory>lxde-network.directory</Directory>
         <Include>
-            <And>
-                <Category>Network</Category>
-            </And>
+            <Category>Network</Category>
         </Include>
     </Menu>
 
@@ -88,9 +90,9 @@
         <Name>Multimedia</Name>
         <Directory>lxde-audio-video.directory</Directory>
         <Include>
-            <And>
-                <Category>AudioVideo</Category>
-            </And>
+            <Category>Audio</Category>
+            <Category>Video</Category>
+            <Category>AudioVideo</Category>
         </Include>
     </Menu>
 
@@ -98,9 +100,7 @@
         <Name>Office</Name>
         <Directory>lxde-office.directory</Directory>
         <Include>
-            <And>
-                <Category>Office</Category>
-            </And>
+            <Category>Office</Category>
         </Include>
     </Menu>
 
@@ -109,11 +109,7 @@
         <Directory>lxde-other.directory</Directory>
         <OnlyUnallocated/>
         <Include>
-            <And>
-                <Not><Category>Core</Category></Not>
-                <Not><Category>Settings</Category></Not>
-                <Not><Category>Screensaver</Category></Not>
-            </And>
+            <And/>
         </Include>
     </Menu>
 
