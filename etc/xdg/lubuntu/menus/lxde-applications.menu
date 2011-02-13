@@ -1,5 +1,5 @@
 <!DOCTYPE Menu PUBLIC "-//freedesktop//DTD Menu 1.0//EN"
-  "http://www.freedesktop.org/standards/menu-spec/1.0/menu.dtd">
+  "http://standards.freedesktop.org/menu-spec/1.0/menu.dtd">
 
 <Menu>
     <Name>Lubuntu</Name>
@@ -104,17 +104,36 @@
         </Include>
     </Menu>
 
+    <!-- System-->
     <Menu>
         <Name>System</Name>
-        <Directory>lxde-system-tools.directory</Directory>
-        <Include>
-            <And>
-                <Category>System</Category>
-                <Not><Category>Settings</Category></Not>
-                <Not><Category>PackageManager</Category></Not>
-            </And>
-        </Include>
-    </Menu>
+        <Directory>lxde-system.directory</Directory>
+
+        <!-- System Administration-->
+        <Menu>
+            <Name>System Administration</Name>
+            <Directory>lxde-settings-system.directory</Directory>
+            <Include>
+                <And>
+                    <Category>System</Category>
+                    <Category>Settings</Category>
+                </And>
+            </Include>
+        </Menu>     <!-- End System Administration -->
+
+        <!-- System Tools-->
+        <Menu>
+            <Name>SystemTools</Name>
+            <Directory>lxde-system-tools.directory</Directory>
+            <Include>
+                <And>
+                    <Category>System</Category>
+                    <Not><Category>Settings</Category></Not>
+                    <Not><Category>PackageManager</Category></Not>
+                </And>
+            </Include>
+        </Menu>     <!-- End System Tools -->
+    </Menu>     <!-- End System -->
 
     <Menu>
         <Name>Other</Name>
@@ -136,11 +155,13 @@
         <Directory>lxde-settings.directory</Directory>
         <OnlyUnallocated/>
         <Include>
+            <And>
             <Or>
                 <Category>Settings</Category>
                 <Category>PackageManager</Category>
-                <Category>System</Category>
             </Or>
+                <Not><Category>System</Category></Not>
+            </And>
         </Include>
         <Layout>
             <Merge type="menus"/>
