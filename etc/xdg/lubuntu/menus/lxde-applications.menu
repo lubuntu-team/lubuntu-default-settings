@@ -1,5 +1,5 @@
 <!DOCTYPE Menu PUBLIC "-//freedesktop//DTD Menu 1.0//EN"
-  "http://www.freedesktop.org/standards/menu-spec/1.0/menu.dtd">
+ "http://standards.freedesktop.org/menu-spec/1.0/menu.dtd">
 
 <Menu>
     <Name>Lubuntu</Name>
@@ -54,8 +54,11 @@
         <Include>
             <Or>
                 <Category>Education</Category>
-                <Category>Science</Category>
             </Or>
+            <And>
+                <Category>Science</Category>
+                <Not><Category>Office</Category></Not>
+            </And>
         </Include>
     </Menu> 
 
