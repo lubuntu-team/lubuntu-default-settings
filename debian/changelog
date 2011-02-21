@@ -1,13 +1,19 @@
-lubuntu-default-settings (0.17) UNRELEASED; urgency=low
+lubuntu-default-settings (0.17) natty; urgency=low
 
+  [ Julien Lavergne ]
   * etc/xdg/lubuntu/menus/lxde-applications.menu:
    - Add a specific menu structure for lubuntu session.
-   - Split Preferences and System menus (LP: #650432).
   * etc/xdg/lubuntu/lxdm/lxdm.conf
    - Remove background option, it's already defined by the theme, and can break
      it sometimes (LP: #703658).
 
- -- Julien Lavergne <gilir@ubuntu.com>  Sat, 12 Feb 2011 21:52:50 +0100
+  [ Jonathan Marsden ]
+  * etc/xdg/lubuntu/menus/lxde-applications.menu:
+   - Update DTD to use standards.freedesktop.org
+   - Move system-wide admin tools to System -> Administration menu
+     (LP: #650432)
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Mon, 21 Feb 2011 01:51:14 +0100
 
 lubuntu-default-settings (0.16) natty; urgency=low
 
