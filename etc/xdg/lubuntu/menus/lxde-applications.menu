@@ -2,7 +2,7 @@
  "http://standards.freedesktop.org/menu-spec/1.0/menu.dtd">
 
 <Menu>
-    <Name>Lubuntu</Name>
+    <Name>Applications</Name>
     
     <DefaultAppDirs/>
     <DefaultDirectoryDirs/>
