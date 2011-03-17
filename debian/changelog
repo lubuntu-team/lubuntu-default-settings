@@ -1,9 +1,9 @@
-lubuntu-default-settings (0.18) UNRELEASED; urgency=low
+lubuntu-default-settings (0.18) natty; urgency=low
 
   * etc/xdg/lubuntu/menus/lxde-applications.menu:
    - Set name of the menu to Applications, to fix libfm-pref-apps.
 
- -- Julien Lavergne <gilir@ubuntu.com>  Fri, 25 Feb 2011 18:19:50 +0100
+ -- Julien Lavergne <gilir@ubuntu.com>  Thu, 17 Mar 2011 18:59:59 +0100
 
 lubuntu-default-settings (0.17) natty; urgency=low
 
