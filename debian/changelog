@@ -1,3 +1,12 @@
+lubuntu-default-settings (0.19) natty; urgency=low
+
+  * etc/xdg/lubuntu/applications/default.list:
+    - Set Chromium as the default handler for http/https
+    - Use libreoffice instead of ooo2
+    - Set apturl as the default handler for apt
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Sat, 23 Apr 2011 19:00:30 +0200
+
 lubuntu-default-settings (0.18) natty; urgency=low
 
   * etc/xdg/lubuntu/menus/lxde-applications.menu:
