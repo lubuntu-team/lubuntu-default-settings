@@ -5,7 +5,7 @@ lubuntu-default-settings (0.19) natty; urgency=low
     - Use libreoffice instead of ooo2
     - Set apturl as the default handler for apt
 
- -- Julien Lavergne <gilir@ubuntu.com>  Sat, 23 Apr 2011 19:00:30 +0200
+ -- Julien Lavergne <gilir@ubuntu.com>  Mon, 25 Apr 2011 21:11:38 +0200
 
 lubuntu-default-settings (0.18) natty; urgency=low
 
