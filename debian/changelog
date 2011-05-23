@@ -1,3 +1,14 @@
+lubuntu-default-settings (0.20) UNRELEASED; urgency=low
+
+  * etc/xdg/lubuntu/menus/lxde-applications.menu:
+   - Avoid Audio, Video and AudioVideo applications appearing
+     in the Accessories menu (duplicating Sound & Video entries).
+   - Avoid applications in both System and Utility categories
+     appearing in the Accessories menu (duplicating System Tools
+     entries). (LP: #779818)
+
+ -- Jonathan Marsden <jmarsden@fastmail.fm>  Sun, 22 May 2011 19:05:48 -0700
+
 lubuntu-default-settings (0.19) natty; urgency=low
 
   * etc/xdg/lubuntu/applications/default.list:
