@@ -278,12 +278,27 @@
         <command>lxpanelctl run</command>
       </action>
     </keybind>
+    <keybind key="A-F1">
+      <action name="Execute">
+        <command>lxpanelctl menu</command>
+      </action>
+    </keybind>
     <keybind key="A-F2">
       <action name="Execute">
         <command>lxpanelctl run</command>
       </action>
     </keybind>
     <keybind key="C-Escape">
+      <action name="Execute">
+        <command>lxpanelctl menu</command>
+      </action>
+    </keybind>
+    <keybind key="Super_L">
+      <action name="Execute">
+        <command>lxpanelctl menu</command>
+      </action>
+    </keybind>
+    <keybind key="Super_R">
       <action name="Execute">
         <command>lxpanelctl menu</command>
       </action>

@@ -1,5 +1,6 @@
 lubuntu-default-settings (0.20) UNRELEASED; urgency=low
 
+  [ Jonathan Marsden ]
   * etc/xdg/lubuntu/menus/lxde-applications.menu:
    - Avoid Audio, Video and AudioVideo applications appearing
      in the Accessories menu (duplicating Sound & Video entries).
@@ -7,7 +8,11 @@ lubuntu-default-settings (0.20) UNRELEASED; urgency=low
      appearing in the Accessories menu (duplicating System Tools
      entries). (LP: #779818)
 
- -- Jonathan Marsden <jmarsden@fastmail.fm>  Sun, 22 May 2011 19:05:48 -0700
+  [ Julien Lavergne ]
+  * usr/share/lubuntu/openbox/rc.xml
+   - Add Super_L, Super_R and ALt-F1 to keybindings for opening the menu. 
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Sun, 19 Jun 2011 13:19:13 +0200
 
 lubuntu-default-settings (0.19) natty; urgency=low
 
