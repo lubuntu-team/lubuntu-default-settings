@@ -13,6 +13,8 @@ lubuntu-default-settings (0.20) UNRELEASED; urgency=low
    - Add Super_L, Super_R and ALt-F1 to keybindings for opening the menu. 
   * etc/xdg/lxsession/*/autostart:
    - Don't autostart nm-applet, should be autostarted automaticly.
+   - Use xfce4-power-manager instead of gnome-power-manager which depends now
+     on gnome-settings-daemon.
 
  -- Julien Lavergne <gilir@ubuntu.com>  Sun, 19 Jun 2011 13:19:13 +0200
 
