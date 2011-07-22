@@ -1,4 +1,3 @@
-@nm-applet
 @lxpanel --profile Lubuntu
 @xscreensaver -no-splash
 @gnome-power-manager
