@@ -1,4 +1,4 @@
-lubuntu-default-settings (0.20) UNRELEASED; urgency=low
+lubuntu-default-settings (0.20) oneiric; urgency=low
 
   [ Jonathan Marsden ]
   * etc/xdg/lubuntu/menus/lxde-applications.menu:
@@ -18,7 +18,7 @@ lubuntu-default-settings (0.20) UNRELEASED; urgency=low
   * etc/xdg/lubuntu/lxdm/lxdm.conf:
    - Update with version in lxdm 0.4.0. 
 
- -- Julien Lavergne <gilir@ubuntu.com>  Thu, 28 Jul 2011 23:36:41 +0200
+ -- Julien Lavergne <gilir@ubuntu.com>  Thu, 28 Jul 2011 23:42:29 +0200
 
 lubuntu-default-settings (0.19) natty; urgency=low
 
