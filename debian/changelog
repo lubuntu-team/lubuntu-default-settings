@@ -15,8 +15,10 @@ lubuntu-default-settings (0.20) UNRELEASED; urgency=low
    - Don't autostart nm-applet, should be autostarted automaticly.
    - Use xfce4-power-manager instead of gnome-power-manager which depends now
      on gnome-settings-daemon.
+  * etc/xdg/lubuntu/lxdm/lxdm.conf:
+   - Update with version in lxdm 0.4.0. 
 
- -- Julien Lavergne <gilir@ubuntu.com>  Sun, 19 Jun 2011 13:19:13 +0200
+ -- Julien Lavergne <gilir@ubuntu.com>  Thu, 28 Jul 2011 23:36:41 +0200
 
 lubuntu-default-settings (0.19) natty; urgency=low
 
