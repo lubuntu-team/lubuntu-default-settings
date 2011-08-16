@@ -15,12 +15,14 @@ if [ "$1" = configure ]; then
     lxdm.conf /etc/xdg/lubuntu/lxdm/lxdm.conf 60 
 fi
 
-if [ "$1" = configure|upgrade ]; then
-  if [ -x /usr/lib/lightdm/lightdm-set-defaults ] ; then
-    /usr/lib/lightdm/lightdm-set-defaults --keep-old --session=Lubuntu || true
-    /usr/lib/lightdm/lightdm-set-defaults --keep-old --greeter=lightdm-gtk-greeter || true
-  fi
-fi
+case "$1" in
+  configure|upgrade)
+    if [ -x /usr/lib/lightdm/lightdm-set-defaults ] ; then
+      /usr/lib/lightdm/lightdm-set-defaults --keep-old --session=Lubuntu || true
+      /usr/lib/lightdm/lightdm-set-defaults --keep-old --greeter=lightdm-gtk-greeter || true
+    fi
+    ;;
+esac
 
 if dpkg-maintscript-helper supports mv_conffile 2>/dev/null; then
     dpkg-maintscript-helper mv_conffile /etc/xdg/pcmanfm/lubuntu.conf /etc/xdg/pcmanfm/lubuntu/pcmanfm.conf 0.15 -- "$@"
