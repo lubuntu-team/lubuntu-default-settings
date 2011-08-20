@@ -39,6 +39,13 @@ if [ ! -f "$XDG_CONFIG_HOME/Trolltech.conf" ]; then
     cp /usr/share/lubuntu/qt/Trolltech.conf "$XDG_CONFIG_HOME/Trolltech.conf"
 fi
 
+# Install custom configuration for leafpad
+LEAFPAD_CONF_DIR="$XDG_CONFIG_HOME/leafpad"
+if [ ! -f "$LEAFPAD_CONF_DIR/leafpadrc" ]; then
+    mkdir -p "$LEAFPAD_CONF_DIR"
+    cp /usr/share/lubuntu/leafpad/leafpadrc "$LEAFPAD_CONF_DIR/leafpadrc"
+fi
+
 # Clean up after GDM (GDM sets the number of desktops to one)
 xprop -root -remove _NET_NUMBER_OF_DESKTOPS -remove _NET_DESKTOP_NAMES -remove _NET_CURRENT_DESKTOP 2> /dev/null
 

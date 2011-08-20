@@ -5,6 +5,8 @@ lubuntu-default-settings (0.21) UNRELEASED; urgency=low
     Remove them on uninstall. (thanks Didier and Lionel !)
   * etc/xdg/lubuntu/lxdm/lxdm.conf:
    - Fix location of the background.
+  * usr/bin/startlubuntu* & usr/share/lubuntu/leafpad/
+   - Install specific settings for leafpad, with Ubuntu font by default.
 
  -- Julien Lavergne <gilir@ubuntu.com>  Tue, 16 Aug 2011 01:11:02 +0200
 
