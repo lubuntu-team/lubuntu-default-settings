@@ -3,6 +3,8 @@ lubuntu-default-settings (0.21) UNRELEASED; urgency=low
   * debian/postinst,debian/postrm: set lubuntu as the default session and
     lightdm-gtk-greeter as the default greeter if they aren't set already.
     Remove them on uninstall. (thanks Didier and Lionel !)
+  * etc/xdg/lubuntu/lxdm/lxdm.conf:
+   - Fix location of the background.
 
  -- Julien Lavergne <gilir@ubuntu.com>  Tue, 16 Aug 2011 01:11:02 +0200
 
