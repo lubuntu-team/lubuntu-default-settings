@@ -7,8 +7,8 @@ lubuntu-default-settings (0.21) UNRELEASED; urgency=low
    - Fix location of the background.
   * usr/bin/startlubuntu* & usr/share/lubuntu/leafpad/
    - Install specific settings for leafpad, with Ubuntu font by default.
-  * etc/xdg/lubuntu/pcmanfm:
-   - Add specific settings for pcmanfm, with Ubuntu font by default.
+  * etc/xdg/pcmanfm/pcmanfm.conf:
+   - Use Ubuntu font by default.
   * usr/share/lubuntu/openbox/rc.xml:
    - Use Ubuntu font by default instead of sans.
 
