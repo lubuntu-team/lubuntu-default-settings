@@ -1,4 +1,4 @@
-lubuntu-default-settings (0.21) UNRELEASED; urgency=low
+lubuntu-default-settings (0.21) oneiric; urgency=low
 
   * debian/postinst,debian/postrm: set Lubuntu as the default session and
     lightdm-gtk-greeter as the default greeter if they aren't set already.
@@ -14,7 +14,7 @@ lubuntu-default-settings (0.21) UNRELEASED; urgency=low
   * usr/share/lxpanel/profile/Lubuntu/panels/panel:
    - Set the color font of the panel to white to match the new theme.
 
- -- Julien Lavergne <gilir@ubuntu.com>  Tue, 16 Aug 2011 01:11:02 +0200
+ -- Julien Lavergne <gilir@ubuntu.com>  Sun, 21 Aug 2011 00:27:21 +0200
 
 lubuntu-default-settings (0.20) oneiric; urgency=low
 
