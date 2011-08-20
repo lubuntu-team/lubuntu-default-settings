@@ -10,7 +10,7 @@ lubuntu-default-settings (0.21) UNRELEASED; urgency=low
   * etc/xdg/pcmanfm/pcmanfm.conf:
    - Use Ubuntu font by default.
   * usr/share/lubuntu/openbox/rc.xml:
-   - Use Ubuntu font by default instead of sans.
+   - Use Ubuntu font by default instead of sans. (LP: #729885)
   * usr/share/lxpanel/profile/Lubuntu/panels/panel:
    - Set the color font of the panel to white to match the new theme.
 
