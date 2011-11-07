@@ -17,8 +17,10 @@ Depends: ${misc:Depends},
          lubuntu-icon-theme,
          pcmanfm (>= 0.9.5),
          ttf-ubuntu-font-family,
+         lightdm-gtk-greeter (>= 1.0.0-0ubuntu2)
 Recommends: amixer,
             scrot,
             galculator
+Provides: lightdm-gtk-greeter-config
 Description: default settings for Lubuntu
  Various system settings tailored for Lubuntu.

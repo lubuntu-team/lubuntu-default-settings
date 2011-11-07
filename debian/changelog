@@ -1,3 +1,15 @@
+lubuntu-default-settings (0.22) UNRELEASED; urgency=low
+
+  * Add a theme for lightdm (taking from Xubuntu, thanks Lionel Le Folgoc).
+  * Add etc/xdg/lubuntu/lightdm/lightdm-gtk-greeter.conf
+  * debian/{postinst,prerm}: install/remove alternatives to use our config
+    as /etc/lightdm/lightdm-gtk-greeter.conf.
+  * debian/control:
+   - add depends on lightdm-gtk-greeter >= 1.0.0-0ubuntu2.
+   - provides lightdm-gtk-greeter-config.
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Mon, 07 Nov 2011 11:13:23 +0100
+
 lubuntu-default-settings (0.21) oneiric; urgency=low
 
   * debian/postinst,debian/postrm: set Lubuntu as the default session and
