@@ -9,6 +9,8 @@ lubuntu-default-settings (0.22) UNRELEASED; urgency=low
    - provides lightdm-gtk-greeter-config.
   * debian/source/format:
    - Switch to format 3.0 (native).
+  * debian/rules:
+   - Switch to dh syntax.
 
  -- Julien Lavergne <gilir@ubuntu.com>  Mon, 07 Nov 2011 11:13:23 +0100
 
