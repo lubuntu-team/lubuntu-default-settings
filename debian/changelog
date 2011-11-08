@@ -7,6 +7,8 @@ lubuntu-default-settings (0.22) UNRELEASED; urgency=low
   * debian/control:
    - add depends on lightdm-gtk-greeter >= 1.0.0-0ubuntu2.
    - provides lightdm-gtk-greeter-config.
+  * debian/source/format:
+   - Switch to format 3.0 (native).
 
  -- Julien Lavergne <gilir@ubuntu.com>  Mon, 07 Nov 2011 11:13:23 +0100
 
