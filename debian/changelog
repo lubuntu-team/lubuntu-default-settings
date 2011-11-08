@@ -1,4 +1,4 @@
-lubuntu-default-settings (0.22) UNRELEASED; urgency=low
+lubuntu-default-settings (0.22) precise; urgency=low
 
   * Add a theme for lightdm (taking from Xubuntu, thanks Lionel Le Folgoc).
   * Add etc/xdg/lubuntu/lightdm/lightdm-gtk-greeter.conf
@@ -13,7 +13,7 @@ lubuntu-default-settings (0.22) UNRELEASED; urgency=low
   * debian/rules:
    - Switch to dh syntax.
 
- -- Julien Lavergne <gilir@ubuntu.com>  Mon, 07 Nov 2011 11:13:23 +0100
+ -- Julien Lavergne <gilir@ubuntu.com>  Tue, 08 Nov 2011 20:00:37 +0100
 
 lubuntu-default-settings (0.21) oneiric; urgency=low
 
