@@ -4,6 +4,10 @@ lubuntu-default-settings (0.23) UNRELEASED; urgency=low
    - Re-synchronize with upstream.
    - Workaround loose of focus of lxpanel run window (LP: #889414)
    - Add a rule to maximize all new windows with type normal.
+   - Place new windows on the monitor with the mouse, rather than the primary
+     monitor.
+   - Use scrot -u -b (focused window with border) for the screenshot of the 
+     current window.
 
  -- Julien Lavergne <gilir@ubuntu.com>  Tue, 15 Nov 2011 13:47:32 +0700
 
