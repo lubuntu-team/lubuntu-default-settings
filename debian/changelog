@@ -1,3 +1,12 @@
+lubuntu-default-settings (0.23) UNRELEASED; urgency=low
+
+  * usr/share/lubuntu/openbox/menu.xml & rc.xml
+   - Re-synchronize with upstream.
+   - Workaround loose of focus of lxpanel run window (LP: #889414)
+   - Add a rule to maximize all new windows with type normal.
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Tue, 15 Nov 2011 13:47:32 +0700
+
 lubuntu-default-settings (0.22) precise; urgency=low
 
   * Add a theme for lightdm (taking from Xubuntu, thanks Lionel Le Folgoc).
