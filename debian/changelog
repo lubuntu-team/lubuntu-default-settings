@@ -8,6 +8,7 @@ lubuntu-default-settings (0.23) UNRELEASED; urgency=low
      monitor.
    - Use scrot -u -b (focused window with border) for the screenshot of the 
      current window.
+   - Add a shortcut for the power button.
 
  -- Julien Lavergne <gilir@ubuntu.com>  Tue, 15 Nov 2011 13:47:32 +0700
 

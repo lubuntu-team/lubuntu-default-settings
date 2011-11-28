@@ -450,6 +450,12 @@
         <command>scrot</command>
       </action>
     </keybind>
+    <!-- Launch logout when push on the shutdown button -->
+    <keybind key="XF86PowerOff">
+      <action name="Execute">
+        <command>lubuntu-logout</command>
+      </action>
+    </keybind>
   </keyboard>
   <mouse>
     <dragThreshold>8</dragThreshold>
