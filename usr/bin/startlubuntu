@@ -46,6 +46,11 @@ if [ ! -f "$LEAFPAD_CONF_DIR/leafpadrc" ]; then
     cp /usr/share/lubuntu/leafpad/leafpadrc "$LEAFPAD_CONF_DIR/leafpadrc"
 fi
 
+# Install custom configuration for xscreensaver
+if [ ! -f "$HOME/.xscreensaver" ]; then
+    cp /usr/share/lubuntu/xscreensaver/xscreensaver "$HOME/.xscreensaver"
+fi
+
 # Clean up after GDM (GDM sets the number of desktops to one)
 xprop -root -remove _NET_NUMBER_OF_DESKTOPS -remove _NET_DESKTOP_NAMES -remove _NET_CURRENT_DESKTOP 2> /dev/null
 
