@@ -12,6 +12,8 @@ lubuntu-default-settings (0.23) UNRELEASED; urgency=low
   * usr/bin/startlubuntu* & usr/share/lubuntu/xscreensaver/xscreensaver:
    - Add a custom configuration file for xscreensaver, with blank mode by
      default (LP: #578789).
+  * etc/xdg/lubuntu/menus/lxgames-applications.menu :
+   - Add a specific menu structure for a games session.
 
  -- Julien Lavergne <gilir@ubuntu.com>  Tue, 15 Nov 2011 13:47:32 +0700
 
