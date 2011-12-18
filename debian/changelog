@@ -14,6 +14,8 @@ lubuntu-default-settings (0.23) UNRELEASED; urgency=low
      default (LP: #578789).
   * etc/xdg/lubuntu/menus/lxgames-applications.menu :
    - Add a specific menu structure for a games session.
+  * usr/bin/startlubuntu-lxgames :
+   - Add a new script to start a games session, with a specific menu structure.
 
  -- Julien Lavergne <gilir@ubuntu.com>  Tue, 15 Nov 2011 13:47:32 +0700
 
