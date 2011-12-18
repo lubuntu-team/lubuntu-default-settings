@@ -16,6 +16,14 @@ lubuntu-default-settings (0.23) UNRELEASED; urgency=low
    - Add a specific menu structure for a games session.
   * usr/bin/startlubuntu-lxgames :
    - Add a new script to start a games session, with a specific menu structure.
+  * usr/share/xsessions/lxgames.desktop :
+   - Add a new session to start a games session.
+  * debian/control:
+   - Add new binaries, to configure default session on lightdm.
+  * Reorganize script in debian/ to handle the creation of the new
+    default-session binaries.
+  * debian/lubuntu-default-settings.install:
+   - Keep all files in lubuntu-default-settings. 
 
  -- Julien Lavergne <gilir@ubuntu.com>  Tue, 15 Nov 2011 13:47:32 +0700
 

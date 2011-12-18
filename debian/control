@@ -24,3 +24,17 @@ Recommends: amixer,
 Provides: lightdm-gtk-greeter-config
 Description: default settings for Lubuntu
  Various system settings tailored for Lubuntu.
+
+Package: lxgames-default-session
+Architecture: all
+Depends: ${misc:Depends},
+         lubuntu-default-settings
+Description: Set default session to lxgames
+ Set default session to lxgames.
+
+Package: lubuntu-default-session
+Architecture: all
+Depends: ${misc:Depends},
+         lubuntu-default-settings
+Description: Set default session to lxgames
+ Set default session to lxgames.
