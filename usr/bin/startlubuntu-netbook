@@ -15,7 +15,7 @@ if test "x$XDG_CONFIG_DIRS" = "x"
 then
   XDG_CONFIG_DIRS="/etc/xdg/lubuntu:/etc/xdg"
 else
-  XDG_CONFIG_DIRS="/etc/xdg/lubuntu/:$XDG_CONFIG_DIRS:/etc/xdg"
+  XDG_CONFIG_DIRS="/etc/xdg/lubuntu/:$XDG_CONFIG_DIRS"
 fi
 export XDG_CONFIG_DIRS
 
