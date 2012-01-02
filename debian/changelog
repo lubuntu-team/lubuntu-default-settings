@@ -9,6 +9,7 @@ lubuntu-default-settings (0.23) UNRELEASED; urgency=low
    - Use scrot -u -b (focused window with border) for the screenshot of the 
      current window.
    - Add a shortcut for the power button.
+   - Use horizontal presentation of the alt-tab.
   * usr/bin/startlubuntu* & usr/share/lubuntu/xscreensaver/xscreensaver:
    - Add a custom configuration file for xscreensaver, with blank mode by
      default (LP: #578789).
