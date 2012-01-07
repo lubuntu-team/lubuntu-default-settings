@@ -390,6 +390,12 @@
         <command>pcmanfm</command>
       </action>
     </keybind>
+    <!-- Lock the screen on Ctrl + Alt + l-->
+    <keybind key="C-A-l">
+      <action name="Execute">
+        <command>xscreensaver-command -lock</command>
+      </action>
+    </keybind>
     <!-- Keybinding for Volume management -->
     <keybind key="XF86AudioRaiseVolume">
       <action name="Execute">
