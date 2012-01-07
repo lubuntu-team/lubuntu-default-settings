@@ -65,5 +65,11 @@ if which dbus-launch >/dev/null && test -z "$DBUS_SESSION_BUS_ADDRESS"; then
        eval "$(dbus-launch --sh-syntax --exit-with-session)"
 fi
 
+# Export Gnome-keyring variables if needed
+# See bug #664206
+if which gnome-keyring-daemon >/dev/null; then
+       export $(/usr/bin/gnome-keyring-daemon --start --components=ssh)
+fi
+
 # Start the LXDE session
 exec /usr/bin/lxsession -s Lubuntu-Netbook -e LXDE

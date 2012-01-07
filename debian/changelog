@@ -14,6 +14,8 @@ lubuntu-default-settings (0.23) UNRELEASED; urgency=low
    - Add a custom configuration file for xscreensaver, with blank mode by
      default (LP: #578789).
    - Don't append /etc/xdg in xdg path, already done by Xsession.d
+   - Start gnome-keyring support for ssh before the session. Thanks urusha for
+     the patch (LP: #664206).
 
  -- Julien Lavergne <gilir@ubuntu.com>  Tue, 15 Nov 2011 13:47:32 +0700
 
