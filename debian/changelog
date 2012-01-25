@@ -1,4 +1,4 @@
-lubuntu-default-settings (0.23) UNRELEASED; urgency=low
+lubuntu-default-settings (0.23) precise; urgency=low
 
   * usr/share/lubuntu/openbox/menu.xml & rc.xml
    - Re-synchronize with upstream.
@@ -18,7 +18,7 @@ lubuntu-default-settings (0.23) UNRELEASED; urgency=low
    - Start gnome-keyring support for ssh before the session. Thanks urusha for
      the patch (LP: #664206).
 
- -- Julien Lavergne <gilir@ubuntu.com>  Tue, 15 Nov 2011 13:47:32 +0700
+ -- Julien Lavergne <gilir@ubuntu.com>  Thu, 26 Jan 2012 00:48:09 +0100
 
 lubuntu-default-settings (0.22) precise; urgency=low
 
