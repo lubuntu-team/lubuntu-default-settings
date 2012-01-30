@@ -354,16 +354,6 @@
         <command>lxpanelctl menu</command>
       </action>
     </keybind>
-    <keybind key="Super_L">
-      <action name="Execute">
-        <command>lxpanelctl menu</command>
-      </action>
-    </keybind>
-    <keybind key="Super_R">
-      <action name="Execute">
-        <command>lxpanelctl menu</command>
-      </action>
-    </keybind>
     <!-- Keybindings to toggle fullscreen -->
     <keybind key="F11">
       <action name="ToggleFullscreen"/>
