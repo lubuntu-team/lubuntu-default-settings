@@ -908,9 +908,11 @@
   # end of the example
 -->
     <!-- Option to maximize all normal window when launched-->
+    <!--
     <application type="normal">
       <maximized>true</maximized>
     </application>
+    -->
 
   </applications>
 </openbox_config>
