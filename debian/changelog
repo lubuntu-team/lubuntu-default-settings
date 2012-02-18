@@ -4,6 +4,8 @@ lubuntu-default-settings (0.24) UNRELEASED; urgency=low
   * usr/share/lubuntu/openbox/rc.xml
    - Remove workaround for lxpanel run dialog, now it's fixed in lxpanel.
    - Revert maximised windows by default, need more integration (LP: #926788)
+  * debian/control:
+   - Add a recommend for xscreensaver, for the locking shortcut (LP: #923001)
 
   [ Colin Watson ]
   * Use maintscript support in dh_installdeb rather than writing out
