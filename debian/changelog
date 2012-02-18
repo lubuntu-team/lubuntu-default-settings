@@ -6,6 +6,8 @@ lubuntu-default-settings (0.24) UNRELEASED; urgency=low
    - Revert maximised windows by default, need more integration (LP: #926788)
   * debian/control:
    - Add a recommend for xscreensaver, for the locking shortcut (LP: #923001)
+  * usr/share/lxpanel/profile/Lubuntu/panels/panel:
+   - Set the color font of the panel to white to match the new theme.
 
   [ Colin Watson ]
   * Use maintscript support in dh_installdeb rather than writing out
