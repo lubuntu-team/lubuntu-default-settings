@@ -907,14 +907,6 @@
 
   # end of the example
 -->
-    <!-- Force focus on lxpanelctl, to workaround strange behavior of openbox
-         (see https://bugs.launchpad.net/bugs/889414)
-    -->
-    <application name="lxpanel"
-                 type="dialog">
-      <focus>yes</focus>
-    </application>
-
     <!-- Option to maximize all normal window when launched-->
     <application type="normal">
       <maximized>true</maximized>
