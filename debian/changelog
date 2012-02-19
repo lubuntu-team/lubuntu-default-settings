@@ -1,4 +1,4 @@
-lubuntu-default-settings (0.24) UNRELEASED; urgency=low
+lubuntu-default-settings (0.24) precise; urgency=low
 
   [ Julien Lavergne ]
   * usr/share/lubuntu/openbox/rc.xml
@@ -20,7 +20,7 @@ lubuntu-default-settings (0.24) UNRELEASED; urgency=low
   * Fixed super-keys were conflicting with other keybinds making them useless.
     (LP: #890394)
 
- -- Julien Lavergne <gilir@ubuntu.com>  Sun, 19 Feb 2012 14:47:17 +0100
+ -- Julien Lavergne <gilir@ubuntu.com>  Sun, 19 Feb 2012 14:49:00 +0100
 
 lubuntu-default-settings (0.23) precise; urgency=low
 
