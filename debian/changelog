@@ -3,6 +3,8 @@ lubuntu-default-settings (0.25) UNRELEASED; urgency=low
   * usr/share/lubuntu/openbox/rc.xml:
    - Add ability to use icons in the menu.
    - Add ability to use menu.xml in $HOME.
+  * usr/share/lubuntu/openbox/menu.xml:
+   - Update the openbox menu with the new version of Openbox.
 
  -- Julien Lavergne <gilir@ubuntu.com>  Tue, 21 Feb 2012 01:07:43 +0100
 
