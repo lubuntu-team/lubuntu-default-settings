@@ -1,3 +1,10 @@
+lubuntu-default-settings (0.25) UNRELEASED; urgency=low
+
+  * usr/share/lubuntu/openbox/rc.xml:
+   - Add ability to use icons in the menu.
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Tue, 21 Feb 2012 01:07:43 +0100
+
 lubuntu-default-settings (0.24) precise; urgency=low
 
   [ Julien Lavergne ]

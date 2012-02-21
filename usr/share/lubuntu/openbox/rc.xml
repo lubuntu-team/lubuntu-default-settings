@@ -814,6 +814,8 @@
     <!-- controls if icons appear in the client-list-(combined-)menu -->
     <manageDesktops>yes</manageDesktops>
     <!-- show the manage desktops section in the client-list-(combined-)menu -->
+    <showIcons>yes</showIcons>
+    <!-- show icons on the menu -->
   </menu>
   <applications>
     <!--
