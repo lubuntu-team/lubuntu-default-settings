@@ -1,4 +1,4 @@
-lubuntu-default-settings (0.25) UNRELEASED; urgency=low
+lubuntu-default-settings (0.25) precise; urgency=low
 
   [ Julien Lavergne ]
   * usr/share/lubuntu/openbox/rc.xml:
@@ -12,7 +12,7 @@ lubuntu-default-settings (0.25) UNRELEASED; urgency=low
    - Unmute audio when using shortcut for the volume (LP: #926246)
    - Use correct volume key for mute shortcut (LP: #926320)
 
- -- Julien Lavergne <gilir@ubuntu.com>  Tue, 21 Feb 2012 01:07:43 +0100
+ -- Julien Lavergne <gilir@ubuntu.com>  Thu, 23 Feb 2012 21:42:03 +0100
 
 lubuntu-default-settings (0.24) precise; urgency=low
 
