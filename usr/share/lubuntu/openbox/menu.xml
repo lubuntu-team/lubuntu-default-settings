@@ -175,6 +175,9 @@
   <item label="Reconfigure Openbox">
     <action name="Reconfigure" />
   </item>
+  <item label="Restart Openbox">
+    <action name="Restart" />
+  </item>
 </menu>
 
 <menu id="root-menu" label="Lubuntu">
