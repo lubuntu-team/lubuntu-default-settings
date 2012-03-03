@@ -1,4 +1,4 @@
-lubuntu-default-settings (0.26) UNRELEASED; urgency=low
+lubuntu-default-settings (0.26) precise; urgency=low
 
   * debian/maintscript:
    - Add missing file.
@@ -7,7 +7,7 @@ lubuntu-default-settings (0.26) UNRELEASED; urgency=low
   * debian/control:
    - Recommend dmz-cursor-theme for the mouse theme.
 
- -- Julien Lavergne <gilir@ubuntu.com>  Sun, 04 Mar 2012 00:54:51 +0100
+ -- Julien Lavergne <gilir@ubuntu.com>  Sun, 04 Mar 2012 00:58:20 +0100
 
 lubuntu-default-settings (0.25) precise; urgency=low
 
