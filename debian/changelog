@@ -2,6 +2,8 @@ lubuntu-default-settings (0.26) UNRELEASED; urgency=low
 
   * debian/maintscript:
    - Add missing file.
+  * etc/xdg/lxsession/*/desktop.conf:
+   - Add DMZ-white mouse cursor by default (LP: #923344)
 
  -- Julien Lavergne <gilir@ubuntu.com>  Sat, 03 Mar 2012 13:03:07 +0100
 
