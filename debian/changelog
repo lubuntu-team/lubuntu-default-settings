@@ -1,8 +1,9 @@
-lubuntu-default-settings (0.27) precise; urgency=low
+lubuntu-default-settings (0.27) UNRELEASED; urgency=low
 
+  [ Bhaskar Kandiyal ]
   * Changed default theme of lightdm to Lubuntu-default (LP: #968527)
 
- -- Bhaskar Kandiyal <bkandiyal@gmail.com>  Fri, 30 Mar 2012 00:52:39 +0530
+ -- Julien Lavergne <gilir@ubuntu.com>  Sun, 01 Apr 2012 15:48:36 +0200
 
 lubuntu-default-settings (0.26) precise; urgency=low
 
