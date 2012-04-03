@@ -3,6 +3,11 @@ lubuntu-default-settings (0.27) UNRELEASED; urgency=low
   [ Bhaskar Kandiyal ]
   * Changed default theme of lightdm to Lubuntu-default (LP: #968527)
 
+  [ Julien Lavergne ]
+  * usr/share/lubuntu/openbox/rc.xml:
+   - Remove entries in the openbox menu which hang up if launched before
+     pcmanfm first run.
+
  -- Julien Lavergne <gilir@ubuntu.com>  Sun, 01 Apr 2012 15:48:36 +0200
 
 lubuntu-default-settings (0.26) precise; urgency=low

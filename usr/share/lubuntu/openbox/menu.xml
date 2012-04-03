@@ -147,18 +147,6 @@
 </menu>
 
 <menu id="system-menu" label="System">
-  <item label="System Preferences">
-    <action name="Execute">
-      <command>pcmanfm menu://applications/DesktopSettings</command>
-      <startupnotify><enabled>yes</enabled></startupnotify>
-    </action>
-  </item>
-  <item label="Administration">
-    <action name="Execute">
-      <command>pcmanfm menu://applications/Administration</command>
-      <startupnotify><enabled>yes</enabled></startupnotify>
-    </action>
-  </item>
   <item label="Desktop Settings">
     <action name="Execute">
       <command>pcmanfm --desktop-pref</command>
