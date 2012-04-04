@@ -1,4 +1,4 @@
-lubuntu-default-settings (0.27) UNRELEASED; urgency=low
+lubuntu-default-settings (0.27) precise; urgency=low
 
   [ Bhaskar Kandiyal ]
   * Changed default theme of lightdm to Lubuntu-default (LP: #968527)
@@ -8,7 +8,7 @@ lubuntu-default-settings (0.27) UNRELEASED; urgency=low
    - Remove entries in the openbox menu which hang up if launched before
      pcmanfm first run.
 
- -- Julien Lavergne <gilir@ubuntu.com>  Sun, 01 Apr 2012 15:48:36 +0200
+ -- Julien Lavergne <gilir@ubuntu.com>  Tue, 03 Apr 2012 23:14:06 +0200
 
 lubuntu-default-settings (0.26) precise; urgency=low
 
