@@ -19,7 +19,7 @@ Depends: ${misc:Depends},
          pcmanfm (>= 0.9.5),
          ttf-ubuntu-font-family,
          lightdm-gtk-greeter (>= 1.0.0-0ubuntu2)
-Recommends: amixer,
+Suggests: amixer,
             scrot,
             galculator,
             xscreensaver,
