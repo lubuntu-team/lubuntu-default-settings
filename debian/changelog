@@ -3,6 +3,9 @@ lubuntu-default-settings (0.28) UNRELEASED; urgency=low
   * debian/control:
    - Move recommended packages to suggests, to not install them when installing
      lubuntu-core (LP: #822043)
+  * etc/xdg/lubuntu/lightdm/lightdm-gtk-greeter.conf
+   - Add language-selector option to the greeter.
+   - Display Ubuntu font. 
 
  -- Julien Lavergne <gilir@ubuntu.com>  Sun, 01 Jul 2012 15:04:41 +0200
 
