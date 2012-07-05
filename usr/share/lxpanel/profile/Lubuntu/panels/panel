@@ -17,7 +17,7 @@ Global {
     fontcolor=#000000
     background=1
     backgroundfile=/usr/share/lxpanel/images/lubuntu-background.png
-    iconsize=22
+    iconsize=24
 }
 
 Plugin {
