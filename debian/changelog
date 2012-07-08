@@ -1,15 +1,16 @@
-lubuntu-default-settings (0.28) UNRELEASED; urgency=low
+lubuntu-default-settings (0.28) quantal; urgency=low
 
   * debian/control:
    - Move recommended packages to suggests, to not install them when installing
      lubuntu-core (LP: #822043)
   * usr/share/lxpanel/profile/Lubuntu/panels/panel:
    - Set iconsize to 24 for the panel, to match new artwork.
+   - Add indicator support by default.
   * etc/xdg/lubuntu/lightdm/lightdm-gtk-greeter.conf
    - Add language-selector option to the greeter.
    - Display Ubuntu font. 
 
- -- Julien Lavergne <gilir@ubuntu.com>  Sun, 01 Jul 2012 15:04:41 +0200
+ -- Julien Lavergne <gilir@ubuntu.com>  Sun, 08 Jul 2012 15:23:59 +0200
 
 lubuntu-default-settings (0.27) precise; urgency=low
 
