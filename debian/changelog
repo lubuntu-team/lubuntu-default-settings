@@ -8,9 +8,9 @@ lubuntu-default-settings (0.28) quantal; urgency=low
    - Add indicator support by default.
   * etc/xdg/lubuntu/lightdm/lightdm-gtk-greeter.conf
    - Add language-selector option to the greeter.
-   - Display Ubuntu font. 
+   - Display Ubuntu font.
 
- -- Julien Lavergne <gilir@ubuntu.com>  Sun, 08 Jul 2012 15:23:59 +0200
+ -- Julien Lavergne <gilir@ubuntu.com>  Sun, 08 Jul 2012 23:23:20 +0200
 
 lubuntu-default-settings (0.27) precise; urgency=low
 
