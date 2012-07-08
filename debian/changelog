@@ -10,7 +10,7 @@ lubuntu-default-settings (0.28) quantal; urgency=low
    - Add language-selector option to the greeter.
    - Display Ubuntu font.
 
- -- Julien Lavergne <gilir@ubuntu.com>  Sun, 08 Jul 2012 23:23:20 +0200
+ -- Julien Lavergne <gilir@ubuntu.com>  Sun, 08 Jul 2012 23:24:18 +0200
 
 lubuntu-default-settings (0.27) precise; urgency=low
 
