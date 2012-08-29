@@ -6,7 +6,7 @@ lubuntu-default-settings (0.29) quantal; urgency=low
   * debian/control:
    - Increase depends on lightdm-gtk-greeter for the use of the new features.
 
- -- Julien Lavergne <gilir@ubuntu.com>  Thu, 30 Aug 2012 00:31:12 +0200
+ -- Julien Lavergne <gilir@ubuntu.com>  Thu, 30 Aug 2012 00:31:42 +0200
 
 lubuntu-default-settings (0.28) quantal; urgency=low
 
