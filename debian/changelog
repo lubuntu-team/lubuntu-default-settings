@@ -1,9 +1,6 @@
 lubuntu-default-settings (0.29) UNRELEASED; urgency=low
 
-  * usr/share/lubuntu/lightdm-gtk-greeter:
-   - Add a specific .ui definition for lightdm-gtk-greeter.
-  * etc/xdg/lubuntu/lightdm/lightdm-gtk-greeter.conf:
-   - Add the path for the new .ui definition.
+  * 
 
  -- Julien Lavergne <gilir@ubuntu.com>  Sun, 15 Jul 2012 11:11:42 +0200
 
