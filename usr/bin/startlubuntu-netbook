@@ -51,6 +51,11 @@ if [ ! -f "$HOME/.xscreensaver" ]; then
     cp /usr/share/lubuntu/xscreensaver/xscreensaver "$HOME/.xscreensaver"
 fi
 
+# Install custom lxterminal configuration if no one is already installed
+if [ ! -f "$XDG_CONFIG_HOME/lxterminal/lxterminal.conf" ]; then
+    cp /etc/xdg/lubuntu/lxterminal/lxterminal.conf "$XDG_CONFIG_HOME/lxterminal/lxterminal.conf"
+fi
+
 # Clean up after GDM (GDM sets the number of desktops to one)
 xprop -root -remove _NET_NUMBER_OF_DESKTOPS -remove _NET_DESKTOP_NAMES -remove _NET_CURRENT_DESKTOP 2> /dev/null
 

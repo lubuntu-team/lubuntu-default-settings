@@ -1,3 +1,13 @@
+lubuntu-default-settings (0.30) UNRELEASED; urgency=low
+
+  * etc/xdg/lubuntu/lxterminal
+   - Add a custom configuration file for lxterminal.
+   - Use Ubuntu font in lxterminal.
+  * usr/bin/startlubuntu*
+   - Install the lxterminal configuration file. 
+
+ -- Julien Lavergne <gilir@freedom>  Mon, 22 Oct 2012 22:26:04 +0200
+
 lubuntu-default-settings (0.29) quantal; urgency=low
 
   * etc/xdg/lubuntu/lightdm/lightdm-gtk-greeter.conf:
