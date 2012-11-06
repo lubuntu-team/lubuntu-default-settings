@@ -7,6 +7,7 @@ lubuntu-default-settings (0.30) UNRELEASED; urgency=low
    - Install the lxterminal configuration file. 
   * usr/share/lubuntu/openbox/rc.xml
    - Add shortcuts for windows tiling (SuperKey + the direction).
+   - Set drawContents to "no" on resize, to reduce the use of resize.
 
  -- Julien Lavergne <gilir@freedom>  Mon, 22 Oct 2012 22:26:04 +0200
 
