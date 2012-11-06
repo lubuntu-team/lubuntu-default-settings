@@ -76,5 +76,14 @@ if which gnome-keyring-daemon >/dev/null; then
        export $(/usr/bin/gnome-keyring-daemon --start --components=ssh)
 fi
 
+# Start SSH agent, require since 3.5 
+# (see https://wiki.archlinux.org/index.php/Openbox#SSH_agent_no_longer_starting)
+SSHAGENT="/usr/bin/ssh-agent"
+SSHAGENTARGS="-s"
+if [ -z "$SSH_AUTH_SOCK" -a -x "$SSHAGENT" ]; then
+        eval `$SSHAGENT $SSHAGENTARGS`
+        trap "kill $SSH_AGENT_PID" 0
+fi
+
 # Start the LXDE session
 exec /usr/bin/lxsession -s Lubuntu -e LXDE

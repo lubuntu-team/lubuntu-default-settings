@@ -5,6 +5,7 @@ lubuntu-default-settings (0.30) UNRELEASED; urgency=low
    - Use Ubuntu font in lxterminal.
   * usr/bin/startlubuntu*
    - Install the lxterminal configuration file. 
+   - Workaround ssh agent not autostarted properly.
   * usr/share/lubuntu/openbox/rc.xml
    - Add shortcuts for windows tiling (SuperKey + the direction).
    - Set drawContents to "no" on resize, to reduce the use of resize.
