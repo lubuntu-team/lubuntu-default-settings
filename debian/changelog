@@ -17,6 +17,7 @@ lubuntu-default-settings (0.30) UNRELEASED; urgency=low
    - Add a new session to start a games session.
   * debian/control:
    - Add new binaries, to configure default session on lightdm.
+   - Update VCS fields.
   * Reorganize script in debian/ to handle the creation of the new
     default-session binaries.
   * debian/lubuntu-default-settings.install:

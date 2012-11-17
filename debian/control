@@ -6,8 +6,8 @@ Build-Depends: debhelper (>= 8.1.0~),
                intltool
 Standards-Version: 3.8.3
 Homepage: https://launchpad.net/~lubuntu-desktop
-Vcs-Bzr: lp:~lubuntu-desktop/+junk/lubuntu-default-settings
-Vcs-Browser: http://bazaar.launchpad.net/~lubuntu-desktop/+junk/lubuntu-default-settings/files
+Vcs-Bzr: lp:lubuntu-default-settings
+Vcs-Browser: http://bazaar.launchpad.net/~lubuntu-dev/lubuntu-default-settings/trunk/files
 
 Package: lubuntu-default-settings
 Architecture: all
