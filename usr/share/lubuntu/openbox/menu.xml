@@ -99,11 +99,6 @@
       <command>gnumeric</command>
     </action>
   </item>
-  <item label="Osmo">
-    <action name="Execute">
-      <command>osmo</command>
-    </action>
-  </item>
   <item label="Evince">
     <action name="Execute">
       <command>evince</command>

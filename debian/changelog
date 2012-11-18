@@ -11,6 +11,8 @@ lubuntu-default-settings (0.30) UNRELEASED; urgency=low
    - Set drawContents to "no" on resize, to reduce the use of resize.
   * usr/share/lubuntu/openbox/menu.xml
    - Use gnome-disks for Disk utility item.
+   - Remove osmo from the menu, since it's not in the default installation.
+     Thanks karl anliot for the notice. (LP: #1035780)
   * etc/xdg/lubuntu/menus/lxgames-applications.menu :
    - Add a specific menu structure for a games session.
   * usr/bin/startlubuntu-lxgames :
