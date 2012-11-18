@@ -45,7 +45,7 @@
   </item>
   <item label="Disk utility">
     <action name="Execute">
-      <command>palimpset</command>
+      <command>gnome-disks</command>
       <startupnotify>
         <enabled>yes</enabled>
       </startupnotify>

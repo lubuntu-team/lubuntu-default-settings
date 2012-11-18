@@ -9,6 +9,8 @@ lubuntu-default-settings (0.30) UNRELEASED; urgency=low
   * usr/share/lubuntu/openbox/rc.xml
    - Add shortcuts for windows tiling (SuperKey + the direction).
    - Set drawContents to "no" on resize, to reduce the use of resize.
+  * usr/share/lubuntu/openbox/menu.xml
+   - Use gnome-disks for Disk utility item.
   * etc/xdg/lubuntu/menus/lxgames-applications.menu :
    - Add a specific menu structure for a games session.
   * usr/bin/startlubuntu-lxgames :
