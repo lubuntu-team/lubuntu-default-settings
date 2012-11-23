@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=Internet
+Comment=Internet
+Icon=internet-web-browser
+Exec=x-www-browser
+NoDisplay=true
