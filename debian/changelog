@@ -1,4 +1,4 @@
-lubuntu-default-settings (0.30) UNRELEASED; urgency=low
+lubuntu-default-settings (0.30) raring; urgency=low
 
   * etc/xdg/lubuntu/lxterminal
    - Add a custom configuration file for lxterminal.
@@ -32,7 +32,7 @@ lubuntu-default-settings (0.30) UNRELEASED; urgency=low
    - Use generic .desktop file to display an icon if another browser than
      chromium is available (LP: #938470)
 
- -- Julien Lavergne <gilir@ubuntu.com>  Fri, 23 Nov 2012 19:15:19 +0100
+ -- Julien Lavergne <gilir@ubuntu.com>  Fri, 23 Nov 2012 23:42:34 +0100
 
 lubuntu-default-settings (0.29) quantal; urgency=low
 
