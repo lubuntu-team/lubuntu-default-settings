@@ -33,11 +33,11 @@ Architecture: all
 Depends: ${misc:Depends},
          lubuntu-default-settings
 Description: Set default session to lxgames
- Set default session to lxgames.
+ This package sets the default session to lxgames by default.
 
 Package: lubuntu-default-session
 Architecture: all
 Depends: ${misc:Depends},
          lubuntu-default-settings
 Description: Set default session to Lubuntu
- Set default session to Lubuntu.
+ This package sets the default session to Lubuntu by default.
