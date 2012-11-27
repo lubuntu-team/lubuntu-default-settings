@@ -1,3 +1,10 @@
+lubuntu-default-settings (0.31) UNRELEASED; urgency=low
+
+  * debian/lubuntu-default-settings:
+   - Exclude nexus7 specific items.
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Tue, 27 Nov 2012 21:50:27 +0100
+
 lubuntu-default-settings (0.30) raring; urgency=low
 
   * etc/xdg/lubuntu/lxterminal
