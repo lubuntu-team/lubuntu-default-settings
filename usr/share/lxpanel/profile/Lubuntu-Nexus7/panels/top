@@ -1,0 +1,50 @@
+# lxpanel <profile> config file. Manually editing is not recommended.
+# Use preference dialog in lxpanel to adjust config when you can.
+
+Global {
+    edge=top
+    allign=left
+    margin=0
+    widthtype=percent
+    width=100
+    height=24
+    transparent=0
+    tintcolor=#000000
+    alpha=0
+    setdocktype=1
+    setpartialstrut=1
+    usefontcolor=1
+    fontcolor=#000000
+    background=1
+    backgroundfile=/usr/share/lxpanel/images/lubuntu-background.png
+    iconsize=24
+}
+
+Plugin {
+    type = volumealsa
+}
+
+Plugin {
+    type = tray
+}
+
+Plugin {
+    type = indicator
+    Config {
+        applications=1
+        datetime=0
+        messages=0
+        network=0
+        session=0
+        sound=0
+    }
+}
+
+Plugin {
+    type = dclock
+    Config {
+        ClockFmt=%R
+        TooltipFmt=%A %x
+        BoldFont=0
+    }
+}

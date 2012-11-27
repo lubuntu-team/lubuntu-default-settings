@@ -41,3 +41,10 @@ Depends: ${misc:Depends},
          lubuntu-default-settings
 Description: Set default session to Lubuntu
  This package sets the default session to Lubuntu by default.
+
+Package: lubuntu-nexus7-default-session
+Architecture: all
+Depends: ${misc:Depends},
+         lubuntu-default-settings
+Description: Set default session to Lubuntu Nexus7 version
+ This package sets the default session to Lubuntu Nexus7 version by default.

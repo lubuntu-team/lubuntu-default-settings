@@ -1,5 +1,6 @@
 lubuntu-default-settings (0.31) UNRELEASED; urgency=low
 
+  * Add a new Lubuntu-Nexus7 session.
   * debian/lubuntu-default-settings:
    - Exclude nexus7 specific items.
 

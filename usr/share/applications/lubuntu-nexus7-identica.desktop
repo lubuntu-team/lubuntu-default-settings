@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=identi.ca
+Comment=identi.ca
+Icon=internet-web-browser
+Exec=chromium-browser --app=https://identi.ca/
+Categories=Network;
+OnlyShowIn=LXDE

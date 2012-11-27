@@ -1,0 +1,5 @@
+[Desktop Entry]
+Name=Rotate your screen
+Comment=Rotate your screen
+Icon=object-rotate-left
+Exec=xrotate
