@@ -48,3 +48,10 @@ Depends: ${misc:Depends},
          lubuntu-default-settings
 Description: Set default session to Lubuntu Nexus7 version
  This package sets the default session to Lubuntu Nexus7 version by default.
+
+Package: lubuntu-nexus7-extra-files
+Architecture: all
+Depends: ${misc:Depends},
+         lubuntu-default-settings
+Description: Extra files for the nexus7 session
+ This package contents extra files for the nexus7 session.
