@@ -15,9 +15,26 @@ Global {
     setpartialstrut=1
     usefontcolor=1
     fontcolor=#000000
-    background=1
+    background=0
     backgroundfile=/usr/share/lxpanel/images/lubuntu-background.png
     iconsize=64
+}
+
+Plugin {
+    type = launchbar
+    Config {
+        Button {
+            id=lubuntu-nexus7-rotate.desktop
+        }
+    }
+}
+
+Plugin {
+    type = space
+    expand=1
+    Config {
+        Size=4
+    }
 }
 
 Plugin {
@@ -33,13 +50,6 @@ Plugin {
 }
 
 Plugin {
-    type = space
-    Config {
-        Size=4
-    }
-}
-
-Plugin {
     type = wincmd
     Config {
         Button1=iconify
@@ -49,6 +59,7 @@ Plugin {
 
 Plugin {
     type = space
+    expand=1
     Config {
         Size=4
     }
