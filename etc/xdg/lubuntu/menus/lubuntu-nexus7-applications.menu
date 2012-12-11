@@ -1,0 +1,65 @@
+<!DOCTYPE Menu PUBLIC "-//freedesktop//DTD Menu 1.0//EN"
+ "http://standards.freedesktop.org/menu-spec/1.0/menu.dtd">
+<Menu>
+    <Name>Applications</Name>
+    <Directory>lxde-menu-applications.directory</Directory>
+    <DefaultAppDirs/>
+    <DefaultDirectoryDirs/>
+    <DefaultMergeDirs/>
+
+	<Layout>
+		<Merge type="menus"/>
+		<Menuname>Home</Menuname>
+		<Menuname>Internet</Menuname>
+		<Menuname>Settings</Menuname>
+		<Menuname>Other</Menuname>
+	</Layout>
+
+<!-- Home Menu -->
+	<Menu>
+		<Name>Home</Name>
+	</Menu>
+
+<!-- Internet Menu -->
+    <Menu>
+        <Name>Internet</Name>
+        <Directory>lxde-network.directory</Directory>
+        <Include>
+            <Category>Network</Category>
+        </Include>
+    </Menu>
+
+<!-- Multimedia Menu -->
+    <Menu>
+        <Name>Multimedia</Name>
+        <Directory>lxde-audio-video.directory</Directory>
+        <Include>
+            <Category>Audio</Category>
+            <Category>Video</Category>
+            <Category>AudioVideo</Category>
+            <Category>Game</Category>
+        </Include>
+    </Menu>
+
+<!-- Settings Menu -->
+	<Menu>
+		<Name>Settings</Name>
+		<Directory>lxde-settings.directory</Directory>
+		<Include>
+			<Category>System</Category>
+			<Category>PackageManager</Category>
+			<Category>Settings</Category>
+		</Include>
+	</Menu>
+
+<!-- Other Menu -->
+    <Menu>
+        <Name>Other</Name>
+        <Directory>lxde-other.directory</Directory>
+        <OnlyUnallocated/>
+        <Include>
+            <And/>
+        </Include>
+    </Menu>
+
+</Menu>
