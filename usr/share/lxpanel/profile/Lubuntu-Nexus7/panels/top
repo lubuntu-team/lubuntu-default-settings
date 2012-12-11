@@ -21,6 +21,14 @@ Global {
 }
 
 Plugin {
+    type = space
+    expand=1
+    Config {
+        Size=4
+    }
+}
+
+Plugin {
     type = volumealsa
 }
 
