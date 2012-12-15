@@ -940,6 +940,16 @@
     <application type="normal">
       <maximized>true</maximized>
     </application>
-
+<!--
+    <application name="onboard">
+    <position force="no">
+      <x>-64</x>
+      <y>center</y>
+    </position>
+      <focus>yes</focus>
+      <layer>above</layer>
+      <maximized>false</maximized>
+    </application>
+-->
   </applications>
 </openbox_config>
