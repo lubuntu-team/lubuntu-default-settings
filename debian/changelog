@@ -5,8 +5,10 @@ lubuntu-default-settings (0.31) UNRELEASED; urgency=low
    - Exclude nexus7 specific items.
   * etc/xdg/lxsession :
    - Use new lxsession features instead of autostart commands.
+  * etc/xdg/lubuntu/libfm
+   - Use 16px for pcmanfm sidebar.
 
- -- Julien Lavergne <gilir@ubuntu.com>  Wed, 28 Nov 2012 19:56:19 +0100
+ -- Julien Lavergne <gilir@ubuntu.com>  Sun, 03 Feb 2013 14:09:54 +0100
 
 lubuntu-default-settings (0.30) raring; urgency=low
 
