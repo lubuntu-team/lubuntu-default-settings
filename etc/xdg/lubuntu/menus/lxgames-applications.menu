@@ -155,6 +155,12 @@
 				<Not><Category>Game</Category></Not>
 			</And>
 		</Include>
+		<Exclude>
+			<Or>
+				<Filename>debian-uxterm.desktop</Filename>
+				<Filename>debian-xterm.desktop</Filename>
+			</Or>
+		</Exclude>
 	</Menu>
 
 	<!-- Add some dirty hacks to map gnome categories to lxlauncher ones for merges -->

@@ -50,6 +50,12 @@
 			<Category>PackageManager</Category>
 			<Category>Settings</Category>
 		</Include>
+		<Exclude>
+			<Or>
+				<Filename>debian-uxterm.desktop</Filename>
+				<Filename>debian-xterm.desktop</Filename>
+			</Or>
+		</Exclude>
 	</Menu>
 
 <!-- Other Menu -->
