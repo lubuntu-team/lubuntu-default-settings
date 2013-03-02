@@ -3,8 +3,6 @@ lubuntu-default-settings (0.31) UNRELEASED; urgency=low
   * Add a new Lubuntu-Nexus7 session.
   * debian/lubuntu-default-settings:
    - Exclude nexus7 specific items.
-  * etc/xdg/lxsession :
-   - Use new lxsession features instead of autostart commands.
   * etc/xdg/lubuntu/libfm
    - Use 16px for pcmanfm sidebar.
   * etc/xdg/lubuntu/menus:
