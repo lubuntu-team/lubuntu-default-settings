@@ -1,4 +1,4 @@
-lubuntu-default-settings (0.31) UNRELEASED; urgency=low
+lubuntu-default-settings (0.31) raring; urgency=low
 
   * Add a new Lubuntu-Nexus7 session.
   * debian/lubuntu-default-settings:
@@ -8,7 +8,7 @@ lubuntu-default-settings (0.31) UNRELEASED; urgency=low
   * etc/xdg/lubuntu/menus:
    - Exclude xterm and uxterm items from the menu.
 
- -- Julien Lavergne <gilir@ubuntu.com>  Sun, 03 Feb 2013 14:09:54 +0100
+ -- Julien Lavergne <gilir@ubuntu.com>  Thu, 07 Mar 2013 15:45:33 +0100
 
 lubuntu-default-settings (0.30) raring; urgency=low
 
