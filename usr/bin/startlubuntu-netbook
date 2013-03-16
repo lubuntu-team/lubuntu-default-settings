@@ -70,12 +70,6 @@ if which dbus-launch >/dev/null && test -z "$DBUS_SESSION_BUS_ADDRESS"; then
        eval "$(dbus-launch --sh-syntax --exit-with-session)"
 fi
 
-# Export Gnome-keyring variables if needed
-# See bug #664206
-if which gnome-keyring-daemon >/dev/null; then
-       export $(/usr/bin/gnome-keyring-daemon --start --components=ssh)
-fi
-
 # Start SSH agent, require since 3.5 
 # (see https://wiki.archlinux.org/index.php/Openbox#SSH_agent_no_longer_starting)
 SSHAGENT="/usr/bin/ssh-agent"
