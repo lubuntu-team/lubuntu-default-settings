@@ -1,3 +1,9 @@
+lubuntu-default-settings (0.32) UNRELEASING; urgency=low
+
+  * Add a new QLubuntu session, by using only Qt applications 
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Sun, 17 Mar 2013 10:48:02 +0100
+
 lubuntu-default-settings (0.31) raring; urgency=low
 
   * Add a new Lubuntu-Nexus7 session.
