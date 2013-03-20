@@ -175,15 +175,15 @@
   </item>
   <item label="Terminal" icon="/usr/share/pixmaps/lxterminal.png">
     <action name="Execute">
-      <command>lxterminal</command>
+      <command>x-terminal-emulator</command>
       <startupnotify>
         <enabled>yes</enabled>
       </startupnotify>
     </action>
   </item>
-  <item label="Chromium" icon="/usr/share/icons/hicolor/48x48/apps/chromium-browser.png">
+  <item label="Internet" icon="/usr/share/icons/lubuntu/apps/48/apps/web-browser.svg">
     <action name="Execute">
-      <command>chromium-browser</command>
+      <command>x-www-browser</command>
       <startupnotify>
         <enabled>yes</enabled>
       </startupnotify>

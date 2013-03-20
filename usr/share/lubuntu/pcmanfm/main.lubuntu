@@ -1,5 +1,5 @@
 [General]
-terminal=lxterminal
+terminal=x-terminal-emulator
 
 [Desktop]
 show_wallpaper=1

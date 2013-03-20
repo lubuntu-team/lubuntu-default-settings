@@ -2,8 +2,9 @@ lubuntu-default-settings (0.32) UNRELEASED; urgency=low
 
   * usr/bin/start*
    - Remove gnome-keyring workaround, since we have the proper fix for ssh.
+  * Use x-www-browser and x-terminal-emulator in more places.
 
- -- Julien Lavergne <gilir@ubuntu.com>  Sat, 16 Mar 2013 10:37:20 +0100
+ -- Julien Lavergne <gilir@ubuntu.com>  Wed, 20 Mar 2013 23:23:40 +0100
 
 lubuntu-default-settings (0.31) raring; urgency=low
 
