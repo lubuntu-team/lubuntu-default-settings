@@ -3,15 +3,16 @@
 <openbox_menu xmlns="http://openbox.org/3.4/menu">
 
 <menu id="apps-accessories-menu" label="Accessories">
-<!--
+
   <item label="Calculator">
     <action name="Execute">
-      <command>galculator</command>
+      <command>speedcrunch</command>
       <startupnotify>
         <enabled>yes</enabled>
       </startupnotify>
     </action>
   </item>
+<!--
   <item label="Character Map">
     <action name="Execute">
       <command>gucharmap</command>
@@ -104,12 +105,12 @@
       <command>gnumeric</command>
     </action>
   </item>
-  <item label="Evince">
+-->
+  <item label="PDF">
     <action name="Execute">
-      <command>evince</command>
+      <command>qpdfview</command>
     </action>
   </item>
--->
 </menu>
 
 <menu id="apps-multimedia-menu" label="Multimedia">
