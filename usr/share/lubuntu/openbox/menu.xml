@@ -175,7 +175,7 @@
   </item>
   <item label="Terminal" icon="/usr/share/pixmaps/lxterminal.png">
     <action name="Execute">
-      <command>xterm</command>
+      <command>lxsession-default terminal</command>
       <startupnotify>
         <enabled>yes</enabled>
       </startupnotify>
@@ -199,7 +199,7 @@
   <separator />
   <item label="Log Out">
     <action name="Execute">
-      <command>lubuntu-logout</command>
+      <command>lxsession-default quit</command>
     </action>
   </item>
 </menu>

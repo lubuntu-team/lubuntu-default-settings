@@ -1,5 +1,5 @@
 [General]
-terminal=lxterminal
+terminal=lxsession-default terminal
 
 [Desktop]
 show_wallpaper=1
