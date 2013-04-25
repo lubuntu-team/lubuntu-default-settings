@@ -12,6 +12,9 @@ lubuntu-default-settings (0.32) UNRELEASED; urgency=low
   * usr/share/lubuntu/openbox/rc.xml
   * usr/share/lubuntu/pcmanfm/main.lubuntu
    - Use lxsession-default for terminal, screenshot and quit.
+  * usr/share/lubuntu/pcmanfm/main.lubuntu
+  * etc/xdg/lubuntu/libfm/libfm.conf
+   - Rebase with new upstream options.
 
  -- Julien Lavergne <gilir@ubuntu.com>  Wed, 20 Mar 2013 23:23:40 +0100
 
