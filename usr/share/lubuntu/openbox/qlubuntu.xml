@@ -3,14 +3,16 @@
 <openbox_menu xmlns="http://openbox.org/3.4/menu">
 
 <menu id="apps-accessories-menu" label="Accessories">
+
   <item label="Calculator">
     <action name="Execute">
-      <command>galculator</command>
+      <command>speedcrunch</command>
       <startupnotify>
         <enabled>yes</enabled>
       </startupnotify>
     </action>
   </item>
+<!--
   <item label="Character Map">
     <action name="Execute">
       <command>gucharmap</command>
@@ -59,9 +61,11 @@
       </startupnotify>
     </action>
   </item>
+-->
 </menu>
 
 <menu id="apps-net-menu" label="Internet">
+<!--
   <item label="Pidgin Instant Messenger">
     <action name="Execute">
       <command>pidgin</command>
@@ -78,9 +82,10 @@
       </startupnotify>
     </action>
   </item>
+-->
   <item label="Transmission torrent client">
     <action name="Execute">
-      <command>transmission</command>
+      <command>transmission-qt</command>
       <startupnotify>
         <enabled>yes</enabled>
       </startupnotify>
@@ -89,6 +94,7 @@
 </menu>
 
 <menu id="apps-office-menu" label="Office">
+<!--
   <item label="Abiword">
     <action name="Execute">
       <command>abiword</command>
@@ -99,30 +105,32 @@
       <command>gnumeric</command>
     </action>
   </item>
-  <item label="Evince">
+-->
+  <item label="PDF">
     <action name="Execute">
-      <command>evince</command>
+      <command>qpdfview</command>
     </action>
   </item>
 </menu>
 
 <menu id="apps-multimedia-menu" label="Multimedia">
-  <item label="Audacious">
+  <item label="Audio">
     <action name="Execute">
-      <command>audacious</command>
+      <command>smplayer</command>
       <startupnotify>
         <enabled>yes</enabled>
       </startupnotify>
     </action>
   </item>
-  <item label="Gnome-MPlayer">
+  <item label="Videos">
     <action name="Execute">
-      <command>gnome-mplayer</command>
+      <command>smplayer</command>
       <startupnotify>
         <enabled>yes</enabled>
       </startupnotify>
     </action>
   </item>
+<!--
   <item label="Xfburn">
     <action name="Execute">
       <command>xfburn</command>
@@ -139,12 +147,13 @@
       </startupnotify>
     </action>
   </item>
+-->
 </menu>
 
 <menu id="system-menu" label="System">
   <item label="Desktop Settings">
     <action name="Execute">
-      <command>pcmanfm --desktop-pref</command>
+      <command>pcmanfm-qt --desktop-pref</command>
       <startupnotify><enabled>yes</enabled></startupnotify>
     </action>
   </item>
@@ -167,23 +176,23 @@
   <separator label="Shortcuts" />
   <item label="PCMan File Manager" icon="/usr/share/icons/gnome/48x48/apps/system-file-manager.png">
     <action name="Execute">
-      <command>pcmanfm</command>
+      <command>pcmanfm-qt</command>
       <startupnotify>
         <enabled>yes</enabled>
       </startupnotify>
     </action>
   </item>
-  <item label="Terminal" icon="/usr/share/pixmaps/lxterminal.png">
+  <item label="Terminal" icon="/usr/share/icons/lubuntu/apps/48/apps/terminal.svg">
     <action name="Execute">
-      <command>lxsession-default terminal</command>
+      <command>qterminal</command>
       <startupnotify>
         <enabled>yes</enabled>
       </startupnotify>
     </action>
   </item>
-  <item label="Internet" icon="/usr/share/icons/lubuntu/apps/48/apps/web-browser.svg">
+  <item label="Chromium" icon="/usr/share/icons/hicolor/48x48/apps/chromium-browser.png">
     <action name="Execute">
-      <command>x-www-browser</command>
+      <command>chromium-browser</command>
       <startupnotify>
         <enabled>yes</enabled>
       </startupnotify>
@@ -199,7 +208,7 @@
   <separator />
   <item label="Log Out">
     <action name="Execute">
-      <command>lxsession-default quit</command>
+      <command>lubuntu-logout</command>
     </action>
   </item>
 </menu>

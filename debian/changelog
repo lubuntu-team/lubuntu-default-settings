@@ -1,8 +1,17 @@
 lubuntu-default-settings (0.32) UNRELEASED; urgency=low
 
+  * Add a new QLubuntu session, by using only Qt applications 
   * usr/bin/start*
    - Remove gnome-keyring workaround, since we have the proper fix for ssh.
   * Use x-www-browser and x-terminal-emulator in more places.
+  * debian/*
+   - Update with the new QLubuntu session.
+  * etc/xdg/lxsession :
+   - Use new lxsession features instead of autostart commands.
+  * usr/share/lubuntu/openbox/menu.xml
+  * usr/share/lubuntu/openbox/rc.xml
+  * usr/share/lubuntu/pcmanfm/main.lubuntu
+   - Use lxsession-default for terminal, screenshot and quit.
 
  -- Julien Lavergne <gilir@ubuntu.com>  Wed, 20 Mar 2013 23:23:40 +0100
 

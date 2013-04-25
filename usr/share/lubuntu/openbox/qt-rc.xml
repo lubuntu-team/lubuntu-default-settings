@@ -267,7 +267,7 @@
     <!-- Take a screenshot of the current window with scrot when Alt+Print are pressed -->
     <keybind key="A-Print">
       <action name="Execute">
-        <command>lxsession-default screenshot window</command>
+        <command>scrot -u -b</command>
       </action>
     </keybind>
     <!-- Keybindings for window switching -->
@@ -366,7 +366,7 @@
           <enabled>true</enabled>
           <name>PCManFM</name>
         </startupnotify>
-        <command>pcmanfm</command>
+        <command>pcmanfm-qt</command>
       </action>
     </keybind>
     <!-- Keybindings for running Run menu from Lxpanel on Home + R-->
@@ -404,7 +404,7 @@
     <!-- Launch a terminal on Ctrl + Alt + T-->
     <keybind key="C-A-T">
       <action name="Execute">
-        <command>lxsession-default terminal</command>
+        <command>x-terminal-emulator</command>
       </action>
     </keybind>
     <!-- Launch a filemanager on Ctrl + Alt + D-->
@@ -414,7 +414,7 @@
           <enabled>true</enabled>
           <name>PCManFM</name>
         </startupnotify>
-        <command>pcmanfm</command>
+        <command>pcmanfm-qt</command>
       </action>
     </keybind>
     <!-- Lock the screen on Ctrl + Alt + l-->
@@ -442,12 +442,12 @@
     <!-- Keybinding for terminal button-->
     <keybind key="XF86WWW">
       <action name="Execute">
-        <command>lxsession-default terminal</command>
+        <command>x-terminal-emulator</command>
       </action>
     </keybind>
     <keybind key="XF86Terminal">
       <action name="Execute">
-        <command>lxsession-default terminal</command>
+        <command>x-terminal-emulator</command>
       </action>
     </keybind>
     <!-- Keybinding for calculator button-->
@@ -459,7 +459,7 @@
     <!-- Keybinding for computer button-->
     <keybind key="XF86MyComputer">
       <action name="Execute">
-        <command>pcmanfm</command>
+        <command>pcmanfm-qt</command>
       </action>
     </keybind>
     <!-- Keybindings for Multimedia Keys and LCD Backlight (alternative when not using gnome-power-manager or xfce4-volumed) -->
@@ -481,13 +481,13 @@
     <!-- Launch scrot when Print is pressed -->
     <keybind key="Print">
       <action name="Execute">
-        <command>lxsession-default screenshot</command>
+        <command>scrot</command>
       </action>
     </keybind>
     <!-- Launch logout when push on the shutdown button -->
     <keybind key="XF86PowerOff">
       <action name="Execute">
-        <command>lxsession-default quit</command>
+        <command>lubuntu-logout</command>
       </action>
     </keybind>
   </keyboard>
@@ -829,8 +829,8 @@
     <!-- You can specify more than one menu file in here and they are all loaded,
        just don't make menu ids clash or, well, it'll be kind of pointless -->
     <!-- default menu file (or custom one in $HOME/.config/openbox/) -->
-    <file>/usr/share/lubuntu/openbox/menu.xml</file>
-    <file>menu.xml</file>
+    <file>/usr/share/lubuntu/openbox/qlubuntu-menu.xml</file>
+    <file>qlubuntu--menu.xml</file>
 
     <hideDelay>200</hideDelay>
     <!-- if a press-release lasts longer than this setting (in milliseconds), the

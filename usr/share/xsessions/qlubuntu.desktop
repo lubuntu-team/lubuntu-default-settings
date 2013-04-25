@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=Lubuntu Qt session
+Comment=A specific Lubuntu session using Qt
+Exec=/usr/bin/startlubuntu-q
+# Icon=
+Type=Application

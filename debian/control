@@ -16,36 +16,41 @@ Depends: ${misc:Depends},
          lxsession (>= 0.4.1), 
          lubuntu-artwork (>= 0.4), 
          lubuntu-icon-theme,
-         pcmanfm (>= 0.9.5),
+         pcmanfm (>= 0.9.5) | pcmanfm-qt,
          ttf-ubuntu-font-family,
-         lightdm-gtk-greeter (>= 1.3.0)
+         lightdm
 Suggests: amixer,
-            scrot,
-            galculator,
-            xscreensaver,
-            dmz-cursor-theme
-Provides: lightdm-gtk-greeter-config
+          scrot,
+          galculator,
+          xscreensaver,
+          dmz-cursor-theme
 Description: default settings for Lubuntu
  Various system settings tailored for Lubuntu.
 
 Package: lxgames-default-session
 Architecture: all
 Depends: ${misc:Depends},
-         lubuntu-default-settings
+         lubuntu-default-settings,
+         lightdm-gtk-greeter (>= 1.3.0)
+Provides: lightdm-gtk-greeter-config
 Description: Set default session to lxgames
  This package sets the default session to lxgames by default.
 
 Package: lubuntu-default-session
 Architecture: all
 Depends: ${misc:Depends},
-         lubuntu-default-settings
+         lubuntu-default-settings,
+         lightdm-gtk-greeter (>= 1.3.0)
+Provides: lightdm-gtk-greeter-config
 Description: Set default session to Lubuntu
  This package sets the default session to Lubuntu by default.
 
 Package: lubuntu-nexus7-default-session
 Architecture: all
 Depends: ${misc:Depends},
-         lubuntu-default-settings
+         lubuntu-default-settings,
+         lightdm-gtk-greeter (>= 1.3.0)
+Provides: lightdm-gtk-greeter-config
 Description: Set default session to Lubuntu Nexus7 version
  This package sets the default session to Lubuntu Nexus7 version by default.
 
@@ -55,3 +60,12 @@ Depends: ${misc:Depends},
          lubuntu-default-settings
 Description: Extra files for the nexus7 session
  This package contents extra files for the nexus7 session.
+
+Package: qlubuntu-default-session
+Architecture: all
+Depends: ${misc:Depends},
+         lubuntu-default-settings,
+         lightdm-kde-greeter (>= 1.3.0)
+Provides: lightdm-kde-greeter-config
+Description: Set default session to QLubuntu version
+ This package sets the default session to QLubuntu version by default.
