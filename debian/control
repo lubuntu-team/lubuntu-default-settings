@@ -65,7 +65,7 @@ Package: qlubuntu-default-session
 Architecture: all
 Depends: ${misc:Depends},
          lubuntu-default-settings,
-         lightdm-kde-greeter (>= 1.3.0)
-Provides: lightdm-kde-greeter-config
+         razorqt-lightdm-greeter (>= 1.3.0)
+Provides: razorqt-lightdm-greeter
 Description: Set default session to QLubuntu version
  This package sets the default session to QLubuntu version by default.
