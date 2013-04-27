@@ -5,6 +5,6 @@ Comment=Lubuntu - Lightweight X11 desktop environment based on LXDE
 Comment[zh_TW]=Lubuntu - 輕量級的 X11 桌面環境
 Comment[fi]=Lubuntu - kevyt X11-työpöytäympäristö
 Comment[ja]=Lubuntu - 軽量な X11 デスクトップ環境
-Exec=/usr/bin/startlubuntu
+Exec=/usr/bin/lxsession -s Lubuntu -e LXDE
 # Icon=
 Type=Application

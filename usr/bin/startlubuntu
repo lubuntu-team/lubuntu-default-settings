@@ -1,4 +1,0 @@
-#!/bin/sh
-
-# Start the LXDE session
-exec /usr/bin/lxsession -s Lubuntu -e LXDE
