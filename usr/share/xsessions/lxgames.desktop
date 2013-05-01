@@ -2,6 +2,6 @@
 # The names/descriptions should really be better
 Name=LX Games
 Comment=LX Games - A collection of games, using LXDE desktop.
-Exec=/usr/bin/startlubuntu-lxgames
+Exec=/usr/bin/lxsession -s LX-Games -e LXDE
 # Icon=
 Type=Application

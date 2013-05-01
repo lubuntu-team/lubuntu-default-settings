@@ -2,6 +2,6 @@
 # The names/descriptions should really be better
 Name=Lubuntu Netbook
 Comment=Lubuntu Netbook - Lightweight X11 desktop environment based on LXDE
-Exec=/usr/bin/startlubuntu-netbook
+Exec=/usr/bin/lxsession -s Lubuntu-Netbook -e LXDE
 # Icon=
 Type=Application
