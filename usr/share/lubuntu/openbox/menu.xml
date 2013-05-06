@@ -167,7 +167,7 @@
   <separator label="Shortcuts" />
   <item label="PCMan File Manager" icon="/usr/share/icons/gnome/48x48/apps/system-file-manager.png">
     <action name="Execute">
-      <command>pcmanfm</command>
+      <command>lxsession-default filemanager</command>
       <startupnotify>
         <enabled>yes</enabled>
       </startupnotify>
