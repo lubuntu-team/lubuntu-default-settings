@@ -1,5 +1,6 @@
 lubuntu-default-settings (0.32) UNRELEASED; urgency=low
 
+  [ Julien Lavergne ]
   * Add a new QLubuntu session, by using only Qt applications 
   * usr/bin/start*
    - Remove gnome-keyring workaround, since we have the proper fix for ssh.
@@ -15,6 +16,9 @@ lubuntu-default-settings (0.32) UNRELEASED; urgency=low
   * usr/share/lubuntu/pcmanfm/main.lubuntu
   * etc/xdg/lubuntu/libfm/libfm.conf
    - Rebase with new upstream options.
+
+  [ Stéphane Graber ]
+  * Add startlubuntu upstart user job.
 
  -- Julien Lavergne <gilir@ubuntu.com>  Wed, 20 Mar 2013 23:23:40 +0100
 
