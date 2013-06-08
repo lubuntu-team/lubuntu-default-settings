@@ -18,7 +18,8 @@ Depends: ${misc:Depends},
          lubuntu-icon-theme,
          pcmanfm (>= 0.9.5) | pcmanfm-qt,
          ttf-ubuntu-font-family,
-         lightdm
+         lightdm,
+         lxsession-logout
 Suggests: amixer,
           scrot,
           galculator,

@@ -6,6 +6,8 @@ lubuntu-default-settings (0.32) UNRELEASED; urgency=low
   * Use x-www-browser and x-terminal-emulator in more places.
   * debian/*
    - Update with the new QLubuntu session.
+  * debian/control:
+   - Depends on lxsession-logout since it's a separate binary.
   * etc/xdg/lxsession :
    - Use new lxsession features instead of autostart commands.
   * usr/share/lubuntu/openbox/menu.xml
