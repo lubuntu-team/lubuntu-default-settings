@@ -1,4 +1,4 @@
-lubuntu-default-settings (0.32) UNRELEASED; urgency=low
+lubuntu-default-settings (0.32ubuntu1) UNRELEASED; urgency=low
 
   [ Julien Lavergne ]
   * Add a new QLubuntu session, by using only Qt applications 
@@ -18,11 +18,13 @@ lubuntu-default-settings (0.32) UNRELEASED; urgency=low
   * usr/share/lubuntu/pcmanfm/main.lubuntu
   * etc/xdg/lubuntu/libfm/libfm.conf
    - Rebase with new upstream options.
+  * etc/xdg/lubuntu/applications/defaults.list
+   - Use Firefox instead of chromium-browser.
 
   [ Stéphane Graber ]
   * Add startlubuntu upstart user job.
 
- -- Julien Lavergne <gilir@ubuntu.com>  Wed, 20 Mar 2013 23:23:40 +0100
+ -- Julien Lavergne <gilir@ubuntu.com>  Wed, 19 Jun 2013 01:12:56 +0200
 
 lubuntu-default-settings (0.31) raring; urgency=low
 
