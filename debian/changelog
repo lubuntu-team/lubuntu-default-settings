@@ -30,7 +30,7 @@ lubuntu-default-settings (0.32) saucy; urgency=low
   [ Stéphane Graber ]
   * Add lxsession upstart user job.
 
- -- Julien Lavergne <gilir@ubuntu.com>  Thu, 27 Jun 2013 21:46:14 +0200
+ -- Julien Lavergne <gilir@ubuntu.com>  Mon, 01 Jul 2013 00:16:48 +0200
 
 lubuntu-default-settings (0.31) raring; urgency=low
 
