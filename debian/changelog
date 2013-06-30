@@ -1,4 +1,4 @@
-lubuntu-default-settings (0.32ubuntu1) UNRELEASED; urgency=low
+lubuntu-default-settings (0.32) saucy; urgency=low
 
   [ Julien Lavergne ]
   * Add a new QLubuntu session, by using only Qt applications 
@@ -11,20 +11,26 @@ lubuntu-default-settings (0.32ubuntu1) UNRELEASED; urgency=low
    - Depends on lxsession-logout since it's a separate binary.
   * etc/xdg/lxsession :
    - Use new lxsession features instead of autostart commands.
-  * usr/share/lubuntu/openbox/menu.xml
-  * usr/share/lubuntu/openbox/rc.xml
+   - Add conffiles configuration files.
+  * usr/share/lubuntu/openbox/menu.xml & rc.xml
+   - Use lxsession-default when it's available.
   * usr/share/lubuntu/pcmanfm/main.lubuntu
-   - Use lxsession-default for terminal, screenshot and quit.
-  * usr/share/lubuntu/pcmanfm/main.lubuntu
-  * etc/xdg/lubuntu/libfm/libfm.conf
+   - Use lxsession-default for terminal
+  * usr/share/lubuntu/pcmanfm/main.lubuntu & etc/xdg/lubuntu/libfm/libfm.conf
    - Rebase with new upstream options.
   * etc/xdg/lubuntu/applications/defaults.list
-   - Use Firefox instead of chromium-browser.
+   - Use firefox instead of chromium-browser.
+  * usr/bin
+   - Remove startlubuntu* scripts, handle by lxsession (LP: #579524).
+  * usr/share/applications/
+   - Use lxlock and lxsession-default for .desktop files.
+  * usr/share/xsessions/
+   - Use only lxsession to start the sessions.
 
   [ Stéphane Graber ]
-  * Add startlubuntu upstart user job.
+  * Add lxsession upstart user job.
 
- -- Julien Lavergne <gilir@ubuntu.com>  Wed, 19 Jun 2013 01:12:56 +0200
+ -- Julien Lavergne <gilir@ubuntu.com>  Thu, 27 Jun 2013 21:46:14 +0200
 
 lubuntu-default-settings (0.31) raring; urgency=low
 
