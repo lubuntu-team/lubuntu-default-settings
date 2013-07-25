@@ -1,3 +1,16 @@
+lubuntu-default-settings (0.33) UNRELEASED; urgency=low
+
+  * usr/share/lxpanel/Lubuntu
+   - Enable xkb plugin by default for switching keyboard layout.
+  * usr/share/lubuntu/openbox
+   - Fix transmission menu item (LP: #1193055)  
+  * etc/xdg/lxsession/QLubuntu/desktop.conf
+   - Fix launch of razor-panel
+  * etc/xdg/lubuntu/lightdm/lightdm-gtk-greeter.conf
+   - Update with new upstream version. 
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Thu, 25 Jul 2013 23:55:16 +0200
+
 lubuntu-default-settings (0.32) saucy; urgency=low
 
   [ Julien Lavergne ]

@@ -80,7 +80,7 @@
   </item>
   <item label="Transmission torrent client">
     <action name="Execute">
-      <command>transmission</command>
+      <command>transmission-gtk</command>
       <startupnotify>
         <enabled>yes</enabled>
       </startupnotify>
