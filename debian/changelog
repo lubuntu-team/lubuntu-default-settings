@@ -13,7 +13,7 @@ lubuntu-default-settings (0.33) saucy; urgency=low
   * etc/xdg/lxsession/*/conffiles.conf
    - Fix terminal conffiles.
 
- -- Julien Lavergne <gilir@ubuntu.com>  Wed, 28 Aug 2013 22:51:39 +0200
+ -- Julien Lavergne <gilir@ubuntu.com>  Thu, 29 Aug 2013 00:20:19 +0200
 
 lubuntu-default-settings (0.32) saucy; urgency=low
 
