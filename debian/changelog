@@ -1,4 +1,4 @@
-lubuntu-default-settings (0.33) UNRELEASED; urgency=low
+lubuntu-default-settings (0.33) saucy; urgency=low
 
   * usr/share/lxpanel/Lubuntu
    - Enable xkb plugin by default for switching keyboard layout.
@@ -8,8 +8,12 @@ lubuntu-default-settings (0.33) UNRELEASED; urgency=low
    - Fix launch of razor-panel
   * etc/xdg/lubuntu/lightdm/lightdm-gtk-greeter.conf
    - Update with new upstream version. 
+  * /usr/share/lubuntu/openbox/*rc.xml
+   - lxsession-default lock instead of xscreensaver (LP: #1204052)
+  * etc/xdg/lxsession/*/conffiles.conf
+   - Fix terminal conffiles.
 
- -- Julien Lavergne <gilir@ubuntu.com>  Thu, 25 Jul 2013 23:55:16 +0200
+ -- Julien Lavergne <gilir@ubuntu.com>  Wed, 28 Aug 2013 22:51:39 +0200
 
 lubuntu-default-settings (0.32) saucy; urgency=low
 
