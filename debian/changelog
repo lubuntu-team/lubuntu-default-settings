@@ -1,3 +1,10 @@
+lubuntu-default-settings (0.34) saucy; urgency=low
+
+  * etc/xdg/lxsession/*/desktop.conf
+   - Keep using nm-applet for network applet on the panel.
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Thu, 19 Sep 2013 20:08:16 +0200
+
 lubuntu-default-settings (0.33) saucy; urgency=low
 
   * usr/share/lxpanel/Lubuntu
