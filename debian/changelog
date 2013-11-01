@@ -1,3 +1,14 @@
+lubuntu-default-settings (0.35) UNRELEASED; urgency=low
+
+  * etc/xdg/lxsession/QLubuntu/
+   - Update with new names of LXQt components.
+  * usr/share/lubuntu/pcmanfm-qt/
+   - Add special configuration for pcmanfm-qt
+  * usr/share/lubuntu/qt/Trolltech-qt-session.conf
+   - Add new configuration for Qt settings of QLubuntu session.
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Fri, 01 Nov 2013 15:04:27 +0100
+
 lubuntu-default-settings (0.34) saucy; urgency=low
 
   * etc/xdg/lxsession/*/desktop.conf
