@@ -6,6 +6,9 @@ lubuntu-default-settings (0.35) UNRELEASED; urgency=low
    - Add special configuration for pcmanfm-qt
   * usr/share/lubuntu/qt/Trolltech-qt-session.conf
    - Add new configuration for Qt settings of QLubuntu session.
+  * usr/share/xsession
+   - Change the name of QLubuntu session file, to match lxsession to launch
+     (upstart seems to require this). 
 
  -- Julien Lavergne <gilir@ubuntu.com>  Fri, 01 Nov 2013 15:04:27 +0100
 
