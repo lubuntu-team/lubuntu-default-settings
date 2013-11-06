@@ -1,5 +1,6 @@
 lubuntu-default-settings (0.35) UNRELEASED; urgency=low
 
+  [ Julien Lavergne ]
   * etc/xdg/lxsession/QLubuntu/
    - Update with new names of LXQt components.
   * usr/share/lubuntu/pcmanfm-qt/
@@ -10,7 +11,12 @@ lubuntu-default-settings (0.35) UNRELEASED; urgency=low
    - Change the name of QLubuntu session file, to match lxsession to launch
      (upstart seems to require this). 
 
- -- Julien Lavergne <gilir@ubuntu.com>  Fri, 01 Nov 2013 15:04:27 +0100
+  [ Alex Henrie ]
+  * usr/share/lxpanel/profile/Lubuntu/panels/panel
+    - Replace lubuntu-browser.desktop with lxde-x-www-browser.desktop (LP:
+      #1232578)
+
+ -- Alex Henrie <alexhenrie24@gmail.com>  Sat, 02 Nov 2013 22:37:00 -0600
 
 lubuntu-default-settings (0.34) saucy; urgency=low
 

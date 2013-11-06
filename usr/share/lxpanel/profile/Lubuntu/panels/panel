@@ -47,7 +47,7 @@ Plugin {
             id=pcmanfm.desktop
         }
         Button {
-            id=lubuntu-browser.desktop
+            id=lxde-x-www-browser.desktop
         }
     }
 }
