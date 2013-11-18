@@ -1,4 +1,4 @@
-lubuntu-default-settings (0.35) UNRELEASED; urgency=low
+lubuntu-default-settings (0.35) trusty; urgency=low
 
   [ Julien Lavergne ]
   * etc/xdg/lxsession/QLubuntu/
@@ -22,7 +22,7 @@ lubuntu-default-settings (0.35) UNRELEASED; urgency=low
     - Replace lubuntu-browser.desktop with lxde-x-www-browser.desktop (LP:
       #1232578)
 
- -- Alex Henrie <alexhenrie24@gmail.com>  Sat, 02 Nov 2013 22:37:00 -0600
+ -- Julien Lavergne <gilir@ubuntu.com>  Tue, 19 Nov 2013 00:34:05 +0100
 
 lubuntu-default-settings (0.34) saucy; urgency=low
 
