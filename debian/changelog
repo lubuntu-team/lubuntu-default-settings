@@ -9,7 +9,10 @@ lubuntu-default-settings (0.35) UNRELEASED; urgency=low
    - Add new configuration for Qt settings of QLubuntu session.
   * usr/share/xsession
    - Change the name of QLubuntu session file, to match lxsession to launch
-     (upstart seems to require this). 
+     (upstart seems to require this).
+  * etc/xdg/lxsession
+   - Set disable_autostart=no for all sessions, to keep previous behavior of
+     autostarted applications.
 
   [ Alex Henrie ]
   * usr/share/lxpanel/profile/Lubuntu/panels/panel
