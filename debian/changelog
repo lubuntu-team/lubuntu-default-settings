@@ -13,6 +13,9 @@ lubuntu-default-settings (0.35) UNRELEASED; urgency=low
   * etc/xdg/lxsession
    - Set disable_autostart=no for all sessions, to keep previous behavior of
      autostarted applications.
+  * debian/control:
+   - Add policykit-desktop-privileges as a depends with lxsession-logout, to be
+     sure to install policykit rules.
 
   [ Alex Henrie ]
   * usr/share/lxpanel/profile/Lubuntu/panels/panel

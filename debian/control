@@ -19,7 +19,8 @@ Depends: ${misc:Depends},
          pcmanfm (>= 0.9.5) | pcmanfm-qt,
          ttf-ubuntu-font-family,
          lightdm,
-         lxsession-logout
+         lxsession-logout,
+         policykit-desktop-privileges
 Suggests: amixer,
           scrot,
           galculator,
