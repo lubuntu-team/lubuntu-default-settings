@@ -3,9 +3,6 @@ usr/bin/
 usr/share/gdm/
 usr/share/lubuntu/
 usr/share/lxpanel/
-usr/share/lxterminal/
 usr/share/upstart/sessions/
 usr/share/xsessions/
 usr/share/applications/lubuntu-screenlock.desktop
-usr/share/applications/lubuntu-browser.desktop
-usr/share/applications/lubuntu-logout.desktop

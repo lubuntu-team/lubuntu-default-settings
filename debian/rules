@@ -3,7 +3,7 @@
 	dh $@
 
 override_dh_auto_build:
-	# Skip, just use dh_install.
+	$(MAKE) DESTDIR=$(CURDIR)/debian/tmp
 
 override_dh_install:
-	$(MAKE) DESTDIR=$(CURDIR)/debian/lubuntu-default-settings
+	dh_install

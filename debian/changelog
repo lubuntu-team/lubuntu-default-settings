@@ -5,8 +5,12 @@ lubuntu-default-settings (0.36) UNRELEASED; urgency=low
    - Use lightdm conf files to set default session (LP: #1259525).
   * debian/control:
    - Make lightdm requirement to >= 1.9.4 for the conf files mechanism.
+  * debian/rules:
+   - Correctly use dh_install.
+  * debian/lubuntu-default-settings.install:
+   - Remove non-existent files.
 
- -- Julien Lavergne <gilir@ubuntu.com>  Fri, 13 Dec 2013 20:22:07 +0100
+ -- Julien Lavergne <gilir@ubuntu.com>  Fri, 13 Dec 2013 20:32:30 +0100
 
 lubuntu-default-settings (0.35) trusty; urgency=low
 
