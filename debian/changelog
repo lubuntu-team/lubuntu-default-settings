@@ -1,4 +1,4 @@
-lubuntu-default-settings (0.36) UNRELEASED; urgency=low
+lubuntu-default-settings (0.36) trusty; urgency=low
 
   * debian/20-* & debian/*.postrm & debian/*.postinst & 
     debian/*default-session.install:
@@ -10,7 +10,7 @@ lubuntu-default-settings (0.36) UNRELEASED; urgency=low
   * debian/lubuntu-default-settings.install:
    - Remove non-existent files.
 
- -- Julien Lavergne <gilir@ubuntu.com>  Fri, 13 Dec 2013 20:32:30 +0100
+ -- Julien Lavergne <gilir@ubuntu.com>  Fri, 13 Dec 2013 23:58:50 +0100
 
 lubuntu-default-settings (0.35) trusty; urgency=low
 
