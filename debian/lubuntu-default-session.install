@@ -1,1 +1,1 @@
-debian/10-lubuntu.conf  etc/lightdm/lightdm.conf.d/
+debian/20-lubuntu.conf  etc/lightdm/lightdm.conf.d/

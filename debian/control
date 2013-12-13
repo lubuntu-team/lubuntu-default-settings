@@ -18,7 +18,7 @@ Depends: ${misc:Depends},
          lubuntu-icon-theme,
          pcmanfm (>= 0.9.5) | pcmanfm-qt,
          ttf-ubuntu-font-family,
-         lightdm,
+         lightdm (>= 1.9.4),
          lxsession-logout,
          policykit-desktop-privileges
 Suggests: amixer,
