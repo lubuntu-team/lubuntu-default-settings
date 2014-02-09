@@ -6,3 +6,4 @@ usr/share/lxpanel/
 usr/share/upstart/sessions/
 usr/share/xsessions/
 usr/share/applications/lubuntu-screenlock.desktop
+usr/share/applications/lubuntu-logout.desktop

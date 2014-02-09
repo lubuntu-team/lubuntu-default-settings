@@ -1,3 +1,10 @@
+lubuntu-default-settings (0.37) UNRELEASED; urgency=low
+
+  * debian/lubuntu-default-settings.install:
+   - Re-add missing lubuntu-logout.desktop.
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Sun, 09 Feb 2014 14:40:01 +0100
+
 lubuntu-default-settings (0.36) trusty; urgency=low
 
   * debian/20-* & debian/*.postrm & debian/*.postinst & 
