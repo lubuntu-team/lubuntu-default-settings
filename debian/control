@@ -29,11 +29,21 @@ Suggests: amixer,
 Description: default settings for Lubuntu
  Various system settings tailored for Lubuntu.
 
+Package: lubuntu-extra-sessions
+Architecture: all
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${misc:Depends},
+         lubuntu-default-settings
+Breaks: lubuntu-default-settings (<< 0.37)
+Description: extra session for differents default settings of Lubuntu
+ Various system settings tailored for various version of Lubuntu.
+
 Package: lxgames-default-session
 Architecture: all
 Depends: ${misc:Depends},
          lubuntu-default-settings,
-         lightdm-gtk-greeter (>= 1.3.0)
+         lightdm-gtk-greeter (>= 1.3.0),
+         lubuntu-extra-sessions
 Provides: lightdm-gtk-greeter-config
 Description: Set default session to lxgames
  This package sets the default session to lxgames by default.
@@ -51,7 +61,8 @@ Package: lubuntu-nexus7-default-session
 Architecture: all
 Depends: ${misc:Depends},
          lubuntu-default-settings,
-         lightdm-gtk-greeter (>= 1.3.0)
+         lightdm-gtk-greeter (>= 1.3.0),
+         lubuntu-extra-sessions
 Provides: lightdm-gtk-greeter-config
 Description: Set default session to Lubuntu Nexus7 version
  This package sets the default session to Lubuntu Nexus7 version by default.
@@ -67,7 +78,8 @@ Package: qlubuntu-default-session
 Architecture: all
 Depends: ${misc:Depends},
          lubuntu-default-settings,
-         razorqt-lightdm-greeter (>= 0.5.2)
+         razorqt-lightdm-greeter (>= 0.5.2),
+         lubuntu-extra-sessions
 Provides: razorqt-lightdm-greeter-config
 Description: Set default session to QLubuntu version
  This package sets the default session to QLubuntu version by default.
