@@ -8,6 +8,8 @@ lubuntu-default-settings (0.37~ppa1) trusty; urgency=low
    - Create lubuntu-extra-sessions to isolate experimental sessions.
   * debian/lubuntu-default-settings & debian/lubuntu-extra-sessions
    - Move files of the extra sessions.
+  * usr/share/lubuntu/openbox/*.xml
+   - Use more lxsession-default when it's possible.
 
  -- Julien Lavergne <gilir@ubuntu.com>  Tue, 18 Feb 2014 22:42:30 +0100
 

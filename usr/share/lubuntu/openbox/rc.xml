@@ -366,7 +366,7 @@
           <enabled>true</enabled>
           <name>PCManFM</name>
         </startupnotify>
-        <command>pcmanfm</command>
+        <command>lxsession-default file_manager</command>
       </action>
     </keybind>
     <!-- Keybindings for running Run menu from Lxpanel on Home + R-->
@@ -377,7 +377,7 @@
     </keybind>
     <keybind key="A-F2">
       <action name="Execute">
-        <command>lxpanelctl run</command>
+        <command>lxsession-default launcher_manager</command>
       </action>
     </keybind>
     <!-- Keybindings for running Menu from Lxpanel -->
@@ -414,13 +414,13 @@
           <enabled>true</enabled>
           <name>PCManFM</name>
         </startupnotify>
-        <command>pcmanfm</command>
+        <command>lxsession-default file_manager</command>
       </action>
     </keybind>
     <!-- Lock the screen on Ctrl + Alt + l-->
     <keybind key="C-A-l">
       <action name="Execute">
-        <command>xscreensaver-command -lock</command>
+        <command>lxsession-default lock</command>
       </action>
     </keybind>
     <!-- Keybinding for Volume management -->
@@ -459,7 +459,7 @@
     <!-- Keybinding for computer button-->
     <keybind key="XF86MyComputer">
       <action name="Execute">
-        <command>pcmanfm</command>
+        <command>lxsession-default file_manager</command>
       </action>
     </keybind>
     <!-- Keybindings for Multimedia Keys and LCD Backlight (alternative when not using gnome-power-manager or xfce4-volumed) -->

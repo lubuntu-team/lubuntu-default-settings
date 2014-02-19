@@ -167,7 +167,7 @@
   <separator label="Shortcuts" />
   <item label="PCMan File Manager" icon="/usr/share/icons/gnome/48x48/apps/system-file-manager.png">
     <action name="Execute">
-      <command>lxsession-default filemanager</command>
+      <command>lxsession-default file_manager</command>
       <startupnotify>
         <enabled>yes</enabled>
       </startupnotify>
@@ -183,7 +183,7 @@
   </item>
   <item label="Internet" icon="/usr/share/icons/lubuntu/apps/48/apps/web-browser.svg">
     <action name="Execute">
-      <command>x-www-browser</command>
+      <command>lxsession-default webbrowser</command>
       <startupnotify>
         <enabled>yes</enabled>
       </startupnotify>
