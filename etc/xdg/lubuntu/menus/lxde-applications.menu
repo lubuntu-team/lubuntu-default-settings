@@ -65,6 +65,14 @@
     </Menu> 
 
     <Menu>
+        <Name>Electronics</Name>
+        <Directory>Electronics.directory</Directory>
+        <Include>
+            <Category>Electronics</Category>
+        </Include>
+    </Menu>
+
+    <Menu>
         <Name>Games</Name>
         <Directory>lxde-game.directory</Directory>
         <Include>
