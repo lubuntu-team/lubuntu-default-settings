@@ -5,7 +5,7 @@
 <menu id="apps-accessories-menu" label="Accessories">
   <item label="Calculator">
     <action name="Execute">
-      <command>galculator</command>
+      <command>lxsession-default calculator</command>
       <startupnotify>
         <enabled>yes</enabled>
       </startupnotify>
@@ -21,15 +21,15 @@
   </item>
   <item label="File Archiver">
     <action name="Execute">
-      <command>file-roller</command>
+      <command>lxsession-default archive</command>
       <startupnotify>
         <enabled>yes</enabled>
       </startupnotify>
     </action>
   </item>
-  <item label="Leafpad">
+  <item label="Text Editor">
     <action name="Execute">
-      <command>leafpad</command>
+      <command>lxsession-default text_editor</command>
       <startupnotify>
         <enabled>yes</enabled>
       </startupnotify>
@@ -37,7 +37,7 @@
   </item>
   <item label="Image viewer">
     <action name="Execute">
-      <command>gpicview</command>
+      <command>lxsession-default images_display</command>
       <startupnotify>
         <enabled>yes</enabled>
       </startupnotify>
@@ -45,15 +45,15 @@
   </item>
   <item label="Disk utility">
     <action name="Execute">
-      <command>gnome-disks</command>
+      <command>lxsession-default disk_utility</command>
       <startupnotify>
         <enabled>yes</enabled>
       </startupnotify>
     </action>
   </item>
-  <item label="Xpad">
+  <item label="Notes">
     <action name="Execute">
-      <command>xpad</command>
+      <command>lxsession-default notes</command>
       <startupnotify>
         <enabled>yes</enabled>
       </startupnotify>
@@ -62,25 +62,25 @@
 </menu>
 
 <menu id="apps-net-menu" label="Internet">
-  <item label="Pidgin Instant Messenger">
+  <item label="Instant Messenger">
     <action name="Execute">
-      <command>pidgin</command>
+      <command>lxsession-default im1</command>
       <startupnotify>
         <enabled>yes</enabled>
       </startupnotify>
     </action>
   </item>
-  <item label="Sylpheed E-mail client">
+  <item label="E-mail client">
     <action name="Execute">
-      <command>sylpheed</command>
+      <command>lxsession-default email</command>
       <startupnotify>
         <enabled>yes</enabled>
       </startupnotify>
     </action>
   </item>
-  <item label="Transmission torrent client">
+  <item label="Torrent client">
     <action name="Execute">
-      <command>transmission-gtk</command>
+      <command>lxsession-default bittorent</command>
       <startupnotify>
         <enabled>yes</enabled>
       </startupnotify>
@@ -89,43 +89,43 @@
 </menu>
 
 <menu id="apps-office-menu" label="Office">
-  <item label="Abiword">
+  <item label="Document Editor">
     <action name="Execute">
-      <command>abiword</command>
+      <command>lxsession-default document</command>
     </action>
   </item>
-  <item label="Gnumeric">
+  <item label="Spreadsheet Editor">
     <action name="Execute">
-      <command>gnumeric</command>
+      <command>lxsession-default spreadsheet</command>
     </action>
   </item>
-  <item label="Evince">
+  <item label="PDF">
     <action name="Execute">
-      <command>evince</command>
+      <command>lxsession-default pdf_reader</command>
     </action>
   </item>
 </menu>
 
 <menu id="apps-multimedia-menu" label="Multimedia">
-  <item label="Audacious">
+  <item label="Audio player">
     <action name="Execute">
-      <command>audacious</command>
+      <command>lxsession-default video_player</command>
       <startupnotify>
         <enabled>yes</enabled>
       </startupnotify>
     </action>
   </item>
-  <item label="Gnome-MPlayer">
+  <item label="Video player">
     <action name="Execute">
-      <command>gnome-mplayer</command>
+      <command>lxsession-default video_player</command>
       <startupnotify>
         <enabled>yes</enabled>
       </startupnotify>
     </action>
   </item>
-  <item label="Xfburn">
+  <item label="Burning utility">
     <action name="Execute">
-      <command>xfburn</command>
+      <command>lxsession-default burn</command>
       <startupnotify>
         <enabled>yes</enabled>
       </startupnotify>
@@ -133,7 +133,7 @@
   </item>
   <item label="Webcam">
     <action name="Execute">
-      <command>guvcview</command>
+      <command>lxsession-default webcam</command>
       <startupnotify>
         <enabled>yes</enabled>
       </startupnotify>
@@ -144,7 +144,7 @@
 <menu id="system-menu" label="System">
   <item label="Desktop Settings">
     <action name="Execute">
-      <command>pcmanfm --desktop-pref</command>
+      <command>lxsession-default desktop_manager settings</command>
       <startupnotify><enabled>yes</enabled></startupnotify>
     </action>
   </item>
@@ -165,7 +165,7 @@
 
 <menu id="root-menu" label="Lubuntu">
   <separator label="Shortcuts" />
-  <item label="PCMan File Manager" icon="/usr/share/icons/gnome/48x48/apps/system-file-manager.png">
+  <item label="File Manager" icon="/usr/share/icons/gnome/48x48/apps/system-file-manager.png">
     <action name="Execute">
       <command>lxsession-default file_manager</command>
       <startupnotify>

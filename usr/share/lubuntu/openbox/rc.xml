@@ -364,7 +364,7 @@
       <action name="Execute">
         <startupnotify>
           <enabled>true</enabled>
-          <name>PCManFM</name>
+          <name>File manager</name>
         </startupnotify>
         <command>lxsession-default file_manager</command>
       </action>
@@ -372,7 +372,7 @@
     <!-- Keybindings for running Run menu from Lxpanel on Home + R-->
     <keybind key="W-r">
       <action name="Execute">
-        <command>lxpanelctl run</command>
+        <command>lxsession-default launcher_manager</command>
       </action>
     </keybind>
     <keybind key="A-F2">
@@ -398,7 +398,7 @@
     <!-- Launch task manager on Ctrl + Alt + Del-->
     <keybind key="C-A-Delete">
       <action name="Execute">
-        <command>lxtask</command>
+        <command>lxsession-default tasks</command>
       </action>
     </keybind>
     <!-- Launch a terminal on Ctrl + Alt + T-->
@@ -453,7 +453,7 @@
     <!-- Keybinding for calculator button-->
     <keybind key="XF86Calculator">
       <action name="Execute">
-        <command>galculator</command>
+        <command>lxsession-default calculator</command>
       </action>
     </keybind>
     <!-- Keybinding for computer button-->

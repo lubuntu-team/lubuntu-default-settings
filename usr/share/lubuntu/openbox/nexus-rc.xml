@@ -364,20 +364,20 @@
       <action name="Execute">
         <startupnotify>
           <enabled>true</enabled>
-          <name>PCManFM</name>
+          <name>File manager</name>
         </startupnotify>
-        <command>pcmanfm</command>
+        <command>lxsession-default file_manager</command>
       </action>
     </keybind>
     <!-- Keybindings for running Run menu from Lxpanel on Home + R-->
     <keybind key="W-r">
       <action name="Execute">
-        <command>lxpanelctl run</command>
+        <command>lxsession-default launcher_manager</command>
       </action>
     </keybind>
     <keybind key="A-F2">
       <action name="Execute">
-        <command>lxpanelctl run</command>
+        <command>lxsession-default launcher_manager</command>
       </action>
     </keybind>
     <!-- Keybindings for running Menu from Lxpanel -->
@@ -398,13 +398,13 @@
     <!-- Launch task manager on Ctrl + Alt + Del-->
     <keybind key="C-A-Delete">
       <action name="Execute">
-        <command>lxtask</command>
+        <command>lxsession-default tasks</command>
       </action>
     </keybind>
     <!-- Launch a terminal on Ctrl + Alt + T-->
     <keybind key="C-A-T">
       <action name="Execute">
-        <command>x-terminal-emulator</command>
+        <command>lxsession-default terminal</command>
       </action>
     </keybind>
     <!-- Launch a filemanager on Ctrl + Alt + D-->
@@ -412,15 +412,15 @@
       <action name="Execute">
         <startupnotify>
           <enabled>true</enabled>
-          <name>PCManFM</name>
+          <name>File manager</name>
         </startupnotify>
-        <command>pcmanfm</command>
+        <command>lxsession-default file_manager</command>
       </action>
     </keybind>
     <!-- Lock the screen on Ctrl + Alt + l-->
     <keybind key="C-A-l">
       <action name="Execute">
-        <command>xscreensaver-command -lock</command>
+        <command>lxsession-default lock</command>
       </action>
     </keybind>
     <!-- Keybinding for Volume management -->
@@ -442,24 +442,24 @@
     <!-- Keybinding for terminal button-->
     <keybind key="XF86WWW">
       <action name="Execute">
-        <command>x-terminal-emulator</command>
+        <command>lxsession-default terminal</command>
       </action>
     </keybind>
     <keybind key="XF86Terminal">
       <action name="Execute">
-        <command>x-terminal-emulator</command>
+        <command>lxsession-default terminal</command>
       </action>
     </keybind>
     <!-- Keybinding for calculator button-->
     <keybind key="XF86Calculator">
       <action name="Execute">
-        <command>galculator</command>
+        <command>lxsession-default calculator</command>
       </action>
     </keybind>
     <!-- Keybinding for computer button-->
     <keybind key="XF86MyComputer">
       <action name="Execute">
-        <command>pcmanfm</command>
+        <command>lxsession-default file_manager</command>
       </action>
     </keybind>
     <!-- Keybindings for Multimedia Keys and LCD Backlight (alternative when not using gnome-power-manager or xfce4-volumed) -->
@@ -481,13 +481,13 @@
     <!-- Launch scrot when Print is pressed -->
     <keybind key="Print">
       <action name="Execute">
-        <command>scrot</command>
+        <command>lxsession-default screenshot</command>
       </action>
     </keybind>
     <!-- Launch logout when push on the shutdown button -->
     <keybind key="XF86PowerOff">
       <action name="Execute">
-        <command>lubuntu-logout</command>
+        <command>lxsession-default quit</command>
       </action>
     </keybind>
   </keyboard>
