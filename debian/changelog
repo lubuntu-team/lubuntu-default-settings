@@ -4,8 +4,10 @@ lubuntu-default-settings (0.38) UNRELEASED; urgency=medium
    - Use more lxsession-default call.
   * etc/xdg/lubuntu/menus/lxde-applications.menu
    - Add missing Electronics section.
+  * usr/share/lxpanel/profile/*/panels/*
+   - Switch to system color for the panel, to match artwork work.
 
- -- Julien Lavergne <gilir@ubuntu.com>  Sun, 02 Mar 2014 23:40:45 +0100
+ -- Julien Lavergne <gilir@ubuntu.com>  Wed, 05 Mar 2014 22:37:22 +0100
 
 lubuntu-default-settings (0.37) trusty; urgency=low
 

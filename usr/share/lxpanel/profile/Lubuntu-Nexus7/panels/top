@@ -15,7 +15,7 @@ Global {
     setpartialstrut=1
     usefontcolor=1
     fontcolor=#000000
-    background=1
+    background=0
     backgroundfile=/usr/share/lxpanel/images/lubuntu-background.png
     iconsize=24
 }
