@@ -6,6 +6,8 @@ lubuntu-default-settings (0.38) UNRELEASED; urgency=medium
    - Add missing Electronics section.
   * usr/share/lxpanel/profile/*/panels/*
    - Switch to system color for the panel, to match artwork work.
+  * etc/xdg/lubuntu/applications/defaults.list
+   - Add odb extension to default applications.
 
  -- Julien Lavergne <gilir@ubuntu.com>  Wed, 05 Mar 2014 22:37:22 +0100
 

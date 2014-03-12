@@ -31,6 +31,7 @@ application/vnd.oasis.opendocument.text=abiword.desktop
 application/vnd.oasis.opendocument.text-template=abiword.desktop
 application/vnd.oasis.opendocument.text-web=abiword.desktop
 application/vnd.oasis.opendocument.text-master=abiword.desktop
+application/vnd.oasis.opendocument.database=libreoffice-base.desktop
 application/vnd.sun.xml.impress=libreoffice-impress.desktop
 application/vnd.sun.xml.impress.template=libreoffice-impress.desktop
 application/vnd.stardivision.calc=gnumeric.desktop
