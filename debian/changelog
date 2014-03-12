@@ -1,4 +1,4 @@
-lubuntu-default-settings (0.38) UNRELEASED; urgency=medium
+lubuntu-default-settings (0.38) trusty; urgency=medium
 
   * usr/share/lubuntu/openbox/*.xml
    - Use more lxsession-default call.
@@ -9,7 +9,7 @@ lubuntu-default-settings (0.38) UNRELEASED; urgency=medium
   * etc/xdg/lubuntu/applications/defaults.list
    - Add odb extension to default applications.
 
- -- Julien Lavergne <gilir@ubuntu.com>  Wed, 05 Mar 2014 22:37:22 +0100
+ -- Julien Lavergne <gilir@ubuntu.com>  Wed, 12 Mar 2014 23:19:26 +0100
 
 lubuntu-default-settings (0.37) trusty; urgency=low
 
