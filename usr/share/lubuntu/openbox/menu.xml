@@ -109,7 +109,7 @@
 <menu id="apps-multimedia-menu" label="Multimedia">
   <item label="Audio player">
     <action name="Execute">
-      <command>lxsession-default video_player</command>
+      <command>lxsession-default audio_player</command>
       <startupnotify>
         <enabled>yes</enabled>
       </startupnotify>
@@ -181,7 +181,7 @@
       </startupnotify>
     </action>
   </item>
-  <item label="Internet" icon="/usr/share/icons/lubuntu/apps/48/apps/web-browser.svg">
+  <item label="Internet" icon="/usr/share/icons/gnome/48x48/apps/web-browser.png">
     <action name="Execute">
       <command>lxsession-default webbrowser</command>
       <startupnotify>
