@@ -1,12 +1,16 @@
-lubuntu-default-settings (0.39) UNRELEASED; urgency=medium
+lubuntu-default-settings (0.39) trusty; urgency=medium
 
   * etc/xdg/lxsession/*/desktop.conf
    - Add missing im1 and webcam settings.
   * usr/share/lubuntu/openbox/menu.xml
    - Fix audio player calling
    - Fix internet icon.
+  * debian/control:
+   - Add lubuntu-live-settings to add specific settings to live environment.
+  * debian/light-locker.desktop
+   - Disable light-locker on live environment. (LP: #1281323).
 
- -- Julien Lavergne <gilir@ubuntu.com>  Sat, 05 Apr 2014 15:16:03 +0200
+ -- Julien Lavergne <gilir@ubuntu.com>  Thu, 10 Apr 2014 22:08:24 +0200
 
 lubuntu-default-settings (0.38) trusty; urgency=medium
 

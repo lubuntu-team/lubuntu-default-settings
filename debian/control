@@ -83,3 +83,11 @@ Depends: ${misc:Depends},
 Provides: razorqt-lightdm-greeter-config
 Description: Set default session to QLubuntu version
  This package sets the default session to QLubuntu version by default.
+
+Package: lubuntu-live-settings
+Architecture: all
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${misc:Depends},
+         lubuntu-default-settings
+Description: default settings for Lubuntu live ISO
+ Various system settings tailored for Lubuntu ISO.
