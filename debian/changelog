@@ -10,7 +10,7 @@ lubuntu-default-settings (0.39) trusty; urgency=medium
   * debian/light-locker.desktop
    - Disable light-locker on live environment. (LP: #1281323).
 
- -- Julien Lavergne <gilir@ubuntu.com>  Thu, 10 Apr 2014 22:08:24 +0200
+ -- Julien Lavergne <gilir@ubuntu.com>  Thu, 10 Apr 2014 22:09:22 +0200
 
 lubuntu-default-settings (0.38) trusty; urgency=medium
 
