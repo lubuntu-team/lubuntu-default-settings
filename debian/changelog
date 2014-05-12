@@ -1,3 +1,10 @@
+lubuntu-default-settings (0.40) UNRELEASED; urgency=medium
+
+  * usr/share/xsessions/QLubuntu.desktop
+   - Use LXQt as environment for the Qt session.
+
+ -- Julien Lavergne <gilir@freedom>  Mon, 12 May 2014 22:10:53 +0200
+
 lubuntu-default-settings (0.39) trusty; urgency=medium
 
   * etc/xdg/lxsession/*/desktop.conf
