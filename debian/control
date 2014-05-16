@@ -20,7 +20,8 @@ Depends: ${misc:Depends},
          ttf-ubuntu-font-family,
          lightdm (>= 1.9.4),
          lxsession-logout,
-         policykit-desktop-privileges
+         policykit-desktop-privileges,
+         xbacklight
 Suggests: amixer,
           scrot,
           galculator,

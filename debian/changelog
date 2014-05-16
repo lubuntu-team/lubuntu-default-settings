@@ -1,3 +1,10 @@
+lubuntu-default-settings (0.39.1) UNRELEASED; urgency=medium
+
+  * debian/control:
+   - Depends on xbacklight to make some shortcuts workings (LP: #1313358)
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Fri, 16 May 2014 16:23:54 +0200
+
 lubuntu-default-settings (0.39) trusty; urgency=medium
 
   * etc/xdg/lxsession/*/desktop.conf
