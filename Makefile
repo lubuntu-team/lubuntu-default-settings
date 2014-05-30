@@ -6,7 +6,7 @@ all: install
 
 install:
 	mkdir -pv $(DESTDIR)
-	cp -a etc usr $(DESTDIR)/.
+	cp -a src/etc src/usr $(DESTDIR)/.
 	# po generation
 	for i in $(SUBDIRS); do \
 		make -C $(DESTDIR)/$$i; \

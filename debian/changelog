@@ -1,9 +1,23 @@
 lubuntu-default-settings (0.40) UNRELEASED; urgency=medium
 
+  [ Julien Lavergne ]
   * usr/share/xsessions/QLubuntu.desktop
    - Use LXQt as environment for the Qt session.
 
- -- Julien Lavergne <gilir@freedom>  Mon, 12 May 2014 22:10:53 +0200
+  [ Unit 193 ]
+  * Move etc/ and usr/ under src/
+  * Update debhelper compat to level 9.
+  * Update standards-version to 3.9.5.
+  * qlubuntu-default-session: Alternatively depend on lxqt-lightdm-greeter.
+  * d/copyright: Update to copyright format 1.0, update copyright years.
+  * d/copyright: Set Julien Lavergne as Upstream-Contact.
+  * d/maintscript: Move lightdm config to usr/share, this follows standard
+    lightdm config such that the file is removed when the package is.
+  * Move d/20-*.conf to src/usr/share/lightdm/lightdm.conf.d/
+  * d/rules: Call dh_install with --fail-missing.
+  * 20-qlubuntu.conf: The session name is QLubuntu, not qlubuntu.
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Mon, 12 May 2014 22:10:53 +0200
 
 lubuntu-default-settings (0.39) trusty; urgency=medium
 

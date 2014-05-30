@@ -1,1 +1,1 @@
-debian/20-lxgames.conf  etc/lightdm/lightdm.conf.d/
+usr/share/lightdm/lightdm.conf.d/20-lxgames.conf

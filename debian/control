@@ -2,9 +2,9 @@ Source: lubuntu-default-settings
 Section: x11
 Priority: optional
 Maintainer: Julien Lavergne <gilir@ubuntu.com>
-Build-Depends: debhelper (>= 8.1.0~),
+Build-Depends: debhelper (>= 9),
                intltool
-Standards-Version: 3.8.3
+Standards-Version: 3.9.5
 Homepage: https://launchpad.net/~lubuntu-desktop
 Vcs-Bzr: lp:lubuntu-default-settings
 Vcs-Browser: http://bazaar.launchpad.net/~lubuntu-dev/lubuntu-default-settings/trunk/files
@@ -78,7 +78,7 @@ Package: qlubuntu-default-session
 Architecture: all
 Depends: ${misc:Depends},
          lubuntu-default-settings,
-         razorqt-lightdm-greeter (>= 0.5.2),
+         razorqt-lightdm-greeter (>= 0.5.2) | lxqt-lightdm-greeter,
          lubuntu-extra-sessions
 Provides: razorqt-lightdm-greeter-config
 Description: Set default session to QLubuntu version

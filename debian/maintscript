@@ -1,1 +1,5 @@
 mv_conffile /etc/xdg/pcmanfm/lubuntu.conf /etc/xdg/pcmanfm/lubuntu/pcmanfm.conf 0.15
+rm_conffile /etc/lightdm/lightdm.conf.d/20-lubuntu.conf 0.40
+rm_conffile /etc/lightdm/lightdm.conf.d/20-lubuntu-nexus7.conf 0.40
+rm_conffile /etc/lightdm/lightdm.conf.d/20-lxgames.conf 0.40
+rm_conffile /etc/lightdm/lightdm.conf.d/20-qlubuntu.conf 0.40
