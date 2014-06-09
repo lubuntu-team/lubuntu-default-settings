@@ -7,6 +7,8 @@ lubuntu-default-settings (0.40) UNRELEASED; urgency=medium
   * usr/share/lubuntu/openbox/*rc.xml
    - Fix C-F7 shortcut (LP: #1313352)
    - Fix launcher shortcuts (LP: #1313355)
+  * etc/xdg/lxsession/*/desktop.conf
+   - Use Lubuntu of the icons theme.
 
  -- Julien Lavergne <gilir@freedom>  Mon, 12 May 2014 22:10:53 +0200
 
