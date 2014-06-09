@@ -372,12 +372,12 @@
     <!-- Keybindings for running Run menu from Lxpanel on Home + R-->
     <keybind key="W-r">
       <action name="Execute">
-        <command>lxsession-default launcher_manager</command>
+        <command>lxsession-default launcher</command>
       </action>
     </keybind>
     <keybind key="A-F2">
       <action name="Execute">
-        <command>lxsession-default launcher_manager</command>
+        <command>lxsession-default launcher</command>
       </action>
     </keybind>
     <!-- Keybindings for running Menu from Lxpanel -->
@@ -465,7 +465,7 @@
     <!-- Keybindings for Multimedia Keys and LCD Backlight (alternative when not using gnome-power-manager or xfce4-volumed) -->
     <keybind key="C-F7">
       <action name="Execute">
-        <command>sleep 2;xset dpms force off</command>
+        <command>xset dpms force off</command>
       </action>
     </keybind>
     <keybind key="C-F10">

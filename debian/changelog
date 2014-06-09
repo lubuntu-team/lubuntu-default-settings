@@ -2,6 +2,11 @@ lubuntu-default-settings (0.40) UNRELEASED; urgency=medium
 
   * usr/share/xsessions/QLubuntu.desktop
    - Use LXQt as environment for the Qt session.
+  * debian/control:
+   - Depends on xbacklight to make some shortcuts workings (LP: #1313358)
+  * usr/share/lubuntu/openbox/*rc.xml
+   - Fix C-F7 shortcut (LP: #1313352)
+   - Fix launcher shortcuts (LP: #1313355)
 
  -- Julien Lavergne <gilir@freedom>  Mon, 12 May 2014 22:10:53 +0200
 
