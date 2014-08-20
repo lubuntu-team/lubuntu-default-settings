@@ -1,4 +1,4 @@
-lubuntu-default-settings (0.40) UNRELEASED; urgency=medium
+lubuntu-default-settings (0.40) utopic; urgency=medium
 
   [ Julien Lavergne ]
   * usr/share/xsessions/QLubuntu.desktop
@@ -24,7 +24,7 @@ lubuntu-default-settings (0.40) UNRELEASED; urgency=medium
   * d/rules: Call dh_install with --fail-missing.
   * 20-qlubuntu.conf: The session name is QLubuntu, not qlubuntu.
 
- -- Julien Lavergne <gilir@ubuntu.com>  Mon, 12 May 2014 22:10:53 +0200
+ -- Julien Lavergne <gilir@ubuntu.com>  Wed, 20 Aug 2014 21:49:00 +0200
 
 lubuntu-default-settings (0.39) trusty; urgency=medium
 
