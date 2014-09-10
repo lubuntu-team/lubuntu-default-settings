@@ -4,6 +4,7 @@ lubuntu-default-settings (0.41) UNRELEASED; urgency=medium
    - Fix desktop files to make them Freedesktop compatible.
   * src/usr/share/lxpanel/profile:
    - Fix lubuntu-logout shortcut to be compatible also with lxpanel 0.7.0.
+   - Add xfce-power-manager plugin. 
 
  -- Julien Lavergne <gilir@ubuntu.com>  Tue, 09 Sep 2014 14:53:44 +0200
 
