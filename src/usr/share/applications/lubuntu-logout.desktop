@@ -4,4 +4,5 @@ Name[zh_TW]=關機
 Comment=Shutdown or Reboot
 Icon=system-shutdown-panel
 Exec=lxsession-default quit
+Type=Application
 NoDisplay=true

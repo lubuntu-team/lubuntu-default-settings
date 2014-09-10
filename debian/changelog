@@ -1,3 +1,10 @@
+lubuntu-default-settings (0.41) UNRELEASED; urgency=medium
+
+  * src/usr/share/applications/*.desktop
+   - Fix desktop files to make them Freedesktop compatible.
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Tue, 09 Sep 2014 14:53:44 +0200
+
 lubuntu-default-settings (0.40) utopic; urgency=medium
 
   [ Julien Lavergne ]
