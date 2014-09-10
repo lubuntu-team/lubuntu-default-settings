@@ -107,18 +107,6 @@ Plugin {
     type = volumealsa
 }
 
-Plugin {
-    type = xkb
-    Config {
-        DisplayType=2
-        PerWinLayout=0
-        NoResetOpt=0
-        KeepSysLayouts=1
-        ToggleOpt=shift_caps_toggle
-        FlagSize=6
-    }
-}
-
 Plugin{
   type= lxde_power_manager
 }
