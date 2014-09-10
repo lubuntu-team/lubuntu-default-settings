@@ -148,7 +148,7 @@ Plugin {
     type = launchbar
     Config {
         Button {
-            id=lubuntu-logout.desktop
+            id=/usr/share/applications/lubuntu-logout.desktop
         }
     }
 }
