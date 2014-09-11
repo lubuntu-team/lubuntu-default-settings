@@ -1,4 +1,4 @@
-lubuntu-default-settings (0.41) UNRELEASED; urgency=medium
+lubuntu-default-settings (0.41) utopic; urgency=medium
 
   * src/usr/share/applications/*.desktop
    - Fix desktop files to make them Freedesktop compatible.
@@ -8,7 +8,7 @@ lubuntu-default-settings (0.41) UNRELEASED; urgency=medium
    - Remove xcb plugin since ibus is launched by default and has an icon for
      switching keyboard layout. 
 
- -- Julien Lavergne <gilir@ubuntu.com>  Tue, 09 Sep 2014 14:53:44 +0200
+ -- Julien Lavergne <gilir@ubuntu.com>  Thu, 11 Sep 2014 13:56:18 +0200
 
 lubuntu-default-settings (0.40) utopic; urgency=medium
 
