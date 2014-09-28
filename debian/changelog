@@ -1,3 +1,10 @@
+lubuntu-default-settings (0.42) UNRELEASED; urgency=medium
+
+  * src/etc/xdg/lubuntu/pcmanfm-qt5:
+   - Move to the correct place and install it.
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Sun, 28 Sep 2014 13:06:16 +0200
+
 lubuntu-default-settings (0.41) utopic; urgency=medium
 
   * src/usr/share/applications/*.desktop
