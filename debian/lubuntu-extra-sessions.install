@@ -2,8 +2,8 @@ etc/xdg/lubuntu/menus/lubuntu-nexus7-applications.menu
 etc/xdg/lxsession/Lubuntu-Nexus7/
 etc/xdg/lxsession/LX-Games/
 etc/xdg/lxsession/QLubuntu/
+etc/xdg/lubuntu/pcmanfm-qt/
 usr/share/lubuntu/openbox/nexus-rc.xml
-usr/share/lubuntu/pcmanfm-qt/
 usr/share/lubuntu/qt/Trolltech-qt-session.conf
 usr/share/lxpanel/profile/Lubuntu-Nexus7/
 usr/share/xsessions/lubuntu-nexus7.desktop
