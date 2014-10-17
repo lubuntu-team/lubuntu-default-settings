@@ -2,8 +2,10 @@ lubuntu-default-settings (0.42) UNRELEASED; urgency=medium
 
   * src/etc/xdg/lubuntu/pcmanfm-qt5:
    - Move to the correct place and install it.
+  * debian/control:
+   - Depends on lightdm-greeter for all default-session.
 
- -- Julien Lavergne <gilir@ubuntu.com>  Sun, 28 Sep 2014 13:06:16 +0200
+ -- Julien Lavergne <gilir@ubuntu.com>  Fri, 17 Oct 2014 22:35:50 +0200
 
 lubuntu-default-settings (0.41) utopic; urgency=medium
 
