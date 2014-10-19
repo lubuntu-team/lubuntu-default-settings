@@ -1,7 +1,9 @@
 lubuntu-default-settings (0.42) UNRELEASED; urgency=medium
 
-  * src/etc/xdg/lubuntu/pcmanfm-qt5:
+  * src/etc/xdg/lubuntu/pcmanfm-qt:
    - Move to the correct place and install it.
+  * src/etc/xdg/lxsession/QLubuntu:
+   - Update default applications.
   * debian/control:
    - Depends on lightdm-greeter for all default-session.
 
