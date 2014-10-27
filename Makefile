@@ -1,6 +1,6 @@
 #!/usr/bin/make -f
 
-#SUBDIRS :=
+SUBDIRS := usr/share/applications/po
  
 all: install
 
