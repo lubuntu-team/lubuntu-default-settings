@@ -4,6 +4,8 @@ lubuntu-default-settings (0.42) UNRELEASED; urgency=medium
    - Move to the correct place and install it.
   * src/etc/xdg/lxsession/QLubuntu:
    - Update default applications.
+  * src/etc/xdg/lxqt:
+   - Add specific settings for lxqt.
   * debian/control:
    - Depends on lightdm-greeter for all default-session.
 
