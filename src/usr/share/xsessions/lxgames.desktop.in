@@ -1,0 +1,5 @@
+[Desktop Entry]
+_Name=LX Games
+_Comment=LX Games - A collection of games, using LXDE desktop.
+Exec=/usr/bin/lxsession -s LX-Games -e LXDE
+Type=Application

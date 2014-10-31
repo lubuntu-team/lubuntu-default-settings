@@ -1,6 +1,6 @@
 #!/usr/bin/make -f
 
-SUBDIRS := usr/share/applications/po
+SUBDIRS := usr/share/applications/po usr/share/xsessions/po
  
 all: install
 

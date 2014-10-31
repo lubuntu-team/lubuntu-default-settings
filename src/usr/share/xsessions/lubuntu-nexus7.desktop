@@ -1,6 +1,0 @@
-[Desktop Entry]
-Name=Lubuntu Nexus7 session
-Comment=A specific Lubuntu session optimised for Nexus7
-Exec=/usr/bin/lxsession -s Lubuntu-Nexus7 -e LXDE
-# Icon=
-Type=Application
