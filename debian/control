@@ -18,7 +18,6 @@ Depends: ${misc:Depends},
          lubuntu-icon-theme,
          pcmanfm (>= 0.9.5) | pcmanfm-qt,
          ttf-ubuntu-font-family,
-         lightdm (>= 1.9.4),
          lxsession-logout,
          policykit-desktop-privileges,
          xbacklight
@@ -44,6 +43,7 @@ Architecture: all
 Depends: ${misc:Depends},
          lubuntu-default-settings,
          lightdm-greeter,
+         lightdm (>= 1.9.4),
          lubuntu-extra-sessions
 Provides: lightdm-gtk-greeter-config
 Description: Set default session to lxgames
@@ -53,7 +53,8 @@ Package: lubuntu-default-session
 Architecture: all
 Depends: ${misc:Depends},
          lubuntu-default-settings,
-         lightdm-greeter
+         lightdm-greeter,
+         lightdm (>= 1.9.4)
 Provides: lightdm-gtk-greeter-config
 Description: Set default session to Lubuntu
  This package sets the default session to Lubuntu by default.
@@ -63,6 +64,7 @@ Architecture: all
 Depends: ${misc:Depends},
          lubuntu-default-settings,
          lightdm-greeter,
+         lightdm (>= 1.9.4),
          lubuntu-extra-sessions
 Provides: lightdm-gtk-greeter-config
 Description: Set default session to Lubuntu Nexus7 version
@@ -80,6 +82,7 @@ Architecture: all
 Depends: ${misc:Depends},
          lubuntu-default-settings,
          lightdm-greeter,
+         lightdm (>= 1.9.4),
          lubuntu-extra-sessions
 Provides: razorqt-lightdm-greeter-config
 Description: Set default session to QLubuntu version
