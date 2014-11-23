@@ -1,0 +1,50 @@
+# Galician translation for lubuntu-default-settings
+# Copyright (c) 2014 Rosetta Contributors and Canonical Ltd 2014
+# This file is distributed under the same license as the lubuntu-default-settings package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: lubuntu-default-settings\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2014-10-27 18:02+0100\n"
+"PO-Revision-Date: 2014-11-22 17:01+0000\n"
+"Last-Translator: Fran Fondo <franfondo@gmail.com>\n"
+"Language-Team: Galician <gl@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2014-11-23 05:18+0000\n"
+"X-Generator: Launchpad (build 17252)\n"
+
+#: ../lubuntu-logout.desktop.in.h:1
+msgid "Shutdown"
+msgstr "Apagar"
+
+#: ../lubuntu-logout.desktop.in.h:2
+msgid "Shutdown or Reboot"
+msgstr "Apagar ou reiniciar"
+
+#: ../lubuntu-nexus7-identica.desktop.in.h:1
+msgid "identi.ca"
+msgstr "identi.ca"
+
+#: ../lubuntu-nexus7-identica.desktop.in.h:2
+msgid "Launching identi.ca"
+msgstr "Iniciando identi.ca"
+
+#: ../lubuntu-nexus7-rotate.desktop.in.h:1
+msgid "Rotate your screen"
+msgstr "Virar a pantalla"
+
+#: ../lubuntu-nexus7-rotate.desktop.in.h:2
+msgid "Rotate your screen using xrotate"
+msgstr "Rotar a pantalla usando xrotate"
+
+#: ../lubuntu-screenlock.desktop.in.h:1
+msgid "ScreenLock"
+msgstr "cerrar pantalla"
+
+#: ../lubuntu-screenlock.desktop.in.h:2
+msgid "Lock your screen"
+msgstr "Tranque a pantalla"
