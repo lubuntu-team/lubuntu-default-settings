@@ -1,15 +1,18 @@
-lubuntu-default-settings (0.42) UNRELEASED; urgency=medium
+lubuntu-default-settings (0.42) vivid; urgency=medium
 
+  * Add translation support for desktop and session files.
   * src/etc/xdg/lubuntu/pcmanfm-qt:
    - Move to the correct place and install it.
   * src/etc/xdg/lxsession/QLubuntu:
    - Update default applications.
   * src/etc/xdg/lxqt:
    - Add specific settings for lxqt.
+  * src/etc/xdg/lubuntu/pcmanfm-qt/lxqt/settings.conf
+   - Update font and theme.
   * debian/control:
-   - Depends on lightdm-greeter for all default-session.
+   - Depends on lightdm-greeter for all default-session which use lightdm.
 
- -- Julien Lavergne <gilir@ubuntu.com>  Fri, 17 Oct 2014 22:35:50 +0200
+ -- Julien Lavergne <gilir@ubuntu.com>  Sat, 13 Dec 2014 16:47:21 +0100
 
 lubuntu-default-settings (0.41) utopic; urgency=medium
 
