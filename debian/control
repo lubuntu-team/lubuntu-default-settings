@@ -83,8 +83,7 @@ Package: qlubuntu-default-session
 Architecture: all
 Depends: ${misc:Depends},
          lubuntu-default-settings,
-         lightdm-greeter,
-         lightdm (>= 1.9.4),
+         sddm,
          lubuntu-extra-sessions
 Provides: razorqt-lightdm-greeter-config
 Description: Set default session to QLubuntu version

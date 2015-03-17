@@ -1,3 +1,10 @@
+lubuntu-default-settings (0.43) UNRELEASED; urgency=medium
+
+  * debian/control:
+   - Depends on sddm for the qlubuntu session.
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Tue, 17 Mar 2015 16:46:35 +0800
+
 lubuntu-default-settings (0.42) vivid; urgency=medium
 
   * Add translation support for desktop and session files.
