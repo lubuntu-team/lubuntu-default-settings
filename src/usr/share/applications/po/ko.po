@@ -1,0 +1,50 @@
+# Korean translation for lubuntu-default-settings
+# Copyright (c) 2015 Rosetta Contributors and Canonical Ltd 2015
+# This file is distributed under the same license as the lubuntu-default-settings package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2015.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: lubuntu-default-settings\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2014-10-27 18:02+0100\n"
+"PO-Revision-Date: 2015-03-22 18:12+0000\n"
+"Last-Translator: Yongmin Hong <Unknown>\n"
+"Language-Team: Korean <ko@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2015-03-23 05:25+0000\n"
+"X-Generator: Launchpad (build 17405)\n"
+
+#: ../lubuntu-logout.desktop.in.h:1
+msgid "Shutdown"
+msgstr "시스템 종료"
+
+#: ../lubuntu-logout.desktop.in.h:2
+msgid "Shutdown or Reboot"
+msgstr "시스템 종료 혹은 재시작"
+
+#: ../lubuntu-nexus7-identica.desktop.in.h:1
+msgid "identi.ca"
+msgstr "아이덴티카"
+
+#: ../lubuntu-nexus7-identica.desktop.in.h:2
+msgid "Launching identi.ca"
+msgstr "아이덴티카 실행"
+
+#: ../lubuntu-nexus7-rotate.desktop.in.h:1
+msgid "Rotate your screen"
+msgstr "화면 회전하기"
+
+#: ../lubuntu-nexus7-rotate.desktop.in.h:2
+msgid "Rotate your screen using xrotate"
+msgstr "xrotate를 이용해 화면 회전하기"
+
+#: ../lubuntu-screenlock.desktop.in.h:1
+msgid "ScreenLock"
+msgstr "스크린 잠금"
+
+#: ../lubuntu-screenlock.desktop.in.h:2
+msgid "Lock your screen"
+msgstr "스크린 잠그기"
