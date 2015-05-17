@@ -2,8 +2,10 @@ lubuntu-default-settings (0.43) UNRELEASED; urgency=medium
 
   * debian/control:
    - Depends on sddm for the qlubuntu session.
+  * debian/lubuntu-default-settings.dirs:
+   - Create /etc/lightdm if not exist.
 
- -- Julien Lavergne <gilir@ubuntu.com>  Tue, 17 Mar 2015 16:46:35 +0800
+ -- Julien Lavergne <gilir@ubuntu.com>  Sun, 17 May 2015 15:07:48 +0200
 
 lubuntu-default-settings (0.42) vivid; urgency=medium
 
