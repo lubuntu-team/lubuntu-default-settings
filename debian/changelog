@@ -11,6 +11,9 @@ lubuntu-default-settings (0.43) UNRELEASED; urgency=medium
   * src/usr/share/lubuntu/openbox/menu.xml
    - Fix lxterminal icon broken on openbox menu. Thanks Brendan Perrine
      (LP: #1466927)
+  * src/usr/share/lightdm/lightdm.conf.d/*
+   - Use [Seat:*] section for LightDM configuration instead of deprecated
+     [SeatDefaults]. Thanks Robert Ancell.
 
  -- Julien Lavergne <gilir@ubuntu.com>  Sun, 17 May 2015 15:07:48 +0200
 
