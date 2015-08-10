@@ -173,7 +173,7 @@
       </startupnotify>
     </action>
   </item>
-  <item label="Terminal" icon="/usr/share/pixmaps/lxterminal.png">
+  <item label="Terminal" icon="/usr/share/icons/hicolor/128x128/apps/lxterminal.png">
     <action name="Execute">
       <command>lxsession-default terminal</command>
       <startupnotify>

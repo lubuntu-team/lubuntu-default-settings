@@ -8,6 +8,9 @@ lubuntu-default-settings (0.43) UNRELEASED; urgency=medium
    - Add a specific layout for qlubuntu session.
   * src/etc/xdg/lxqt/panel.conf
    - Add specific configuration for the panel of the qlubuntu session.
+  * src/usr/share/lubuntu/openbox/menu.xml
+   - Fix lxterminal icon broken on openbox menu. Thanks Brendan Perrine
+     (LP: #1466927)
 
  -- Julien Lavergne <gilir@ubuntu.com>  Sun, 17 May 2015 15:07:48 +0200
 
