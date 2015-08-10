@@ -4,6 +4,8 @@ lubuntu-default-settings (0.43) UNRELEASED; urgency=medium
    - Depends on sddm for the qlubuntu session.
   * debian/lubuntu-default-settings.dirs:
    - Create /etc/lightdm if not exist.
+  * src/etc/xdg/lubuntu/menus/ & src/etc/xdg/lxsession/QLubuntu/desktop.conf
+   - Add a specific layout for qlubuntu session.
 
  -- Julien Lavergne <gilir@ubuntu.com>  Sun, 17 May 2015 15:07:48 +0200
 
