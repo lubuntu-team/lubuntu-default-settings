@@ -1,4 +1,4 @@
-lubuntu-default-settings (0.43) UNRELEASED; urgency=medium
+lubuntu-default-settings (0.43) wily; urgency=medium
 
   * debian/control:
    - Depends on sddm for the qlubuntu session.
@@ -15,7 +15,7 @@ lubuntu-default-settings (0.43) UNRELEASED; urgency=medium
    - Use [Seat:*] section for LightDM configuration instead of deprecated
      [SeatDefaults]. Thanks Robert Ancell.
 
- -- Julien Lavergne <gilir@ubuntu.com>  Sun, 17 May 2015 15:07:48 +0200
+ -- Julien Lavergne <gilir@ubuntu.com>  Tue, 11 Aug 2015 20:13:33 +0200
 
 lubuntu-default-settings (0.42) vivid; urgency=medium
 
