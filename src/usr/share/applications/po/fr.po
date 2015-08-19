@@ -8,43 +8,43 @@ msgstr ""
 "Project-Id-Version: lubuntu-default-settings\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2014-10-27 18:02+0100\n"
-"PO-Revision-Date: 2015-04-06 15:06+0000\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2015-08-18 17:10+0000\n"
+"Last-Translator: Anne <anneonyme017@gmail.com>\n"
 "Language-Team: French <fr@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-08-15 05:28+0000\n"
-"X-Generator: Launchpad (build 17686)\n"
+"X-Launchpad-Export-Date: 2015-08-19 05:49+0000\n"
+"X-Generator: Launchpad (build 17690)\n"
 
 #: ../lubuntu-logout.desktop.in.h:1
 msgid "Shutdown"
-msgstr ""
+msgstr "Éteindre"
 
 #: ../lubuntu-logout.desktop.in.h:2
 msgid "Shutdown or Reboot"
-msgstr ""
+msgstr "Éteindre ou redémarrer"
 
 #: ../lubuntu-nexus7-identica.desktop.in.h:1
 msgid "identi.ca"
-msgstr ""
+msgstr "identi.ca"
 
 #: ../lubuntu-nexus7-identica.desktop.in.h:2
 msgid "Launching identi.ca"
-msgstr ""
+msgstr "Lancement d'identi.ca"
 
 #: ../lubuntu-nexus7-rotate.desktop.in.h:1
 msgid "Rotate your screen"
-msgstr ""
+msgstr "Faire pivoter votre écran"
 
 #: ../lubuntu-nexus7-rotate.desktop.in.h:2
 msgid "Rotate your screen using xrotate"
-msgstr ""
+msgstr "Faites pivoter votre écran à l'aide de xrotate"
 
 #: ../lubuntu-screenlock.desktop.in.h:1
 msgid "ScreenLock"
-msgstr ""
+msgstr "Verrouillage d'écran"
 
 #: ../lubuntu-screenlock.desktop.in.h:2
 msgid "Lock your screen"
-msgstr ""
+msgstr "Verrouiller votre écran"
