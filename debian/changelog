@@ -1,3 +1,11 @@
+lubuntu-default-settings (0.44) UNRELEASED; urgency=medium
+
+  * src/etc/xdg/lubuntu/xfce4/xfconf/xfce-perchannel-xml
+   - Add xfce4-power-manager.xml to enable the tray icon of xfce4-power-manager
+     by default.
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Fri, 18 Sep 2015 13:17:59 +0200
+
 lubuntu-default-settings (0.43) wily; urgency=medium
 
   * debian/control:
