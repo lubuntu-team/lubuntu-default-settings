@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: lubuntu-default-settings\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2014-10-27 18:02+0100\n"
-"PO-Revision-Date: 2014-11-22 17:01+0000\n"
-"Last-Translator: Fran Fondo <franfondo@gmail.com>\n"
+"PO-Revision-Date: 2015-09-22 13:06+0000\n"
+"Last-Translator: Xosé <Unknown>\n"
 "Language-Team: Galician <gl@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-08-15 05:28+0000\n"
-"X-Generator: Launchpad (build 17686)\n"
+"X-Launchpad-Export-Date: 2015-09-23 06:25+0000\n"
+"X-Generator: Launchpad (build 17749)\n"
 
 #: ../lubuntu-logout.desktop.in.h:1
 msgid "Shutdown"
@@ -39,12 +39,12 @@ msgstr "Virar a pantalla"
 
 #: ../lubuntu-nexus7-rotate.desktop.in.h:2
 msgid "Rotate your screen using xrotate"
-msgstr "Rotar a pantalla usando xrotate"
+msgstr "Vire a pantalla usando xrotate"
 
 #: ../lubuntu-screenlock.desktop.in.h:1
 msgid "ScreenLock"
-msgstr "cerrar pantalla"
+msgstr "ScreenLock"
 
 #: ../lubuntu-screenlock.desktop.in.h:2
 msgid "Lock your screen"
-msgstr "Tranque a pantalla"
+msgstr "Bloquee a pantalla"
