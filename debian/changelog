@@ -1,10 +1,16 @@
 lubuntu-default-settings (0.44) UNRELEASED; urgency=medium
 
+  [ Julien Lavergne ]
   * src/etc/xdg/lubuntu/xfce4/xfconf/xfce-perchannel-xml
    - Add xfce4-power-manager.xml to enable the tray icon of xfce4-power-manager
      by default.
   * debian/lubuntu-default-settings.install
    - Install xfce4 specific settings.
+
+  [ Krytarik Raido ]
+  * src/usr/share/lubuntu/openbox/rc.xml & nexus-rc.xml:
+   - Don't reserve space for the panel at the bottom on
+     horizontal window tiling anymore. (LP: 1266138)
 
  -- Julien Lavergne <gilir@ubuntu.com>  Fri, 18 Sep 2015 13:17:59 +0200
 
