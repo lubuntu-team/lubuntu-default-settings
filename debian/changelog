@@ -8,6 +8,7 @@ lubuntu-default-settings (0.44) UNRELEASED; urgency=medium
    - Install xfce4 specific settings.
   * src/etc/lightdm/lightdm-gtk-greeter.conf.d/30_lubuntu.conf:
    - Move the lightdm-gtk-greeter config file to the new location.
+   - Update lightdm-gtk-greeter config file with the new options.
   * src/etc/xdg/lubuntu/lightdm:
    - Remove the old location of lightdm-gtk-greeter config file.
   * debian/lubuntu-default-settings.dirs
