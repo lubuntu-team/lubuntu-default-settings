@@ -6,6 +6,19 @@ lubuntu-default-settings (0.44) UNRELEASED; urgency=medium
      by default.
   * debian/lubuntu-default-settings.install
    - Install xfce4 specific settings.
+  * src/etc/lightdm/lightdm-gtk-greeter.conf.d/30_lubuntu.conf:
+   - Move the lightdm-gtk-greeter config file to the new location.
+  * src/etc/xdg/lubuntu/lightdm:
+   - Remove the old location of lightdm-gtk-greeter config file.
+  * debian/lubuntu-default-settings.dirs
+   - Remove /etc/lightdm now that it's created.
+  * debian/control
+   - Increase the depends on lightdm-gtk-greeter.
+  * debian/lubuntu-default-settings.postinst
+  * debian/lubuntu-default-settings.postrm
+  * debian/lubuntu-default-settings.preinst
+  * debian/lubuntu-default-settings.prerm
+   - Update with the new lightdm-gtk-greeter config file.
 
   [ Krytarik Raido ]
   * src/usr/share/lubuntu/openbox/rc.xml & nexus-rc.xml:

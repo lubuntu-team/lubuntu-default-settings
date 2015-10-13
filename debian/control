@@ -44,7 +44,7 @@ Package: lxgames-default-session
 Architecture: all
 Depends: ${misc:Depends},
          lubuntu-default-settings,
-         lightdm-greeter,
+         lightdm-gtk-greeter (>= 2.0.1-1),
          lightdm (>= 1.9.4),
          lubuntu-extra-sessions
 Provides: lightdm-gtk-greeter-config
@@ -55,7 +55,7 @@ Package: lubuntu-default-session
 Architecture: all
 Depends: ${misc:Depends},
          lubuntu-default-settings,
-         lightdm-greeter,
+         lightdm-gtk-greeter (>= 2.0.1-1),
          lightdm (>= 1.9.4)
 Provides: lightdm-gtk-greeter-config
 Description: Set default session to Lubuntu
@@ -65,7 +65,7 @@ Package: lubuntu-nexus7-default-session
 Architecture: all
 Depends: ${misc:Depends},
          lubuntu-default-settings,
-         lightdm-greeter,
+         lightdm-gtk-greeter (>= 2.0.1-1),
          lightdm (>= 1.9.4),
          lubuntu-extra-sessions
 Provides: lightdm-gtk-greeter-config
