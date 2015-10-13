@@ -5,10 +5,10 @@ etc/xdg/lubuntu/lxdm/
 etc/xdg/lubuntu/lxterminal/
 etc/xdg/lubuntu/menus/lxde-applications.menu
 etc/xdg/lubuntu/menus/lxgames-applications.menu
-etc/xdg/lubuntu/xfce4/
 etc/xdg/lxqt/
 etc/xdg/lxsession/Lubuntu/
 etc/xdg/lxsession/Lubuntu-Netbook/
+etc/xdg/xdg-Lubuntu/xfce4/
 etc/xdg/pcmanfm/
 usr/bin/
 usr/share/applications/lubuntu-screenlock.desktop
