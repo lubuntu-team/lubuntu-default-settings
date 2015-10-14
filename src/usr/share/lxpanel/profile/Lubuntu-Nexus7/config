@@ -1,4 +1,4 @@
 [Command]
 FileManager=pcmanfm %s
-Terminal=x-terminal-emulator -e
+Terminal=lxterminal %s
 Logout=lubuntu-logout

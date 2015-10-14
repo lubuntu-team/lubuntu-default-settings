@@ -1,3 +1,13 @@
+lubuntu-default-settings (0.45) UNRELEASED; urgency=medium
+
+  * src/etc/xdg/lubuntu/libfm/libfm.conf
+  * src/usr/share/lxpanel/profile/Lubuntu-Nexus7/config
+  * src/usr/share/lxpanel/profile/Lubuntu/config
+   - Set lxterminal as the terminal by default, until
+     lxsession-default-terminal is fixed (LP: #1434774).
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Wed, 14 Oct 2015 08:38:27 +0200
+
 lubuntu-default-settings (0.44) wily; urgency=medium
 
   [ Julien Lavergne ]
