@@ -5,6 +5,9 @@ lubuntu-default-settings (0.45) UNRELEASED; urgency=medium
   * src/usr/share/lxpanel/profile/Lubuntu/config
    - Set lxterminal as the terminal by default, until
      lxsession-default-terminal is fixed (LP: #1434774).
+  * src/etc/xdg/lubuntu/menus/lxqt-applications.menu
+   - Exclude synaptic-kde.desktop in LXQt menu, until OnlyShowIn is fixed in LXQt
+     (see bug #582). Thanks Ariszlo for the patch.
 
  -- Julien Lavergne <gilir@ubuntu.com>  Wed, 14 Oct 2015 08:38:27 +0200
 

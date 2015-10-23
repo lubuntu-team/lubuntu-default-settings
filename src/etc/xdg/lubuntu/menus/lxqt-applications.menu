@@ -154,6 +154,9 @@
 				<Not><Category>Screensaver</Category></Not>
 			</And>
 		</Include>
+		<Exclude>
+			<Filename>synaptic-kde.desktop</Filename>
+		</Exclude>
 		</Menu> <!-- End Other -->
 
 	<Menu>
@@ -192,6 +195,7 @@
 		<Exclude>
 			<Or>
 				<Filename>lxqt-config.desktop</Filename>
+                <Filename>synaptic-kde.desktop</Filename>
 			</Or>
 		</Exclude>
 		<Layout>
