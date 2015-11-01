@@ -12,6 +12,10 @@ lubuntu-default-settings (0.45) UNRELEASED; urgency=medium
   * src/etc/xdg/pcmanfm/lubuntu/pcmanfm.conf
    - Update some pcmanfm default settings and activate mounted devices on the
      desktop by default.
+  * debian/control:
+   - Provides lxqt-common to be able to install lxqt-session
+     (lubuntu-default-settings also should provides all functionnalities of
+     lxqt-common).
 
  -- Julien Lavergne <gilir@ubuntu.com>  Wed, 14 Oct 2015 08:38:27 +0200
 
