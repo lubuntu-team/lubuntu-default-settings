@@ -1,4 +1,4 @@
-lubuntu-default-settings (0.45) UNRELEASED; urgency=medium
+lubuntu-default-settings (0.45) xenial; urgency=medium
 
   * src/etc/xdg/lubuntu/libfm/libfm.conf
   * src/usr/share/lxpanel/profile/Lubuntu-Nexus7/config
@@ -16,8 +16,11 @@ lubuntu-default-settings (0.45) UNRELEASED; urgency=medium
    - Provides lxqt-common to be able to install lxqt-session
      (lubuntu-default-settings also should provides all functionnalities of
      lxqt-common).
+  * src/etc/xdg/lxqt/panel.conf
+   - Remove lxqt-panel.conf until xdg dirs are correctly used.
+  * Translations update.
 
- -- Julien Lavergne <gilir@ubuntu.com>  Wed, 14 Oct 2015 08:38:27 +0200
+ -- Julien Lavergne <gilir@ubuntu.com>  Sat, 27 Feb 2016 16:13:04 +0100
 
 lubuntu-default-settings (0.44) wily; urgency=medium
 
