@@ -4,11 +4,16 @@
 <Menu>
     <Name>Applications</Name>
     
-    <DefaultAppDirs/>
-    <DefaultDirectoryDirs/>
-    <DefaultMergeDirs/>
+	<!-- Read standard .directory and .desktop file locations -->
+	<DefaultAppDirs/>
+	<DefaultDirectoryDirs/>
+
+	<!-- Read in overrides and child menus from applications-merged/ -->
+	<DefaultMergeDirs/>
 
 <!-- Applications Menu -->
+
+<!-- Accessories submenu -->
     <Menu>
         <Name>Accessories</Name>
         <Directory>lxde-utility.directory</Directory>
@@ -17,9 +22,9 @@
                 <Category>Utility</Category>
                 <Not><Category>Accessibility</Category></Not>
                 <Not><Category>System</Category></Not>
-		<Not><Category>AudioVideo</Category></Not>
-		<Not><Category>Audio</Category></Not>
-		<Not><Category>Video</Category></Not>
+                <Not><Category>AudioVideo</Category></Not>
+                <Not><Category>Audio</Category></Not>
+                <Not><Category>Video</Category></Not>
             </And>
                 <Or>
                     <Category>Core</Category>
@@ -27,7 +32,9 @@
                 </Or>
         </Include>
     </Menu>
+<!-- End Accessories -->
 
+<!-- Accessibility submenu -->
     <Menu>
         <Name>Universal Access</Name>
         <Directory>lxde-utility-accessibility.directory</Directory>
@@ -38,7 +45,9 @@
             </And>
         </Include>
     </Menu>
+<!-- End Accessibility -->
 
+<!-- Development Tools -->
     <Menu>
         <Name>Development</Name>
         <Directory>lxde-development.directory</Directory>
@@ -49,7 +58,9 @@
             <Filename>emacs.desktop</Filename>
         </Include>
     </Menu>
+<!-- End Development Tools -->
 
+<!-- Education -->
     <Menu>
         <Name>Education</Name>
         <Directory>lxde-education.directory</Directory>
@@ -63,7 +74,9 @@
             </And>
         </Include>
     </Menu> 
+<!-- End Education -->
 
+<!-- Electronics -->
     <Menu>
         <Name>Electronics</Name>
         <Directory>Electronics.directory</Directory>
@@ -71,7 +84,9 @@
             <Category>Electronics</Category>
         </Include>
     </Menu>
+<!-- End Electronics -->
 
+<!-- Games -->
     <Menu>
         <Name>Games</Name>
         <Directory>lxde-game.directory</Directory>
@@ -79,7 +94,9 @@
             <Category>Game</Category>
         </Include>
     </Menu>
+<!-- End Games -->
 
+<!-- Graphics -->
     <Menu>
         <Name>Graphics</Name>
         <Directory>lxde-graphics.directory</Directory>
@@ -90,7 +107,9 @@
             </And>
         </Include>
     </Menu>
+<!-- End Graphics -->
 
+<!-- Internet -->
     <Menu>
         <Name>Internet</Name>
         <Directory>lxde-network.directory</Directory>
@@ -98,7 +117,9 @@
             <Category>Network</Category>
         </Include>
     </Menu>
+<!-- End Internet -->
 
+<!-- Multimedia -->
     <Menu>
         <Name>Multimedia</Name>
         <Directory>lxde-audio-video.directory</Directory>
@@ -108,7 +129,9 @@
             <Category>AudioVideo</Category>
         </Include>
     </Menu>
+<!-- End Multimedia -->
 
+<!-- Office -->
     <Menu>
         <Name>Office</Name>
         <Directory>lxde-office.directory</Directory>
@@ -116,7 +139,9 @@
             <Category>Office</Category>
         </Include>
     </Menu>
+<!-- End Office -->
 
+<!-- Other -->
     <Menu>
         <Name>Other</Name>
         <Directory>lxde-other.directory</Directory>
@@ -124,7 +149,15 @@
         <Include>
             <And/>
         </Include>
+        <Exclude>
+            <Or>
+                <Filename>debian-uxterm.desktop</Filename>
+                <Filename>debian-xterm.desktop</Filename>
+                <Filename>synaptic-kde.desktop</Filename>
+            </Or>
+        </Exclude>
     </Menu>
+<!-- End Other -->
 
 <!-- Administration Menu, to include in Layout section -->
     <Menu>
@@ -143,6 +176,7 @@
             <Or>
                 <Filename>debian-uxterm.desktop</Filename>
                 <Filename>debian-xterm.desktop</Filename>
+                <Filename>synaptic-kde.desktop</Filename>
             </Or>
         </Exclude>
     </Menu>
