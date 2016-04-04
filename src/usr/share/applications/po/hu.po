@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: lubuntu-default-settings\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2014-10-27 18:02+0100\n"
-"PO-Revision-Date: 2016-02-29 22:33+0000\n"
-"Last-Translator: Balogh Csaba <devtronicskft@gmail.com>\n"
+"PO-Revision-Date: 2016-04-03 16:02+0000\n"
+"Last-Translator: Gabor Kelemen <kelemeng@openscope.org>\n"
 "Language-Team: Hungarian <hu@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2016-03-01 05:40+0000\n"
-"X-Generator: Launchpad (build 17925)\n"
+"X-Launchpad-Export-Date: 2016-04-04 05:34+0000\n"
+"X-Generator: Launchpad (build 17972)\n"
 
 #: ../lubuntu-logout.desktop.in.h:1
 msgid "Shutdown"
@@ -39,7 +39,7 @@ msgstr ""
 
 #: ../lubuntu-nexus7-rotate.desktop.in.h:2
 msgid "Rotate your screen using xrotate"
-msgstr "Képernyő forgatás xrotate segítségével"
+msgstr "Képernyőforgatás xrotate segítségével"
 
 #: ../lubuntu-screenlock.desktop.in.h:1
 msgid "ScreenLock"
