@@ -136,7 +136,10 @@
         <Name>Office</Name>
         <Directory>lxde-office.directory</Directory>
         <Include>
+            <And>
             <Category>Office</Category>
+            <Not><Category>Graphics</Category></Not>
+            </And>
         </Include>
     </Menu>
 <!-- End Office -->
