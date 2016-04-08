@@ -172,7 +172,10 @@
                 <Category>System</Category>
             </And>
             <Or>
+            <And>
                 <Category>System</Category>
+                <Not><Category>FileManager</Category></Not>
+            </And>
             </Or>
         </Include>
         <Exclude>
