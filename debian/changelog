@@ -6,8 +6,8 @@ lubuntu-default-settings (0.45) xenial; urgency=medium
    - Set lxterminal as the terminal by default, until
      lxsession-default-terminal is fixed (LP: #1434774).
   * src/etc/xdg/lubuntu/menus/lxqt-applications.menu
-   - Exclude synaptic-kde.desktop in LXQt menu, until OnlyShowIn is fixed in LXQt
-     (see bug #582). Thanks Ariszlo for the patch.
+   - Exclude synaptic-kde.desktop in LXQt menu, until OnlyShowIn is fixed in
+     LXQt (see bug #582). Thanks Ariszlo for the patch.
   * src/etc/xdg/pcmanfm/lubuntu/desktop-items-0.conf
   * src/etc/xdg/pcmanfm/lubuntu/pcmanfm.conf
    - Update some pcmanfm default settings and activate mounted devices on the
