@@ -1,4 +1,4 @@
-lubuntu-default-settings (0.46) UNRELEASED; urgency=medium
+lubuntu-default-settings (0.46) xenial; urgency=medium
 
   * src/etc/xdg/lubuntu/menus/lxqt-applications.menu:
    - Add some comments to the structure.
@@ -8,7 +8,7 @@ lubuntu-default-settings (0.46) UNRELEASED; urgency=medium
    - Re-add [desktop] item in pcmanfm.conf, to correctly load settings on first
      start (LP: #1551446).
 
- -- Julien Lavergne <gilir@ubuntu.com>  Sun, 10 Apr 2016 11:48:42 +0200
+ -- Julien Lavergne <gilir@ubuntu.com>  Sun, 10 Apr 2016 12:09:00 +0200
 
 lubuntu-default-settings (0.45) xenial; urgency=medium
 
