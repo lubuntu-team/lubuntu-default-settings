@@ -1,3 +1,15 @@
+lubuntu-default-settings (0.46) UNRELEASED; urgency=medium
+
+  * src/etc/xdg/lubuntu/menus/lxqt-applications.menu:
+   - Add some comments to the structure.
+   - Exclude Evince from Office menu, it's already in Graphics.
+   - Exclude Pcmanfm from System menu, already in Utility.
+  * src/etc/xdg/pcmanfm/lubuntu/pcmanfm.conf:
+   - Re-add [desktop] item in pcmanfm.conf, to correctly load settings on first
+     start (LP: #1551446).
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Sun, 10 Apr 2016 11:48:42 +0200
+
 lubuntu-default-settings (0.45) xenial; urgency=medium
 
   * src/etc/xdg/lubuntu/libfm/libfm.conf
