@@ -26,9 +26,6 @@ Suggests: amixer,
           galculator,
           xscreensaver,
           dmz-cursor-theme
-Conflicts: lxqt-common
-Replaces: lxqt-common
-Provides: lxqt-common
 Description: default settings for Lubuntu
  Various system settings tailored for Lubuntu.
 
