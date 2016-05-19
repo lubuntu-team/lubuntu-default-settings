@@ -1,0 +1,50 @@
+# Malay translation for lubuntu-default-settings
+# Copyright (c) 2016 Rosetta Contributors and Canonical Ltd 2016
+# This file is distributed under the same license as the lubuntu-default-settings package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: lubuntu-default-settings\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2014-10-27 18:02+0100\n"
+"PO-Revision-Date: 2016-05-18 08:13+0000\n"
+"Last-Translator: abuyop <Unknown>\n"
+"Language-Team: Malay <ms@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2016-05-19 05:38+0000\n"
+"X-Generator: Launchpad (build 18025)\n"
+
+#: ../lubuntu-logout.desktop.in.h:1
+msgid "Shutdown"
+msgstr "Matikan"
+
+#: ../lubuntu-logout.desktop.in.h:2
+msgid "Shutdown or Reboot"
+msgstr "Matikan atau But Semula"
+
+#: ../lubuntu-nexus7-identica.desktop.in.h:1
+msgid "identi.ca"
+msgstr "identi.ca"
+
+#: ../lubuntu-nexus7-identica.desktop.in.h:2
+msgid "Launching identi.ca"
+msgstr "Melancarkan identi.ca"
+
+#: ../lubuntu-nexus7-rotate.desktop.in.h:1
+msgid "Rotate your screen"
+msgstr "Putar skrin anda"
+
+#: ../lubuntu-nexus7-rotate.desktop.in.h:2
+msgid "Rotate your screen using xrotate"
+msgstr "Putar skrin anda menggunakan xrotate"
+
+#: ../lubuntu-screenlock.desktop.in.h:1
+msgid "ScreenLock"
+msgstr "Kunci Skrin"
+
+#: ../lubuntu-screenlock.desktop.in.h:2
+msgid "Lock your screen"
+msgstr "Kunci skrin anda"
