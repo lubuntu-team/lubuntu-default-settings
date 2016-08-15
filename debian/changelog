@@ -2,6 +2,9 @@ lubuntu-default-settings (0.47) UNRELEASED; urgency=medium
 
   *  src/usr/share/lxpanel/profile/Lubuntu/panels/panel:
    - Enable sound indicator by default.
+  * src/usr/share/lubuntu/openbox/rc.xml:
+   - Force the focus when opening an application, to fix the focus when a
+     terminal is launched from pcmanfm.
 
  -- Julien Lavergne <gilir@ubuntu.com>  Mon, 15 Aug 2016 12:15:49 +0200
 

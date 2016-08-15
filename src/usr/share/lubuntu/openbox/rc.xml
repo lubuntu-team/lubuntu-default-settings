@@ -942,6 +942,12 @@
       <maximized>true</maximized>
     </application>
     -->
+    <!--    Focus all applications launched
+            Usefull when launching applications, like terminal from pcmanfm
+    -->
+    <application class="*">
+      <focus>yes</focus>
+    </application>
 
   </applications>
 </openbox_config>
