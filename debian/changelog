@@ -6,6 +6,8 @@ lubuntu-default-settings (0.47) UNRELEASED; urgency=medium
    - Force the focus when opening an application, to fix the focus when a
      terminal is launched from pcmanfm.
    - Re-sync on upstream settings file, adding notes about specific settings.
+  * src/etc/xdg/lubuntu/menus/lxde-applications.menu:
+   - Hide ImageMagick Q16 links from the menu (from Xubuntu).
 
  -- Julien Lavergne <gilir@ubuntu.com>  Mon, 15 Aug 2016 12:15:49 +0200
 
