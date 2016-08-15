@@ -103,10 +103,6 @@ Plugin {
     }
 }
 
-Plugin {
-    type = volumealsa
-}
-
 Plugin{
   type= lxde_power_manager
 }
@@ -123,7 +119,7 @@ Plugin {
         messages=0
         network=0
         session=0
-        sound=0
+        sound=1
     }
 }
 
