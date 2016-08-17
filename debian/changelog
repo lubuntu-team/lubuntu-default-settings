@@ -1,6 +1,6 @@
 lubuntu-default-settings (0.47) UNRELEASED; urgency=medium
 
-  *  src/usr/share/lxpanel/profile/Lubuntu/panels/panel:
+  * src/usr/share/lxpanel/profile/Lubuntu/panels/panel:
    - Enable sound indicator by default.
   * src/usr/share/lubuntu/openbox/rc.xml:
    - Force the focus when opening an application, to fix the focus when a
@@ -8,6 +8,10 @@ lubuntu-default-settings (0.47) UNRELEASED; urgency=medium
    - Re-sync on upstream settings file, adding notes about specific settings.
   * src/etc/xdg/lubuntu/menus/lxde-applications.menu:
    - Hide ImageMagick Q16 links from the menu (from Xubuntu).
+  * src/etc/xdg/lxsession/*/desktop.conf
+   - Enable lxsession 0.5.2+ settings.
+  * src/etc/xdg/lxqt/
+   - Move lxqt files to not conflicts with lxqt-common.
 
  -- Julien Lavergne <gilir@ubuntu.com>  Mon, 15 Aug 2016 12:15:49 +0200
 
