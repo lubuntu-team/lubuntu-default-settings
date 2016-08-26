@@ -163,6 +163,8 @@
                 <Filename>debian-uxterm.desktop</Filename>
                 <Filename>debian-xterm.desktop</Filename>
                 <Filename>synaptic-kde.desktop</Filename>
+                <Filename>display-im6.q16.desktop</Filename>
+                <Filename>display-im6.desktop</Filename>
             </Or>
         </Exclude>
     </Menu>
