@@ -1,3 +1,10 @@
+lubuntu-default-settings (0.48) zesty; urgency=medium
+
+  * Drop plasma.desktop session symlink which conflicts with
+    plasma-workspace.
+
+ -- Dimitri John Ledkov <xnox@ubuntu.com>  Tue, 13 Dec 2016 17:21:16 +0000
+
 lubuntu-default-settings (0.47) yakkety; urgency=medium
 
   * src/usr/share/lxpanel/profile/Lubuntu/panels/panel:
