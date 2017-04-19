@@ -2,6 +2,8 @@ lubuntu-default-settings (0.49) UNRELEASED; urgency=medium
 
   * src/etc/xdg/lubuntu/applications/defaults.list:
    - Switch to gnome-mpv for the videos player.
+  * src/etc/xdg/lxsession/*/desktop.conf:
+   - Use dhcpcd-gtk for network management.
 
  -- Julien Lavergne <gilir@ubuntu.com>  Wed, 19 Apr 2017 05:29:25 +0200
 
