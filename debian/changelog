@@ -4,6 +4,9 @@ lubuntu-default-settings (0.49) UNRELEASED; urgency=medium
    - Switch to gnome-mpv for the videos player.
   * src/etc/xdg/lxsession/*/desktop.conf:
    - Use dhcpcd-gtk for network management.
+   - Use pavucontrol for audio management.
+  * src/etc/xdg/lxsession/QLubuntu/desktop.conf:
+   - Use pavucontrol-qt for audio management.
 
  -- Julien Lavergne <gilir@ubuntu.com>  Wed, 19 Apr 2017 05:29:25 +0200
 
