@@ -103,8 +103,10 @@ Plugin {
     }
 }
 
-Plugin{
-  type= lxde_power_manager
+Plugin {
+  type=bluetooth
+  Config {
+  }
 }
 
 Plugin {
