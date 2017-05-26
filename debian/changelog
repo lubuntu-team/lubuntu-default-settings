@@ -10,6 +10,9 @@ lubuntu-default-settings (0.49) UNRELEASED; urgency=medium
   * usr/share/xsessions/QLubuntu.desktop
    - Switch to lxqt-session, since sddm doesn't support command with arguments,
      and we stay closer to upstream.
+  * src/usr/share/lxpanel/profile/Lubuntu/panels/panel:
+   - Add bluetooth applet.
+   - Replace launchbar and taskbar by the new combined taskbar applet.
 
  -- Julien Lavergne <gilir@ubuntu.com>  Wed, 19 Apr 2017 05:29:25 +0200
 

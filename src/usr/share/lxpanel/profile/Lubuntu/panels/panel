@@ -41,15 +41,18 @@ Plugin {
 }
 
 Plugin {
-    type = launchbar
-    Config {
-        Button {
-            id=pcmanfm.desktop
-        }
-        Button {
-            id=lxde-x-www-browser.desktop
-        }
+  type=launchtaskbar
+  Config {
+    Button {
+      id=menu://applications/Accessories/pcmanfm.desktop
     }
+    Button {
+      id=lxde-x-www-browser.desktop
+    }
+    FlatButton=0
+    GroupedTasks=1
+    UseSmallerIcons=-1
+  }
 }
 
 Plugin {
@@ -82,24 +85,6 @@ Plugin {
     type = space
     Config {
         Size=4
-    }
-}
-
-Plugin {
-    type = taskbar
-    expand=1
-    Config {
-        tooltips=1
-        IconsOnly=0
-        AcceptSkipPager=1
-        ShowIconified=1
-        ShowMapped=1
-        ShowAllDesks=0
-        UseMouseWheel=1
-        UseUrgencyHint=1
-        FlatButton=0
-        MaxTaskWidth=150
-        spacing=1
     }
 }
 
