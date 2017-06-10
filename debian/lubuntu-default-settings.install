@@ -9,6 +9,7 @@ etc/xdg/lxsession/Lubuntu/
 etc/xdg/lxsession/Lubuntu-Netbook/
 etc/xdg/xdg-Lubuntu/xfce4/
 etc/xdg/xdg-Lubuntu/lxqt/
+etc/xdg/xdg-Lubuntu/dhcpcd.conf
 etc/xdg/pcmanfm/
 usr/bin/
 usr/share/applications/lubuntu-screenlock.desktop

@@ -1,3 +1,10 @@
+lubuntu-default-settings (0.50) UNRELEASED; urgency=medium
+
+  * src/etc/xdg/xdg-Lubuntu/dhcpcd.conf
+   - Install configuration file for dhcpcd to make it autostart.
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Sat, 10 Jun 2017 10:54:30 +0200
+
 lubuntu-default-settings (0.49) artful; urgency=medium
 
   * src/etc/xdg/lubuntu/applications/defaults.list:
