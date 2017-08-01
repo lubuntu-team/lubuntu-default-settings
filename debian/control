@@ -13,17 +13,17 @@ Package: lubuntu-default-settings
 Architecture: all
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, 
-         lxsession (>= 0.4.1), 
          lubuntu-artwork (>= 0.4), 
          lubuntu-icon-theme,
          pcmanfm (>= 0.9.5) | pcmanfm-qt,
          ttf-ubuntu-font-family,
-         lxsession-logout,
          policykit-desktop-privileges,
          xbacklight
 Suggests: amixer,
           scrot,
           galculator,
+          lxsession,
+          lxsession-logout,
           xscreensaver,
           dmz-cursor-theme
 Description: default settings for Lubuntu

@@ -2,8 +2,11 @@ lubuntu-default-settings (0.50) UNRELEASED; urgency=medium
 
   * src/etc/xdg/xdg-Lubuntu/dhcpcd.conf
    - Install configuration file for dhcpcd to make it autostart.
+  * debian/control:
+   - Move lxsession from recommends to suggests, to not install it on the Qt
+     image.
 
- -- Julien Lavergne <gilir@ubuntu.com>  Sat, 10 Jun 2017 10:54:30 +0200
+ -- Julien Lavergne <gilir@ubuntu.com>  Tue, 01 Aug 2017 19:55:33 +0200
 
 lubuntu-default-settings (0.49) artful; urgency=medium
 
