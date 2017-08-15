@@ -1,0 +1,50 @@
+# Czech translation for lubuntu-default-settings
+# Copyright (c) 2017 Rosetta Contributors and Canonical Ltd 2017
+# This file is distributed under the same license as the lubuntu-default-settings package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: lubuntu-default-settings\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2014-10-27 18:02+0100\n"
+"PO-Revision-Date: 2017-08-14 19:13+0000\n"
+"Last-Translator: Adam Janik <Unknown>\n"
+"Language-Team: Czech <cs@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2017-08-15 05:28+0000\n"
+"X-Generator: Launchpad (build 18446)\n"
+
+#: ../lubuntu-logout.desktop.in.h:1
+msgid "Shutdown"
+msgstr "Ukončení"
+
+#: ../lubuntu-logout.desktop.in.h:2
+msgid "Shutdown or Reboot"
+msgstr "Vypnout nebo restartovat"
+
+#: ../lubuntu-nexus7-identica.desktop.in.h:1
+msgid "identi.ca"
+msgstr "identi.ca"
+
+#: ../lubuntu-nexus7-identica.desktop.in.h:2
+msgid "Launching identi.ca"
+msgstr "Spouštění identi.ca"
+
+#: ../lubuntu-nexus7-rotate.desktop.in.h:1
+msgid "Rotate your screen"
+msgstr "Otočení obrazovky"
+
+#: ../lubuntu-nexus7-rotate.desktop.in.h:2
+msgid "Rotate your screen using xrotate"
+msgstr "Otočení obrazovky pomocí xrotate"
+
+#: ../lubuntu-screenlock.desktop.in.h:1
+msgid "ScreenLock"
+msgstr "Zámek obrazovky"
+
+#: ../lubuntu-screenlock.desktop.in.h:2
+msgid "Lock your screen"
+msgstr "Uzamykání obrazovky"
