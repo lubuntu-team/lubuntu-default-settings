@@ -8,13 +8,13 @@ msgstr ""
 "Project-Id-Version: lubuntu-default-settings\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2014-10-27 18:02+0100\n"
-"PO-Revision-Date: 2017-09-02 16:21+0000\n"
+"PO-Revision-Date: 2017-09-03 10:15+0000\n"
 "Last-Translator: shy tzedaka <shaytzedaka@outlook.com>\n"
 "Language-Team: Hebrew <he@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2017-09-03 05:43+0000\n"
+"X-Launchpad-Export-Date: 2017-09-04 05:48+0000\n"
 "X-Generator: Launchpad (build 18446)\n"
 
 #: ../lubuntu-logout.desktop.in.h:1
@@ -31,20 +31,20 @@ msgstr "identi.ca"
 
 #: ../lubuntu-nexus7-identica.desktop.in.h:2
 msgid "Launching identi.ca"
-msgstr "מפעיל את identi.ca"
+msgstr "שירות identi.ca מופעל"
 
 #: ../lubuntu-nexus7-rotate.desktop.in.h:1
 msgid "Rotate your screen"
-msgstr "סובב את המסך שלך"
+msgstr "סיבוב המסך שלך"
 
 #: ../lubuntu-nexus7-rotate.desktop.in.h:2
 msgid "Rotate your screen using xrotate"
-msgstr "סובב את המסך שלך באמצעות xrotate"
+msgstr "סיבוב המסך שלך באמצעות xrotate"
 
 #: ../lubuntu-screenlock.desktop.in.h:1
 msgid "ScreenLock"
-msgstr "נעילתמסך"
+msgstr "נעילת מסך"
 
 #: ../lubuntu-screenlock.desktop.in.h:2
 msgid "Lock your screen"
-msgstr "נעל את המסך שלך"
+msgstr "נעילת המסך שלך"
