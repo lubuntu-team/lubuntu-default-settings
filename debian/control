@@ -6,8 +6,9 @@ Build-Depends: debhelper (>= 9),
                intltool
 Standards-Version: 3.9.5
 Homepage: https://launchpad.net/~lubuntu-desktop
-Vcs-Bzr: lp:lubuntu-default-settings
-Vcs-Browser: http://bazaar.launchpad.net/~lubuntu-dev/lubuntu-default-settings/trunk/files
+Vcs-Browser: https://git.launchpad.net/lubuntu-default-settings?h=master
+Vcs-Git:  https://git.launchpad.net/lubuntu-default-settings
+
 
 Package: lubuntu-default-settings
 Architecture: all
