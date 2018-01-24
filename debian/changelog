@@ -1,12 +1,12 @@
 lubuntu-default-settings (0.51) UNRELEASED; urgency=medium
 
   * debian/gbp.conf
-    - Add git-buildpackage configuration.
+   - Add git-buildpackage configuration.
   * debian/control:
-    - Update VCS fields to point to the git repository. 
+   - Update VCS fields to point to the git repository.
   * src/etc/xdg/xdg-QLubuntu:
-    - Add a symlink from xdg-Lubuntu to apply also the settings on QLubuntu
-      session.
+   - Add a symlink from xdg-Lubuntu to apply also the settings on QLubuntu
+     session.
 
  -- Julien Lavergne <gilir@ubuntu.com>  Mon, 22 Jan 2018 23:36:43 +0100
 
