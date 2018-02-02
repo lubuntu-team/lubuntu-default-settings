@@ -1,4 +1,4 @@
-lubuntu-default-settings (0.51) UNRELEASED; urgency=medium
+lubuntu-default-settings (0.51ubuntu1) UNRELEASED; urgency=medium
 
   * debian/gbp.conf
    - Add git-buildpackage configuration.
@@ -7,8 +7,10 @@ lubuntu-default-settings (0.51) UNRELEASED; urgency=medium
   * src/etc/xdg/xdg-QLubuntu:
    - Add a symlink from xdg-Lubuntu to apply also the settings on QLubuntu
      session.
+  * src/etc/xdg/openbox/lxqt-rc.xml:
+   - Add specific settings for openbox on LXQt session.
 
- -- Julien Lavergne <gilir@ubuntu.com>  Mon, 22 Jan 2018 23:36:43 +0100
+ -- Julien Lavergne <gilir@ubuntu.com>  Fri, 02 Feb 2018 15:13:37 +0100
 
 lubuntu-default-settings (0.50) artful; urgency=medium
 
