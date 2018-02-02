@@ -370,23 +370,24 @@
         <enabled>true</enabled>
         <name>File manager</name>
       </startupnotify>
-      <command>lxsession-default file_manager</command>
+      <command>pcmanfm-qt</command>
     </action>
   </keybind>
 
   <!-- Keybindings for running Run menu from Lxpanel on Home + R-->
   <keybind key="W-r">
     <action name="Execute">
-      <command>lxsession-default launcher</command>
+      <command>lxqt-runner</command>
     </action>
   </keybind>
   <keybind key="A-F2">
     <action name="Execute">
-      <command>lxsession-default launcher</command>
+      <command>lxqt-runner</command>
     </action>
   </keybind>
 
   <!-- Keybindings for running Menu from Lxpanel -->
+<!--
   <keybind key="A-F1">
     <action name="Execute">
       <command>lxpanelctl menu</command>
@@ -397,7 +398,8 @@
       <command>lxpanelctl menu</command>
     </action>
   </keybind>
-
+-->
+  
   <!-- Keybindings to toggle fullscreen -->
   <keybind key="F11">
     <action name="ToggleFullscreen"/>
@@ -406,14 +408,14 @@
   <!-- Launch task manager on Ctrl + Alt + Del-->
   <keybind key="C-A-Delete">
     <action name="Execute">
-      <command>lxsession-default tasks</command>
+      <command>qps</command>
     </action>
   </keybind>
 
   <!-- Launch a terminal on Ctrl + Alt + T-->
   <keybind key="C-A-T">
     <action name="Execute">
-      <command>lxsession-default terminal</command>
+      <command>qterminal</command>
     </action>
   </keybind>
 
@@ -424,17 +426,19 @@
         <enabled>true</enabled>
         <name>PCManFM</name>
       </startupnotify>
-      <command>lxsession-default file_manager</command>
+      <command>pcmanfm-qt</command>
     </action>
   </keybind>
 
   <!-- Lock the screen on Ctrl + Alt + l-->
+  <!--
   <keybind key="C-A-l">
     <action name="Execute">
       <command>lxsession-default lock</command>
     </action>
   </keybind>
-
+-->
+  
   <!-- Keybinding for Volume management -->
   <keybind key="XF86AudioRaiseVolume">
       <action name="Execute">
@@ -455,26 +459,28 @@
   <!-- Keybinding for terminal button-->
   <keybind key="XF86WWW">
     <action name="Execute">
-      <command>lxsession-default terminal</command>
+      <command>qterminal</command>
     </action>
   </keybind>
   <keybind key="XF86Terminal">
     <action name="Execute">
-      <command>lxsession-default terminal</command>
+      <command>qterminal</command>
     </action>
   </keybind>
 
   <!-- Keybinding for calculator button-->
+  <!--
   <keybind key="XF86Calculator">
     <action name="Execute">
       <command>lxsession-default calculator</command>
     </action>
   </keybind>
-
+-->
+  
   <!-- Keybinding for computer button-->
   <keybind key="XF86MyComputer">
     <action name="Execute">
-      <command>lxsession-default file_manager</command>
+      <command>pcmanfm-qtr</command>
     </action>
   </keybind>
 
@@ -498,6 +504,7 @@
   <!--
       Take a screenshot of the current window with scrot when Alt+Print are pressed 
   -->
+  <!--
   <keybind key="Print">
     <action name="Execute">
       <command>lxsession-default screenshot</command>
@@ -508,13 +515,16 @@
       <command>lxsession-default screenshot window</command>
     </action>
   </keybind>
-
+  -->
+  
   <!-- Launch logout when push on the shutdown button -->
+  <!--
   <keybind key="XF86PowerOff">
     <action name="Execute">
       <command>lxsession-default quit</command>
     </action>
   </keybind>
+-->
 </keyboard>
 
 <mouse>
