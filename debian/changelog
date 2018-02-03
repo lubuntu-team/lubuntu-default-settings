@@ -7,7 +7,7 @@ lubuntu-default-settings (0.51ubuntu1) UNRELEASED; urgency=medium
   * src/etc/xdg/xdg-QLubuntu:
    - Add a symlink from xdg-Lubuntu to apply also the settings on QLubuntu
      session.
-  * src/etc/xdg/openbox/lxqt-rc.xml:
+  * src/etc/xdg/xdg-Lubuntu/openbox/lxqt-rc.xml:
    - Add specific settings for openbox on LXQt session.
 
  -- Julien Lavergne <gilir@ubuntu.com>  Fri, 02 Feb 2018 15:13:37 +0100
