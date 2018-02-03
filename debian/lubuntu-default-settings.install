@@ -7,9 +7,9 @@ etc/xdg/lubuntu/menus/lxde-applications.menu
 etc/xdg/lubuntu/menus/lxgames-applications.menu
 etc/xdg/lxsession/Lubuntu/
 etc/xdg/lxsession/Lubuntu-Netbook/
-etc/xdg/xdg-Lubuntu/xfce4/
-etc/xdg/xdg-Lubuntu/lxqt/
-etc/xdg/xdg-Lubuntu/dhcpcd.conf
+etc/xdg/openbox/
+etc/xdg/xdg-Lubuntu/
+etc/xdg/xdg-QLubuntu/
 etc/xdg/pcmanfm/
 usr/bin/
 usr/share/applications/lubuntu-screenlock.desktop
