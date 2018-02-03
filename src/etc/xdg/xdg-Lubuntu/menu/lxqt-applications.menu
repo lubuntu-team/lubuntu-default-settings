@@ -1,0 +1,224 @@
+<!DOCTYPE Menu PUBLIC "-//freedesktop//DTD Menu 1.0//EN"
+ "http://standards.freedesktop.org/menu-spec/1.0/menu.dtd">
+
+<Menu>
+    <Name>Applications</Name>
+    
+	<!-- Read standard .directory and .desktop file locations -->
+	<DefaultAppDirs/>
+	<DefaultDirectoryDirs/>
+
+	<!-- Read in overrides and child menus from applications-merged/ -->
+	<DefaultMergeDirs/>
+
+<!-- Applications Menu -->
+
+<!-- Accessories submenu -->
+    <Menu>
+        <Name>Accessories</Name>
+        <Directory>lxde-utility.directory</Directory>
+        <Include>
+            <And>
+                <Category>Utility</Category>
+                <Not><Category>Accessibility</Category></Not>
+                <Not><Category>System</Category></Not>
+                <Not><Category>AudioVideo</Category></Not>
+                <Not><Category>Audio</Category></Not>
+                <Not><Category>Video</Category></Not>
+            </And>
+                <Or>
+                    <Category>Core</Category>
+                    <Category>Legacy</Category>
+                </Or>
+        </Include>
+    </Menu>
+<!-- End Accessories -->
+
+<!-- Accessibility submenu -->
+    <Menu>
+        <Name>Universal Access</Name>
+        <Directory>lxde-utility-accessibility.directory</Directory>
+        <Include>
+            <And>
+                <Category>Accessibility</Category>
+                <Not><Category>Settings</Category></Not>
+            </And>
+        </Include>
+    </Menu>
+<!-- End Accessibility -->
+
+<!-- Development Tools -->
+    <Menu>
+        <Name>Development</Name>
+        <Directory>lxde-development.directory</Directory>
+        <Include>
+            <And>
+                <Category>Development</Category>
+            </And>
+            <Filename>emacs.desktop</Filename>
+        </Include>
+    </Menu>
+<!-- End Development Tools -->
+
+<!-- Education -->
+    <Menu>
+        <Name>Education</Name>
+        <Directory>lxde-education.directory</Directory>
+        <Include>
+            <Or>
+                <Category>Education</Category>
+            </Or>
+            <And>
+                <Category>Science</Category>
+                <Not><Category>Office</Category></Not>
+            </And>
+        </Include>
+    </Menu> 
+<!-- End Education -->
+
+<!-- Electronics -->
+    <Menu>
+        <Name>Electronics</Name>
+        <Directory>Electronics.directory</Directory>
+        <Include>
+            <Category>Electronics</Category>
+        </Include>
+    </Menu>
+<!-- End Electronics -->
+
+<!-- Games -->
+    <Menu>
+        <Name>Games</Name>
+        <Directory>lxde-game.directory</Directory>
+        <Include>
+            <Category>Game</Category>
+        </Include>
+    </Menu>
+<!-- End Games -->
+
+<!-- Graphics -->
+    <Menu>
+        <Name>Graphics</Name>
+        <Directory>lxde-graphics.directory</Directory>
+        <Include>
+            <And>
+                <Category>Graphics</Category>
+                <Not><Category>Utility</Category></Not>
+            </And>
+        </Include>
+        <Exclude>
+            <Or>
+                <Filename>display-im6.q16.desktop</Filename>
+                <Filename>display-im6.desktop</Filename>
+            </Or>
+        </Exclude>
+    </Menu>
+<!-- End Graphics -->
+
+<!-- Internet -->
+    <Menu>
+        <Name>Internet</Name>
+        <Directory>lxde-network.directory</Directory>
+        <Include>
+            <Category>Network</Category>
+        </Include>
+    </Menu>
+<!-- End Internet -->
+
+<!-- Multimedia -->
+    <Menu>
+        <Name>Multimedia</Name>
+        <Directory>lxde-audio-video.directory</Directory>
+        <Include>
+            <Category>Audio</Category>
+            <Category>Video</Category>
+            <Category>AudioVideo</Category>
+        </Include>
+    </Menu>
+<!-- End Multimedia -->
+
+<!-- Office -->
+    <Menu>
+        <Name>Office</Name>
+        <Directory>lxde-office.directory</Directory>
+        <Include>
+            <And>
+            <Category>Office</Category>
+            <Not><Category>Graphics</Category></Not>
+            </And>
+        </Include>
+    </Menu>
+<!-- End Office -->
+
+<!-- Other -->
+    <Menu>
+        <Name>Other</Name>
+        <Directory>lxde-other.directory</Directory>
+        <OnlyUnallocated/>
+        <Include>
+            <And/>
+        </Include>
+        <Exclude>
+            <Or>
+                <Filename>debian-uxterm.desktop</Filename>
+                <Filename>debian-xterm.desktop</Filename>
+                <Filename>synaptic-kde.desktop</Filename>
+                <Filename>display-im6.q16.desktop</Filename>
+                <Filename>display-im6.desktop</Filename>
+            </Or>
+        </Exclude>
+    </Menu>
+<!-- End Other -->
+
+<!-- Administration Menu, to include in Layout section -->
+    <Menu>
+        <Name>Administration</Name>
+        <Directory>lxde-system-tools.directory</Directory>
+        <Include>
+            <And>
+                <Category>Settings</Category>
+                <Category>System</Category>
+            </And>
+            <Or>
+            <And>
+                <Category>System</Category>
+                <Not><Category>FileManager</Category></Not>
+            </And>
+            </Or>
+        </Include>
+        <Exclude>
+            <Or>
+                <Filename>debian-uxterm.desktop</Filename>
+                <Filename>debian-xterm.desktop</Filename>
+                <Filename>synaptic-kde.desktop</Filename>
+            </Or>
+        </Exclude>
+    </Menu>
+
+<!-- Preferences Menu, to include in Layout section -->
+    <Menu>
+        <Name>DesktopSettings</Name>
+        <Directory>lxde-settings.directory</Directory>
+        <Include>
+            <And>
+                <Category>Settings</Category>
+                <Not>
+                    <Or>
+                        <Category>System</Category>
+                    </Or>
+                </Not>
+            </And>
+        </Include>
+    </Menu>
+
+<!-- General layout of the whole menu -->
+    <Layout>
+        <Menuname>Settings</Menuname>
+        <Separator/>
+        <Merge type="all"/>
+        <Separator/>
+        <Menuname>Administration</Menuname>
+        <Menuname>DesktopSettings</Menuname>
+    </Layout>
+
+</Menu>
