@@ -4,8 +4,8 @@ lubuntu-default-settings (0.51ubuntu1) UNRELEASED; urgency=medium
    - Add git-buildpackage configuration.
   * debian/control:
    - Update VCS fields to point to the git repository.
-  * src/etc/xdg/xdg-QLubuntu:
-   - Add a symlink from xdg-Lubuntu to apply also the settings on QLubuntu
+  * debian/lubuntu-default-settings.links
+   - Add symlinks from xdg-Lubuntu to apply also the settings on LXQt
      session.
   * src/etc/xdg/xdg-Lubuntu/openbox/lxqt-rc.xml:
    - Add specific settings for openbox on LXQt session.
