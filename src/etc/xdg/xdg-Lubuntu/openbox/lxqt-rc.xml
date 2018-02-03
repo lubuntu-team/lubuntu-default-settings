@@ -480,7 +480,7 @@
   <!-- Keybinding for computer button-->
   <keybind key="XF86MyComputer">
     <action name="Execute">
-      <command>pcmanfm-qtr</command>
+      <command>pcmanfm-qt</command>
     </action>
   </keybind>
 
