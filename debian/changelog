@@ -7,6 +7,8 @@ lubuntu-default-settings (0.51) UNRELEASED; urgency=medium
   * debian/lubuntu-default-settings.links
    - Add symlinks from xdg-Lubuntu to apply also the settings on LXQt
      session.
+  * src/etc/xdg/xdg-Lubuntu/lxqt:
+   - Add specific settings for lxqt on LXQt session.
   * src/etc/xdg/xdg-Lubuntu/openbox/lxqt-rc.xml:
    - Add specific settings for openbox on LXQt session.
   * src/etc/xdg/xdg-Lubuntu/menu/lxqt-applications.menu:
