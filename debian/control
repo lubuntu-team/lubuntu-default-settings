@@ -36,7 +36,7 @@ Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends},
          lubuntu-default-settings
 Breaks: lubuntu-default-settings (<< 0.37)
-Description: extra session for differents default settings of Lubuntu
+Description: extra session for different default settings of Lubuntu
  Various system settings tailored for various version of Lubuntu.
 
 Package: lxgames-default-session
