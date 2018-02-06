@@ -1,4 +1,4 @@
-lubuntu-default-settings (0.51) UNRELEASED; urgency=medium
+lubuntu-default-settings (0.51) bionic; urgency=medium
 
   * debian/gbp.conf
    - Add git-buildpackage configuration.
@@ -14,7 +14,7 @@ lubuntu-default-settings (0.51) UNRELEASED; urgency=medium
   * src/etc/xdg/xdg-Lubuntu/menu/lxqt-applications.menu:
    - Add a menu file for LXQt session.
 
- -- Julien Lavergne <gilir@ubuntu.com>  Fri, 02 Feb 2018 15:13:37 +0100
+ -- Julien Lavergne <gilir@ubuntu.com>  Tue, 06 Feb 2018 20:11:47 +0100
 
 lubuntu-default-settings (0.50) artful; urgency=medium
 
