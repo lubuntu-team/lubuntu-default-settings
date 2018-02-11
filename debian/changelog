@@ -1,8 +1,12 @@
 lubuntu-default-settings (0.54) UNRELEASED; urgency=medium
 
   * Revert previous upload.
+  * debian/lubuntu-default-settings.install & lubuntu-extra-sessions:
+   - Move QLubuntu.session to the main package.
+   - Move Lubuntu-Netbook to the extra sessions package.
   * debian/control:
    - Add Breaks according to revious upload.
+   - Update Breaks for current upload.
 
  -- Julien Lavergne <gilir@ubuntu.com>  Sun, 11 Feb 2018 21:53:26 +0100
 
