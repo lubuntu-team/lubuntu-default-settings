@@ -1,3 +1,9 @@
+lubuntu-default-settings (0.54) UNRELEASED; urgency=medium
+
+  * Revert previous upload.
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Sun, 11 Feb 2018 21:53:26 +0100
+
 lubuntu-default-settings (0.53) bionic; urgency=medium
 
   * Move some things around:
