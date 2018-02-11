@@ -1,3 +1,12 @@
+lubuntu-default-settings (0.53) UNRELEASED; urgency=medium
+
+  * Move some things around:
+    - Lubuntu.desktop should be in lubuntu-default-session.
+    - QLubuntu.desktop should be in qlubuntu-default-session.
+    - Lubuntu-Netbook.desktop should be in lubuntu-extra-sessions.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Sun, 11 Feb 2018 12:55:56 -0600
+
 lubuntu-default-settings (0.52) bionic; urgency=medium
 
   * Wrap-and-sort and fix whitespace.

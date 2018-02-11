@@ -7,6 +7,6 @@ etc/xdg/lxsession/QLubuntu/
 usr/share/lubuntu/openbox/nexus-rc.xml
 usr/share/lubuntu/qt/Trolltech-qt-session.conf
 usr/share/lxpanel/profile/Lubuntu-Nexus7/
-usr/share/xsessions/QLubuntu.desktop
+usr/share/xsessions/Lubuntu-Netbook.desktop
 usr/share/xsessions/lubuntu-nexus7.desktop
 usr/share/xsessions/lxgames.desktop
