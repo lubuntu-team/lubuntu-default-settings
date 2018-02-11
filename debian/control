@@ -13,17 +13,17 @@ Architecture: all
 Pre-Depends: ${misc:Pre-Depends}
 Depends: lubuntu-artwork (>= 0.4),
          lubuntu-icon-theme,
-         pcmanfm (>= 0.9.5) | pcmanfm-qt,
          policykit-desktop-privileges,
          ttf-ubuntu-font-family,
-         xbacklight,
          ${misc:Depends}
 Suggests: amixer,
           dmz-cursor-theme,
           galculator,
           lxsession,
           lxsession-logout,
+          pcmanfm (>= 0.9.5) | pcmanfm-qt,
           scrot,
+          xbacklight,
           xscreensaver
 Description: default settings for Lubuntu
  Various system settings tailored for Lubuntu.
@@ -77,8 +77,8 @@ Description: Extra files for the nexus7 session
 Package: qlubuntu-default-session
 Architecture: all
 Depends: lubuntu-default-settings,
-         lubuntu-extra-sessions,
          sddm,
+         sddm-theme-lubuntu-chooser,
          ${misc:Depends}
 Provides: razorqt-lightdm-greeter-config
 Description: Set default session to QLubuntu version

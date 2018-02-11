@@ -1,6 +1,8 @@
 lubuntu-default-settings (0.52) UNRELEASED; urgency=medium
 
   * Wrap-and-sort and fix whitespace.
+  * Rework the dependencies so a lot of unnecessary stuff isn't pulled
+    in on Lubuntu Next.
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Sat, 10 Feb 2018 18:32:39 -0600
 
