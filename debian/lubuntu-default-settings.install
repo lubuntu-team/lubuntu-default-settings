@@ -5,13 +5,13 @@ etc/xdg/lubuntu/lxdm/
 etc/xdg/lubuntu/lxterminal/
 etc/xdg/lubuntu/menus/lxde-applications.menu
 etc/xdg/lubuntu/menus/lxgames-applications.menu
-etc/xdg/lxsession/Lubuntu/
 etc/xdg/lxsession/Lubuntu-Netbook/
-etc/xdg/xdg-Lubuntu/
+etc/xdg/lxsession/Lubuntu/
 etc/xdg/pcmanfm/
+etc/xdg/xdg-Lubuntu/
 usr/bin/
-usr/share/applications/lubuntu-screenlock.desktop
 usr/share/applications/lubuntu-logout.desktop
+usr/share/applications/lubuntu-screenlock.desktop
 usr/share/gdm/
 usr/share/lubuntu/leafpad/
 usr/share/lubuntu/openbox/menu.xml
@@ -21,5 +21,5 @@ usr/share/lubuntu/qt/Trolltech.conf
 usr/share/lubuntu/xscreensaver/
 usr/share/lxpanel/profile/Lubuntu/
 usr/share/upstart/sessions/
-usr/share/xsessions/Lubuntu.desktop
 usr/share/xsessions/Lubuntu-Netbook.desktop
+usr/share/xsessions/Lubuntu.desktop

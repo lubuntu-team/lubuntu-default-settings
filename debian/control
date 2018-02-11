@@ -2,88 +2,84 @@ Source: lubuntu-default-settings
 Section: x11
 Priority: optional
 Maintainer: Julien Lavergne <gilir@ubuntu.com>
-Build-Depends: debhelper (>= 9),
-               intltool
+Build-Depends: debhelper (>= 9), intltool
 Standards-Version: 3.9.5
 Homepage: https://launchpad.net/~lubuntu-desktop
 Vcs-Browser: https://git.launchpad.net/lubuntu-default-settings?h=master
-Vcs-Git:  https://git.launchpad.net/lubuntu-default-settings
-
+Vcs-Git: https://git.launchpad.net/lubuntu-default-settings
 
 Package: lubuntu-default-settings
 Architecture: all
 Pre-Depends: ${misc:Pre-Depends}
-Depends: ${misc:Depends}, 
-         lubuntu-artwork (>= 0.4), 
+Depends: lubuntu-artwork (>= 0.4),
          lubuntu-icon-theme,
          pcmanfm (>= 0.9.5) | pcmanfm-qt,
-         ttf-ubuntu-font-family,
          policykit-desktop-privileges,
-         xbacklight
+         ttf-ubuntu-font-family,
+         xbacklight,
+         ${misc:Depends}
 Suggests: amixer,
-          scrot,
+          dmz-cursor-theme,
           galculator,
           lxsession,
           lxsession-logout,
-          xscreensaver,
-          dmz-cursor-theme
+          scrot,
+          xscreensaver
 Description: default settings for Lubuntu
  Various system settings tailored for Lubuntu.
 
 Package: lubuntu-extra-sessions
 Architecture: all
 Pre-Depends: ${misc:Pre-Depends}
-Depends: ${misc:Depends},
-         lubuntu-default-settings
+Depends: lubuntu-default-settings, ${misc:Depends}
 Breaks: lubuntu-default-settings (<< 0.37)
 Description: extra session for different default settings of Lubuntu
  Various system settings tailored for various version of Lubuntu.
 
 Package: lxgames-default-session
 Architecture: all
-Depends: ${misc:Depends},
-         lubuntu-default-settings,
+Depends: lightdm (>= 1.9.4),
          lightdm-gtk-greeter (>= 2.0.1-1),
-         lightdm (>= 1.9.4),
-         lubuntu-extra-sessions
+         lubuntu-default-settings,
+         lubuntu-extra-sessions,
+         ${misc:Depends}
 Provides: lightdm-gtk-greeter-config
 Description: Set default session to lxgames
  This package sets the default session to lxgames by default.
 
 Package: lubuntu-default-session
 Architecture: all
-Depends: ${misc:Depends},
-         lubuntu-default-settings,
+Depends: lightdm (>= 1.9.4),
          lightdm-gtk-greeter (>= 2.0.1-1),
-         lightdm (>= 1.9.4)
+         lubuntu-default-settings,
+         ${misc:Depends}
 Provides: lightdm-gtk-greeter-config
 Description: Set default session to Lubuntu
  This package sets the default session to Lubuntu by default.
 
 Package: lubuntu-nexus7-default-session
 Architecture: all
-Depends: ${misc:Depends},
-         lubuntu-default-settings,
+Depends: lightdm (>= 1.9.4),
          lightdm-gtk-greeter (>= 2.0.1-1),
-         lightdm (>= 1.9.4),
-         lubuntu-extra-sessions
+         lubuntu-default-settings,
+         lubuntu-extra-sessions,
+         ${misc:Depends}
 Provides: lightdm-gtk-greeter-config
 Description: Set default session to Lubuntu Nexus7 version
  This package sets the default session to Lubuntu Nexus7 version by default.
 
 Package: lubuntu-nexus7-extra-files
 Architecture: all
-Depends: ${misc:Depends},
-         lubuntu-default-settings
+Depends: lubuntu-default-settings, ${misc:Depends}
 Description: Extra files for the nexus7 session
  This package contents extra files for the nexus7 session.
 
 Package: qlubuntu-default-session
 Architecture: all
-Depends: ${misc:Depends},
-         lubuntu-default-settings,
+Depends: lubuntu-default-settings,
+         lubuntu-extra-sessions,
          sddm,
-         lubuntu-extra-sessions
+         ${misc:Depends}
 Provides: razorqt-lightdm-greeter-config
 Description: Set default session to QLubuntu version
  This package sets the default session to QLubuntu version by default.
@@ -91,7 +87,6 @@ Description: Set default session to QLubuntu version
 Package: lubuntu-live-settings
 Architecture: all
 Pre-Depends: ${misc:Pre-Depends}
-Depends: ${misc:Depends},
-         lubuntu-default-settings
+Depends: lubuntu-default-settings, ${misc:Depends}
 Description: default settings for Lubuntu live ISO
  Various system settings tailored for Lubuntu ISO.
