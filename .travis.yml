@@ -5,7 +5,7 @@ services:
   - docker
 
 script:
-  - wget -O- http://travis.debian.net/script.sh | sh -
+  - wget -O- https://raw.githubusercontent.com/gilir/travis.debian.net/gh-pages/script.sh | sh -
 
 if:
   tag IS blank
