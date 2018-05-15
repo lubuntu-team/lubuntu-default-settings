@@ -1,9 +1,10 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: Lubuntu Default Settings
-Upstream-Contact: Julien Lavergne <gilir@ubuntu.com>
+Upstream-Contact: Lubuntu Developers <lubuntu-devel@lists.ubuntu.com>
 
 Files: *
-Copyright: Copyright 2009-2014, Julien Lavergne <gilir@ubuntu.com>
+Copyright: Copyright 2009-2014 Julien Lavergne <gilir@ubuntu.com>
+           Copyright 2015-2018 Lubuntu Developers <lubuntu-devel@lists.ubuntu.com>
 License: GPL-2+
  This package is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
