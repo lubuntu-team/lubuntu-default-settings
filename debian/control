@@ -17,6 +17,8 @@ Depends: lubuntu-artwork,
          policykit-desktop-privileges,
          ttf-ubuntu-font-family,
          ${misc:Depends}
+Breaks: lubuntu-default-settings (<< 1.0), lubuntu-extra-sessions (<< 1.0), lubuntu-live-settings (<< 1.0), lubuntu-nexus7-default-session (<< 1.0), lubuntu-nexus7-extra-files (<< 1.0), lxgames-default-session (<< 1.0), qlubuntu-default-session (<< 1.0)
+Replaces: lubuntu-default-settings (<< 1.0), lubuntu-extra-sessions (<< 1.0), lubuntu-live-settings (<< 1.0), lubuntu-nexus7-default-session (<< 1.0), lubuntu-nexus7-extra-files (<< 1.0), lxgames-default-session (<< 1.0), qlubuntu-default-session (<< 1.0)
 Description: default settings for Lubuntu
  Various system settings tailored for Lubuntu.
 
@@ -26,5 +28,7 @@ Depends: lubuntu-default-settings,
          sddm,
          sddm-theme-lubuntu-chooser,
          ${misc:Depends}
+Breaks: lubuntu-default-session (<< 1.0)
+Replaces: lubuntu-default-session (<< 1.0)
 Description: set default session to Lubuntu
  This package sets the default session to Lubuntu by default.
