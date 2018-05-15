@@ -5,7 +5,7 @@ Maintainer: Lubuntu Developers <lubuntu-devel@lists.ubuntu.com>
 Uploaders: Simon Quigley <tsimonq2@ubuntu.com>
 Build-Depends: debhelper (>= 11)
 Standards-Version: 4.1.4
-Homepage: https://launchpad.net/~lubuntu-desktop
+Homepage: https://lubuntu.me
 Vcs-Browser: https://git.launchpad.net/lubuntu-default-settings?h=master
 Vcs-Git: https://git.launchpad.net/lubuntu-default-settings
 
