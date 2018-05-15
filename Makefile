@@ -1,17 +1,11 @@
 #!/usr/bin/make -f
 
-SUBDIRS := usr/share/applications/po usr/share/xsessions/po
- 
 all: install
 
 install:
 	mkdir -pv $(DESTDIR)
 	cp -a src/etc src/usr $(DESTDIR)/.
-	# po generation
-	for i in $(SUBDIRS); do \
-		make -C $(DESTDIR)/$$i; \
-		rm -rf $(DESTDIR)/$$i; \
-	done
+
 	# remove some remaining files
 	find $(DESTDIR) -type f -iname "*.in" | xargs rm -f
 

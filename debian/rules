@@ -4,6 +4,3 @@
 
 override_dh_auto_build:
 	$(MAKE) DESTDIR=$(CURDIR)/debian/tmp
-
-override_dh_missing:
-	dh_missing --fail-missing

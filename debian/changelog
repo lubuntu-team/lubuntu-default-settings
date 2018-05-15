@@ -214,7 +214,7 @@ lubuntu-default-settings (0.41) utopic; urgency=medium
    - Fix lubuntu-logout shortcut to be compatible also with lxpanel 0.7.0.
    - Add xfce-power-manager plugin.
    - Remove xcb plugin since ibus is launched by default and has an icon for
-     switching keyboard layout. 
+     switching keyboard layout.
 
  -- Julien Lavergne <gilir@ubuntu.com>  Thu, 11 Sep 2014 13:56:18 +0200
 
@@ -290,7 +290,7 @@ lubuntu-default-settings (0.37) trusty; urgency=low
 
 lubuntu-default-settings (0.36) trusty; urgency=low
 
-  * debian/20-* & debian/*.postrm & debian/*.postinst & 
+  * debian/20-* & debian/*.postrm & debian/*.postinst &
     debian/*default-session.install:
    - Use lightdm conf files to set default session (LP: #1259525).
   * debian/control:
@@ -340,11 +340,11 @@ lubuntu-default-settings (0.33) saucy; urgency=low
   * usr/share/lxpanel/Lubuntu
    - Enable xkb plugin by default for switching keyboard layout.
   * usr/share/lubuntu/openbox
-   - Fix transmission menu item (LP: #1193055)  
+   - Fix transmission menu item (LP: #1193055)
   * etc/xdg/lxsession/QLubuntu/desktop.conf
    - Fix launch of razor-panel
   * etc/xdg/lubuntu/lightdm/lightdm-gtk-greeter.conf
-   - Update with new upstream version. 
+   - Update with new upstream version.
   * /usr/share/lubuntu/openbox/*rc.xml
    - lxsession-default lock instead of xscreensaver (LP: #1204052)
   * etc/xdg/lxsession/*/conffiles.conf
@@ -355,7 +355,7 @@ lubuntu-default-settings (0.33) saucy; urgency=low
 lubuntu-default-settings (0.32) saucy; urgency=low
 
   [ Julien Lavergne ]
-  * Add a new QLubuntu session, by using only Qt applications 
+  * Add a new QLubuntu session, by using only Qt applications
   * usr/bin/start*
    - Remove gnome-keyring workaround, since we have the proper fix for ssh.
   * Use x-www-browser and x-terminal-emulator in more places.
@@ -404,7 +404,7 @@ lubuntu-default-settings (0.30) raring; urgency=low
    - Add a custom configuration file for lxterminal.
    - Use Ubuntu font in lxterminal.
   * usr/bin/startlubuntu*
-   - Install the lxterminal configuration file. 
+   - Install the lxterminal configuration file.
    - Workaround ssh agent not autostarted properly.
   * usr/share/lubuntu/openbox/rc.xml
    - Add shortcuts for windows tiling (SuperKey + the direction).
@@ -529,7 +529,7 @@ lubuntu-default-settings (0.23) precise; urgency=low
    - Add a rule to maximize all new windows with type normal.
    - Place new windows on the monitor with the mouse, rather than the primary
      monitor.
-   - Use scrot -u -b (focused window with border) for the screenshot of the 
+   - Use scrot -u -b (focused window with border) for the screenshot of the
      current window.
    - Add a shortcut for the power button.
    - Use horizontal presentation of the alt-tab.
@@ -590,13 +590,13 @@ lubuntu-default-settings (0.20) oneiric; urgency=low
 
   [ Julien Lavergne ]
   * usr/share/lubuntu/openbox/rc.xml
-   - Add Super_L, Super_R and ALt-F1 to keybindings for opening the menu. 
+   - Add Super_L, Super_R and ALt-F1 to keybindings for opening the menu.
   * etc/xdg/lxsession/*/autostart:
    - Don't autostart nm-applet, should be autostarted automatically.
    - Use xfce4-power-manager instead of gnome-power-manager which depends now
      on gnome-settings-daemon.
   * etc/xdg/lubuntu/lxdm/lxdm.conf:
-   - Update with version in lxdm 0.4.0. 
+   - Update with version in lxdm 0.4.0.
 
  -- Julien Lavergne <gilir@ubuntu.com>  Thu, 28 Jul 2011 23:42:29 +0200
 
@@ -675,10 +675,10 @@ lubuntu-default-settings (0.14) natty; urgency=low
  -- Julien Lavergne <gilir@ubuntu.com>  Tue, 09 Nov 2010 22:53:38 +0100
 
 lubuntu-default-settings (0.13) maverick; urgency=low
- 
+
   * debian/postinst:
    - Don't fail if the alternative file doesn't exist. (LP: #654211)
- 
+
  -- Julien Lavergne <gilir@ubuntu.com>  Mon, 04 Oct 2010 23:16:56 +0200
 
 lubuntu-default-settings (0.12) maverick; urgency=low
@@ -725,7 +725,7 @@ lubuntu-default-settings (0.8) maverick; urgency=low
    - Depends on the re-written pcmanfm (>= 0.9.5).
   * usr/share/lubuntu/openbox/menu.xml:
    - Use new command to launch desktop settings.
-  * autostart: 
+  * autostart:
    - Use new pcmanfm --desktop command to start pcmanfm with desktop management
 
  -- Julien Lavergne <gilir@ubuntu.com>  Wed, 02 Jun 2010 01:28:01 +0200
@@ -749,7 +749,7 @@ lubuntu-default-settings (0.6) lucid; urgency=low
 
   * Set iconsize to 22 and panel height to 24 for panel settings. It displays
     correct icons size for panel icons. Thanks Leszek Lesner.
-  * usr/bin/start* : 
+  * usr/bin/start* :
    - From LXDE upstream, make sure dbus is launched when it's necessary.
    - Add polkit-gnome-authentification-agent-1 to make polkit working again.
   * Add custom defaults.list for applications by default.
@@ -770,7 +770,7 @@ lubuntu-default-settings (0.5) lucid; urgency=low
   * Complete openbox keybindings for taking screenshot. Thanks Adam for the
     patch.
   * Switch to Lubuntu custom theme :
-    - debian/control : Depends on lubuntu-artwork (>= 0.4) and 
+    - debian/control : Depends on lubuntu-artwork (>= 0.4) and
       elementary-icon-theme.
     - desktop.conf : Use elementary-monochrome for icon theme.
     - Use Clearlooks for Openbox theme.
@@ -784,7 +784,7 @@ lubuntu-default-settings (0.4) lucid; urgency=low
   * Use openbox menu on the desktop indead of pcmanfm one.
   * Install configuration file for QT apps if no one is installed, and set
     QT style=GTK+.
-  * Merge Leszek Lesner openbox settings. 
+  * Merge Leszek Lesner openbox settings.
 
  -- Julien Lavergne <gilir@ubuntu.com>  Sun, 24 Jan 2010 19:57:14 +0100
 
@@ -794,15 +794,15 @@ lubuntu-default-settings (0.3) lucid; urgency=low
     Bump depends on lxsession to >= 0.4.1 to use this feature.
   * Remove autostart for lxde-settings-daemon, it merged with lxsession.
   * Change path to the wallpaper to a png file rather than a jpg. Bump depends
-    on lubuntu-artwork (>= 0.3) 
+    on lubuntu-artwork (>= 0.3)
 
  -- Julien Lavergne <gilir@ubuntu.com>  Sun, 13 Dec 2009 11:19:35 +0100
 
 lubuntu-default-settings (0.2) lucid; urgency=low
 
-  * Add the volume applet to the panel to have a way to configure 
+  * Add the volume applet to the panel to have a way to configure
     the sound
-  * Autostart gnome-power-manager to add power management support and 
+  * Autostart gnome-power-manager to add power management support and
     the battery icon in notification-area
   * Set the terminal for pcmanfm to lxterminal
   * Move lxpanel background for Lubuntu to a specific file.
