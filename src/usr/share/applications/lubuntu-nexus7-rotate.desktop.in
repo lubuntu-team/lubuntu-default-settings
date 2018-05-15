@@ -1,6 +1,0 @@
-[Desktop Entry]
-_Name=Rotate your screen
-_Comment=Rotate your screen using xrotate
-Icon=object-rotate-left
-Exec=xrotate
-Type=Application

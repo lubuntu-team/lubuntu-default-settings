@@ -11,85 +11,19 @@ Vcs-Git: https://git.launchpad.net/lubuntu-default-settings
 Package: lubuntu-default-settings
 Architecture: all
 Pre-Depends: ${misc:Pre-Depends}
-Depends: lubuntu-artwork (>= 0.4),
+Depends: lubuntu-artwork,
          lubuntu-icon-theme,
          policykit-desktop-privileges,
          ttf-ubuntu-font-family,
          ${misc:Depends}
-Suggests: amixer,
-          dmz-cursor-theme,
-          galculator,
-          lxsession,
-          lxsession-logout,
-          pcmanfm (>= 0.9.5) | pcmanfm-qt,
-          scrot,
-          xbacklight,
-          xscreensaver
-Breaks: lubuntu-extra-sessions (<< 0.54)
 Description: default settings for Lubuntu
  Various system settings tailored for Lubuntu.
 
-Package: lubuntu-extra-sessions
-Architecture: all
-Pre-Depends: ${misc:Pre-Depends}
-Depends: lubuntu-default-settings, ${misc:Depends}
-Breaks: lubuntu-default-settings (<< 0.54)
-Description: extra session for different default settings of Lubuntu
- Various system settings tailored for various version of Lubuntu.
-
-Package: lxgames-default-session
-Architecture: all
-Depends: lightdm (>= 1.9.4),
-         lightdm-gtk-greeter (>= 2.0.1-1),
-         lubuntu-default-settings,
-         lubuntu-extra-sessions,
-         ${misc:Depends}
-Provides: lightdm-gtk-greeter-config
-Description: Set default session to lxgames
- This package sets the default session to lxgames by default.
-
 Package: lubuntu-default-session
-Architecture: all
-Depends: lightdm (>= 1.9.4),
-         lightdm-gtk-greeter (>= 2.0.1-1),
-         lubuntu-default-settings,
-         ${misc:Depends}
-Provides: lightdm-gtk-greeter-config
-Breaks: lubuntu-default-settings (<< 0.53)
-Description: Set default session to Lubuntu
- This package sets the default session to Lubuntu by default.
-
-Package: lubuntu-nexus7-default-session
-Architecture: all
-Depends: lightdm (>= 1.9.4),
-         lightdm-gtk-greeter (>= 2.0.1-1),
-         lubuntu-default-settings,
-         lubuntu-extra-sessions,
-         ${misc:Depends}
-Provides: lightdm-gtk-greeter-config
-Description: Set default session to Lubuntu Nexus7 version
- This package sets the default session to Lubuntu Nexus7 version by default.
-
-Package: lubuntu-nexus7-extra-files
-Architecture: all
-Depends: lubuntu-default-settings, ${misc:Depends}
-Description: Extra files for the nexus7 session
- This package contents extra files for the nexus7 session.
-
-Package: qlubuntu-default-session
 Architecture: all
 Depends: lubuntu-default-settings,
          sddm,
          sddm-theme-lubuntu-chooser,
          ${misc:Depends}
-Provides: razorqt-lightdm-greeter-config
-Breaks: lubuntu-extra-sessions (<< 0.53)
-Description: Set default session to QLubuntu version
- This package sets the default session to QLubuntu version by default.
-
-Package: lubuntu-live-settings
-Architecture: all
-Pre-Depends: ${misc:Pre-Depends}
-Depends: lubuntu-default-settings, ${misc:Depends}
-Description: default settings for Lubuntu live ISO
- Various system settings tailored for Lubuntu ISO.
+Description: set default session to Lubuntu
+ This package sets the default session to Lubuntu by default.

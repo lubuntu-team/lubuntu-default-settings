@@ -1,5 +1,0 @@
-[Desktop Entry]
-_Name=Lubuntu Netbook
-_Comment=Lubuntu Netbook - Lubuntu based session for netbook
-Exec=/usr/bin/lxsession -s Lubuntu-Netbook -e LXDE
-Type=Application

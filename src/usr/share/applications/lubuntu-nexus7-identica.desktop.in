@@ -1,8 +1,0 @@
-[Desktop Entry]
-_Name=identi.ca
-_Comment=Launching identi.ca
-Icon=internet-web-browser
-Exec=chromium-browser --app=https://identi.ca/
-Type=Application
-Categories=Network;
-OnlyShowIn=LXDE;
