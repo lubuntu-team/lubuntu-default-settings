@@ -1,0 +1,5 @@
+[Desktop Entry]
+Name=Lubuntu session
+Comment=Lubuntu session using LXQt
+Exec=/usr/bin/startlxqt
+Type=Application
