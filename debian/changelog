@@ -1,10 +1,10 @@
-lubuntu-default-settings (1.2) UNRELEASED; urgency=medium
+lubuntu-default-settings (1.2) cosmic; urgency=medium
 
   * Move the contents of /etc/xdg/lubuntu/ to /etc/xdg/xdg-Lubuntu/.
   * Ensure that the Lubuntu session uses our Openbox config.
   * Update runtime dependencies.
 
- -- Simon Quigley <tsimonq2@ubuntu.com>  Thu, 17 May 2018 17:53:30 -0500
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Thu, 17 May 2018 17:56:31 -0500
 
 lubuntu-default-settings (1.1) cosmic; urgency=high
 
