@@ -1,5 +1,5 @@
 [Desktop Entry]
-Name=Lubuntu session
+Name=Lubuntu
 Comment=Lubuntu session using LXQt
-Exec=/usr/bin/startlxqt
+Exec=env LXQT_DEFAULT_OPENBOX_CONFIG="/etc/xdg/xdg-Lubuntu/openbox/lxqt-rc.xml" /usr/bin/startlxqt
 Type=Application
