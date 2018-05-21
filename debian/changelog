@@ -1,3 +1,10 @@
+lubuntu-default-settings (1.3) UNRELEASED; urgency=medium
+
+  * In the panel.conf file, turn on autoclearing of the search message; this
+    makes it consistent with other desktop environments.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Mon, 21 May 2018 00:51:56 -0500
+
 lubuntu-default-settings (1.2) cosmic; urgency=medium
 
   * Move the contents of /etc/xdg/lubuntu/ to /etc/xdg/xdg-Lubuntu/.
