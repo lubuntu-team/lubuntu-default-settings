@@ -3,6 +3,7 @@
 all: install
 
 install:
+	make -C src/usr/share/xsessions/po/
 	mkdir -pv $(DESTDIR)
 	cp -a src/etc src/usr $(DESTDIR)/.
 
