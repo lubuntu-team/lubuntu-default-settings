@@ -5,8 +5,9 @@ lubuntu-default-settings (1.4) UNRELEASED; urgency=medium
     - Don't launch a file manager on Ctrl + Alt + D, because that already
       shows the desktop in LXQt.
     - Remove the volume button shortcuts as these are built into LXQt.
-  * Double the splitter position for the PCManFM-Qt Places panel.
-  * gksu -> pkexec in PCManFM-Qt.
+  * Refine the PCManFM-Qt settings:
+    - Double the splitter position for the PCManFM-Qt Places panel.
+    - gksu -> pkexec
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Fri, 20 Jul 2018 01:28:38 -0500
 
