@@ -1,8 +1,8 @@
-lubuntu-default-settings (1.5) UNRELEASED; urgency=medium
+lubuntu-default-settings (1.5) cosmic; urgency=medium
 
   * Add a config file for QTerminal.
 
- -- Simon Quigley <tsimonq2@ubuntu.com>  Fri, 20 Jul 2018 03:45:19 -0500
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Fri, 20 Jul 2018 03:46:13 -0500
 
 lubuntu-default-settings (1.4) cosmic; urgency=medium
 
