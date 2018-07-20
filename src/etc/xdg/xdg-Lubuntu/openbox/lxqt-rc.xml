@@ -419,17 +419,6 @@
     </action>
   </keybind>
 
-  <!-- Launch a filemanager on Ctrl + Alt + D-->
-  <keybind key="C-A-D">
-    <action name="Execute">
-      <startupnotify>
-        <enabled>true</enabled>
-        <name>PCManFM</name>
-      </startupnotify>
-      <command>pcmanfm-qt</command>
-    </action>
-  </keybind>
-
   <!-- Lock the screen on Ctrl + Alt + l-->
   <!--
   <keybind key="C-A-l">
