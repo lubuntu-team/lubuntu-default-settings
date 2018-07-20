@@ -1,7 +1,0 @@
-[Desktop Entry]
-_Name=Shutdown
-_Comment=Shutdown or Reboot
-Icon=system-shutdown-panel
-Exec=lxsession-default quit
-Type=Application
-NoDisplay=true
