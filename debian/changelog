@@ -1,3 +1,9 @@
+lubuntu-default-settings (1.5) UNRELEASED; urgency=medium
+
+  * Add a config file for QTerminal.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Fri, 20 Jul 2018 03:45:19 -0500
+
 lubuntu-default-settings (1.4) cosmic; urgency=medium
 
   * Remove /usr/share/applications; these files are native in LXQt.
