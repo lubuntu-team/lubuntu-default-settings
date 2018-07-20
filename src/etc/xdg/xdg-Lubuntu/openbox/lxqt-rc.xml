@@ -149,7 +149,7 @@
 
 <resize>
   <!--  Lubuntu specific : Don't draw content on resize (too heavy).
-        <drawContents>no</drawContents> 
+        <drawContents>no</drawContents>
   -->
   <drawContents>no</drawContents>
   <popupShow>Nonpixel</popupShow>
@@ -308,11 +308,11 @@
     </action>
   </keybind>
 
-    <!-- 
+    <!--
         Lubuntu specific.
         Keybindings for window tiling
     -->
-    <!-- 
+    <!--
         # HalfLeftScreen
     -->
   <keybind key="W-Left">
@@ -324,7 +324,7 @@
       <width>50%</width>
     </action>
   </keybind>
-    <!-- 
+    <!--
         # HalfRightScreen
     -->
   <keybind key="W-Right">
@@ -336,10 +336,10 @@
       <width>50%</width>
     </action>
   </keybind>
-    <!-- 
+    <!--
         # HalfUpperScreen
     -->
-  <keybind key="W-Up">        
+  <keybind key="W-Up">
     <action name="UnmaximizeFull"/>
     <action name="MoveResizeTo">
       <x>0</x>
@@ -348,10 +348,10 @@
       <height>50%</height>
     </action>
   </keybind>
-    <!-- 
+    <!--
         # HalfLowerScreen
     -->
-  <keybind key="W-Down">        
+  <keybind key="W-Down">
     <action name="UnmaximizeFull"/>
     <action name="MoveResizeTo">
       <x>0</x>
@@ -399,7 +399,7 @@
     </action>
   </keybind>
 -->
-  
+
   <!-- Keybindings to toggle fullscreen -->
   <keybind key="F11">
     <action name="ToggleFullscreen"/>
@@ -448,7 +448,7 @@
     </action>
   </keybind>
 -->
-  
+
   <!-- Keybinding for computer button-->
   <keybind key="XF86MyComputer">
     <action name="Execute">
@@ -474,7 +474,7 @@
   </keybind>
 
   <!--
-      Take a screenshot of the current window with scrot when Alt+Print are pressed 
+      Take a screenshot of the current window with scrot when Alt+Print are pressed
   -->
   <!--
   <keybind key="Print">
@@ -488,7 +488,7 @@
     </action>
   </keybind>
   -->
-  
+
   <!-- Launch logout when push on the shutdown button -->
   <!--
   <keybind key="XF86PowerOff">
@@ -501,7 +501,7 @@
 
 <mouse>
   <!--
-      Lubuntu specific : Specific mouse settings 
+      Lubuntu specific : Specific mouse settings
         <dragThreshold>8</dragThreshold>
         <doubleClickTime>200</doubleClickTime>
   -->
@@ -536,7 +536,7 @@
     </mousebind>
     <mousebind button="A-Right" action="Drag">
       <action name="Resize"/>
-    </mousebind> 
+    </mousebind>
 
     <mousebind button="A-Middle" action="Press">
       <action name="Lower"/>
@@ -788,7 +788,7 @@
     <!-- Menus -->
     <mousebind button="Middle" action="Press">
       <action name="ShowMenu"><menu>client-list-combined-menu</menu></action>
-    </mousebind> 
+    </mousebind>
     <mousebind button="Right" action="Press">
       <action name="ShowMenu"><menu>root-menu</menu></action>
     </mousebind>
@@ -870,7 +870,7 @@
   # order that they appear in this list
 
 
-    # each rule element can be left out or set to 'default' to specify to not 
+    # each rule element can be left out or set to 'default' to specify to not
     # change that attribute of the window
 
     <decor>yes</decor>
@@ -943,7 +943,7 @@
     <maximized>true</maximized>
   </application>
   -->
-  <!--    
+  <!--
         Lubuntu specific :
         Focus all applications launched
         Usefull when launching applications, like terminal from pcmanfm
