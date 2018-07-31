@@ -1,9 +1,9 @@
-lubuntu-default-settings (1.6) UNRELEASED; urgency=medium
+lubuntu-default-settings (1.6) cosmic; urgency=medium
 
   * Translate into Norwegian Bokmål.
   * Add superkey activation for the start menu.
 
- -- Simon Quigley <tsimonq2@ubuntu.com>  Tue, 31 Jul 2018 13:48:04 -0500
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Tue, 31 Jul 2018 16:57:36 -0500
 
 lubuntu-default-settings (1.5) cosmic; urgency=medium
 
