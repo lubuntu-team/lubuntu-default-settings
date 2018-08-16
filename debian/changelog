@@ -1,12 +1,12 @@
-lubuntu-default-settings (1.9) UNRELEASED; urgency=medium
+lubuntu-default-settings (1.9) cosmic; urgency=medium
 
   [ Simon Quigley ]
   * We use Falkon now, not Qupzilla (LP: #1786986).
 
   [ Walter Lapchynski ]
-  * Set qterminal window size to upstream default. (LP: #1786978) 
+  * Set qterminal window size to upstream default. (LP: #1786978)
 
- -- Simon Quigley <tsimonq2@ubuntu.com>  Tue, 14 Aug 2018 17:25:37 -0500
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Thu, 16 Aug 2018 13:20:33 -0500
 
 lubuntu-default-settings (1.8) cosmic; urgency=medium
 
