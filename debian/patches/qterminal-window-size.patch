@@ -1,0 +1,12 @@
+Description: Set qterminal window size to upstream default.
+Author: Walter Lapchynski <wxl@ubuntu.com>
+Bug: https://launchpad.net/bugs/1786978 
+--- a/src/etc/xdg/xdg-Lubuntu/qterminal.org/qterminal.ini
++++ b/src/etc/xdg/xdg-Lubuntu/qterminal.org/qterminal.ini
+@@ -3,3 +3,6 @@ ConfirmMultilinePaste=true
+ HideTabBarWithOnlyOneTab=true
+ fontFamily=Ubuntu Mono
+ fontSize=14
++
++[MainWindow]
++size=@Size(800 600)
