@@ -1,3 +1,9 @@
+lubuntu-default-settings (1.10) cosmic; urgency=medium
+
+  * Use lxqt-sudo instead of pkexec as switch user command. 
+
+ -- Walter Lapchynski <wxl@ubuntu.com>  Thu, 16 Aug 2018 23:14:55 -0700
+
 lubuntu-default-settings (1.9) cosmic; urgency=medium
 
   [ Simon Quigley ]

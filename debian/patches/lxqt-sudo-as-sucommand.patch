@@ -1,0 +1,12 @@
+Description: Use lxqt-sudo instead of pkexec as switch user command. 
+Author: Walter Lapchynski <wxl@ubuntu.com> 
+--- a/src/etc/xdg/xdg-Lubuntu/pcmanfm-qt/lxqt/settings.conf
++++ b/src/etc/xdg/xdg-Lubuntu/pcmanfm-qt/lxqt/settings.conf
+@@ -1,6 +1,6 @@
+ [System]
+ IconThemeName=Lubuntu
+-SuCommand=pkexec %s
++SuCommand=lxqt-sudo %s
+ Terminal=qterminal
+ TerminalDirCommand=qterminal
+ TerminalExecCommand=qterminal -e %s
