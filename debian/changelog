@@ -1,3 +1,9 @@
+lubuntu-default-settings (1.11) UNRELEASED; urgency=medium
+
+  * It's a native packages; so move patches over to the actual files.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Sat, 18 Aug 2018 22:13:54 -0500
+
 lubuntu-default-settings (1.10) cosmic; urgency=medium
 
   * Use lxqt-sudo instead of pkexec as switch user command.
