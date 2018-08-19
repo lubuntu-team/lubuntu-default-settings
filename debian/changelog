@@ -1,3 +1,9 @@
+lubuntu-default-settings (1.12) cosmic; urgency=medium
+
+  * Translate into Italian, French, and German.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Sat, 18 Aug 2018 22:17:35 -0500
+
 lubuntu-default-settings (1.11) cosmic; urgency=medium
 
   * It's a native packages; so move patches over to the actual files.
