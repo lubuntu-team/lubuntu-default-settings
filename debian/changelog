@@ -1,6 +1,10 @@
-lubuntu-default-settings (1.14) cosmic; urgency=low
+lubuntu-default-settings (1.14) cosmic; urgency=medium
 
-  * Set default taskbar buttons to 200px width. 
+  [ Wendy Hill ]
+  * Set default taskbar buttons to 200px width.
+
+  [ Simon Quigley ]
+  * Add additional Greek and Korean translations.
 
  -- Wendy Hill <wjeh0810@gmail.com>  Thu, 27 Sep 2018 14:08:20 -0600
 
