@@ -1,3 +1,11 @@
+lubuntu-default-settings (1.15) cosmic; urgency=medium
+
+  * Enable GTK theme as default.
+  * Set GTK theme to Arc-Darker.
+  * Set featherpad as default application for text/plain and shellscript.* 
+
+ -- Hans P. Möller <hmoller@gmail.com>  Sat, 29 Sep 2018 23:24:06 -0300
+
 lubuntu-default-settings (1.14) cosmic; urgency=medium
 
   [ Wendy Hill ]
