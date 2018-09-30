@@ -1,5 +1,0 @@
-[Desktop Entry]
-_Name=Lubuntu Qt session
-_Comment=A specific Lubuntu session using Qt
-Exec=/usr/bin/startlxqt
-Type=Application

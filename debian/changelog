@@ -1,3 +1,12 @@
+lubuntu-default-settings (0.54.1) bionic; urgency=medium
+
+  * Completely remove /usr/share/xsessions/QLubuntu.desktop so we don't give
+    off the impresssion that it's in any way supported. It's an extra session
+    included because of Lubuntu Next, a product which we never actually
+    released (LP: #1786602).
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Sat, 11 Aug 2018 21:05:37 -0500
+
 lubuntu-default-settings (0.54) bionic; urgency=medium
 
   * Revert previous upload.
