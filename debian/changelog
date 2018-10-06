@@ -1,6 +1,10 @@
-lubuntu-default-settings (1.16) cosmic; urgency=medium
+lubuntu-default-settings (1.16) UNRELEASED; urgency=medium
 
+  [ Wendy Hill ]
   * Remove src/etc/xdg/xdg-Lubuntu/lxqt/globalkeyshortcuts.conf
+
+  [ Simon Quigley ]
+  * Set Firefox as the default browser.
 
  -- Wendy Hill <wendy.hill@mailfence.com>  Fri, 05 Oct 2018 19:30:48 -0600
 
