@@ -1,3 +1,9 @@
+lubuntu-default-settings (1.16) cosmic; urgency=medium
+
+  * Remove src/etc/xdg/xdg-Lubuntu/lxqt/globalkeyshortcuts.conf
+
+ -- Wendy Hill <wendy.hill@mailfence.com>  Fri, 05 Oct 2018 19:30:48 -0600
+
 lubuntu-default-settings (1.15) cosmic; urgency=medium
 
   * Enable GTK theme as default.
