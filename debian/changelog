@@ -1,3 +1,10 @@
+lubuntu-default-settings (1.17) cosmic; urgency=medium
+
+  * Set leave confirmation dialog as default
+  * Set breeze mouse cursors as default
+
+ -- Hans P. Möller <hmoller@gmail.com>  Sun, 07 Oct 2018 18:31:35 -0300
+
 lubuntu-default-settings (1.16) cosmic; urgency=medium
 
   [ Wendy Hill ]
