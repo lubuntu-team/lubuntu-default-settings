@@ -1,3 +1,10 @@
+lubuntu-default-settings (1.18) disco; urgency=medium
+
+  * Set folder view ascending order. (LP: #1801210)
+  * Set desktop shortcuts for home, trash, computer, and network as default.
+
+ -- Dan Simmons <monetaryabyss@protonmail.com>  Sun, 03 Feb 2019 00:21:31 -0500
+
 lubuntu-default-settings (1.17) cosmic; urgency=medium
 
   * Set leave confirmation dialog as default
