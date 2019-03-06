@@ -1,6 +1,10 @@
-lubuntu-default-settings (1.19) disco; urgency=medium
+lubuntu-default-settings (19.04.1) disco; urgency=medium
 
+  [ Hans P. Möller ]
   * Set default icon theme as papirus (not dark) without colorize by widget.
+
+  [ Simon Quigley ]
+  * Bump version to match the release number.
 
  -- Hans P. Möller <hmoller@gmail.com>  Sun, 10 Feb 2019 22:24:33 -0300
 
