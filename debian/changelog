@@ -1,3 +1,9 @@
+lubuntu-default-settings (1.19) disco; urgency=medium
+
+  * Set default icon theme as papirus (not dark) without colorize by widget.
+
+ -- Hans P. Möller <hmoller@gmail.com>  Sun, 10 Feb 2019 22:24:33 -0300
+
 lubuntu-default-settings (1.18) disco; urgency=medium
 
   * Set folder view ascending order. (LP: #1801210)
