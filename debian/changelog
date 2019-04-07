@@ -2,7 +2,7 @@ lubuntu-default-settings (1.20) disco; urgency=medium
 
   * Set tap to click as default for touchpad
 
- -- hmoller <hmoller@gmail.com>  Sat, 06 Apr 2019 20:41:56 -0300
+ -- Hans P Möller  <hmoller@gmail.com>  Sat, 06 Apr 2019 20:41:56 -0300
 
 lubuntu-default-settings (1.19) disco; urgency=medium
 
