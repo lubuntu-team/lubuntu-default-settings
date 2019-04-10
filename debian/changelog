@@ -1,3 +1,9 @@
+lubuntu-default-settings (1.21) disco; urgency=medium
+
+  * Added entries for (almost) all file types to mimeapps.list
+
+ -- Raman Sarda <ramansarda2000@gmail.com>  Thu, 11 Apr 2019 04:11:16 +0530
+
 lubuntu-default-settings (1.20) disco; urgency=medium
 
   * Set tap to click as default for touchpad
