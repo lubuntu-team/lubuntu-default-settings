@@ -1,8 +1,12 @@
 lubuntu-default-settings (19.04.2) disco; urgency=medium
 
+  [ Hans P Möller ]
   * Set tap to click as default for touchpad
 
- -- Hans P Möller <hmoller@gmail.com>  Sat, 06 Apr 2019 20:41:56 -0300
+  [ Raman Sarda ]
+  * Added entries for (almost) all file types to mimeapps.list
+
+ -- Hans P Möller <hmollercl@lubuntu.me>  Sat, 06 Apr 2019 20:41:56 -0300
 
 lubuntu-default-settings (19.04.1) disco; urgency=medium
 
