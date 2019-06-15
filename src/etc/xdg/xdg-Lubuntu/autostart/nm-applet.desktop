@@ -1,0 +1,15 @@
+[Desktop Entry]
+Comment=Manage your network connections
+Exec=nm-applet
+Hidden=true
+Icon=nm-device-wireless
+Name=Network
+NoDisplay=true
+NotShowIn=KDE;GNOME;
+Terminal=false
+Type=Application
+X-GNOME-Bugzilla-Bugzilla=GNOME
+X-GNOME-Bugzilla-Component=nm-applet
+X-GNOME-Bugzilla-Product=NetworkManager
+X-GNOME-UsesNotifications=true
+X-Ubuntu-Gettext-Domain=nm-applet
