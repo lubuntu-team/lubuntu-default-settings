@@ -1,7 +1,8 @@
 lubuntu-default-settings (19.10.1) eoan; urgency=medium
 
-  * Set default icon theme to ePapirus which is grey instead of black and looks better for dark icons over dark background (printer, about, skanlite, etc...)
-  * Added "Hidden=true" nm-applet.desktop to autostart so nm-applet is not autostarted.
+  * Set default icon theme to ePapirus which is grey instead of black and looks
+    better for dark icons over dark background (printer, about, skanlite, etc..)
+  * Added "Hidden=true" nm-applet.desktop to autostart so it will not autostart.
 
  -- Hans P Möller <hmollercl@lubuntu.me>  Sun, 09 Jun 2019 21:15:54 -0400
 
