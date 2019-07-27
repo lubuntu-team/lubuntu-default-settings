@@ -2,6 +2,6 @@
 _Name=ScreenLock
 _Comment=Lock your screen
 Icon=system-lock-screen
-Exec=lxlock
+Exec=light-locker-command -l
 NoDisplay=true
 Type=Application

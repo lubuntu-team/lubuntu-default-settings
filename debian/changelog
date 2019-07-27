@@ -1,3 +1,10 @@
+lubuntu-default-settings (0.54.3) bionic; urgency=medium
+
+  * Set the default lock to light-locker-command instead of lxlock
+    (LP: #1812594)
+
+ -- apt-ghetto <apt-ghetto@lubuntu.me>  Thu, 25 Jul 2019 10:21:00 +0200
+
 lubuntu-default-settings (0.54.2) bionic; urgency=medium
 
   * Remove /usr/share/xsessions/QLubuntu.desktop from
