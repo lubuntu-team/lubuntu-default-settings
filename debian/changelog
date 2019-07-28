@@ -1,3 +1,9 @@
+lubuntu-default-settings (19.10.3) eoan; urgency=medium
+
+  * Update mimeapps.list with more mimetypes.
+
+ -- Dan Simmons <kc2bez@lubuntu.me>  Sat, 27 Jul 2019 16:15:56 -0400
+
 lubuntu-default-settings (19.10.2) eoan; urgency=medium
 
   * Adding back translations.
