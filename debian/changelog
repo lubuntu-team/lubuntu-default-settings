@@ -1,3 +1,9 @@
+lubuntu-default-settings (19.10.2) eoan; urgency=medium
+
+  * Adding back translations.
+
+ -- Walter Lapchynski <wxl@ubuntu.com>  Mon, 17 Jun 2019 19:52:21 -0700
+
 lubuntu-default-settings (19.10.1) eoan; urgency=medium
 
   * Set default icon theme to ePapirus which is grey instead of black and looks
