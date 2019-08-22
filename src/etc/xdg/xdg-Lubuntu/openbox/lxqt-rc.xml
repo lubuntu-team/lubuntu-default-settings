@@ -214,35 +214,19 @@
   <keybind key="C-A-Down">
     <action name="GoToDesktop"><to>down</to><wrap>no</wrap></action>
   </keybind>
-  <keybind key="S-A-Left">
+  <keybind key="C-S-A-Left">
     <action name="SendToDesktop"><to>left</to><wrap>no</wrap></action>
   </keybind>
-  <keybind key="S-A-Right">
+  <keybind key="C-S-A-Right">
     <action name="SendToDesktop"><to>right</to><wrap>no</wrap></action>
   </keybind>
-  <keybind key="S-A-Up">
+  <keybind key="C-S-A-Up">
     <action name="SendToDesktop"><to>up</to><wrap>no</wrap></action>
   </keybind>
-  <keybind key="S-A-Down">
+  <keybind key="C-S-A-Down">
     <action name="SendToDesktop"><to>down</to><wrap>no</wrap></action>
   </keybind>
-  <keybind key="W-F1">
-    <action name="GoToDesktop"><to>1</to></action>
-  </keybind>
-  <keybind key="W-F2">
-    <action name="GoToDesktop"><to>2</to></action>
-  </keybind>
-  <keybind key="W-F3">
-    <action name="GoToDesktop"><to>3</to></action>
-  </keybind>
-  <keybind key="W-F4">
-    <action name="GoToDesktop"><to>4</to></action>
-  </keybind>
-  <keybind key="W-d">
-    <action name="ToggleShowDesktop"/>
-  </keybind>
 
-    <!-- Keybindings for windows -->
   <!-- Keybindings for windows -->
   <keybind key="A-F4">
     <action name="Close"/>
@@ -275,228 +259,33 @@
       </finalactions>
     </action>
   </keybind>
-  <keybind key="C-A-Tab">
-    <action name="NextWindow">
-      <panels>yes</panels><desktop>yes</desktop>
-      <finalactions>
-        <action name="Focus"/>
-        <action name="Raise"/>
-        <action name="Unshade"/>
-      </finalactions>
-    </action>
-  </keybind>
 
   <!-- Keybindings for window switching with the arrow keys -->
-  <keybind key="W-S-Right">
+  <keybind key="A-S-Right">
     <action name="DirectionalCycleWindows">
       <direction>right</direction>
     </action>
   </keybind>
-  <keybind key="W-S-Left">
+  <keybind key="A-S-Left">
     <action name="DirectionalCycleWindows">
       <direction>left</direction>
     </action>
   </keybind>
-  <keybind key="W-S-Up">
+  <keybind key="A-S-Up">
     <action name="DirectionalCycleWindows">
       <direction>up</direction>
     </action>
   </keybind>
-  <keybind key="W-S-Down">
+  <keybind key="A-S-Down">
     <action name="DirectionalCycleWindows">
       <direction>down</direction>
     </action>
   </keybind>
 
-    <!--
-        Lubuntu specific.
-        Keybindings for window tiling
-    -->
-    <!--
-        # HalfLeftScreen
-    -->
-  <keybind key="W-Left">
-    <action name="UnmaximizeFull"/>
-    <action name="MoveResizeTo">
-      <x>0</x>
-      <y>0</y>
-      <height>100%</height>
-      <width>50%</width>
-    </action>
-  </keybind>
-    <!--
-        # HalfRightScreen
-    -->
-  <keybind key="W-Right">
-    <action name="UnmaximizeFull"/>
-    <action name="MoveResizeTo">
-      <x>-0</x>
-      <y>0</y>
-      <height>100%</height>
-      <width>50%</width>
-    </action>
-  </keybind>
-    <!--
-        # HalfUpperScreen
-    -->
-  <keybind key="W-Up">
-    <action name="UnmaximizeFull"/>
-    <action name="MoveResizeTo">
-      <x>0</x>
-      <y>0</y>
-      <width>100%</width>
-      <height>50%</height>
-    </action>
-  </keybind>
-    <!--
-        # HalfLowerScreen
-    -->
-  <keybind key="W-Down">
-    <action name="UnmaximizeFull"/>
-    <action name="MoveResizeTo">
-      <x>0</x>
-      <y>-0</y>
-      <width>100%</width>
-      <height>50%</height>
-    </action>
-  </keybind>
-
-  <!--  Lubuntu specific : Keybindings -->
-
-  <!-- Keybindings for running applications on Home + E -->
-  <keybind key="W-e">
-    <action name="Execute">
-      <startupnotify>
-        <enabled>true</enabled>
-        <name>File manager</name>
-      </startupnotify>
-      <command>pcmanfm-qt</command>
-    </action>
-  </keybind>
-
-  <!-- Keybindings for running Run menu from Lxpanel on Home + R-->
-  <keybind key="W-r">
-    <action name="Execute">
-      <command>lxqt-runner</command>
-    </action>
-  </keybind>
-  <keybind key="A-F2">
-    <action name="Execute">
-      <command>lxqt-runner</command>
-    </action>
-  </keybind>
-
-  <!-- Keybindings for running Menu from Lxpanel -->
-<!--
-  <keybind key="A-F1">
-    <action name="Execute">
-      <command>lxpanelctl menu</command>
-    </action>
-  </keybind>
-  <keybind key="C-Escape">
-    <action name="Execute">
-      <command>lxpanelctl menu</command>
-    </action>
-  </keybind>
--->
-
   <!-- Keybindings to toggle fullscreen -->
   <keybind key="F11">
     <action name="ToggleFullscreen"/>
   </keybind>
-
-  <!-- Launch task manager on Ctrl + Alt + Del-->
-  <keybind key="C-A-Delete">
-    <action name="Execute">
-      <command>qps</command>
-    </action>
-  </keybind>
-
-  <!-- Launch a terminal on Ctrl + Alt + T-->
-  <keybind key="C-A-T">
-    <action name="Execute">
-      <command>qterminal</command>
-    </action>
-  </keybind>
-
-  <!-- Lock the screen on Ctrl + Alt + l-->
-  <!--
-  <keybind key="C-A-l">
-    <action name="Execute">
-      <command>lxsession-default lock</command>
-    </action>
-  </keybind>
--->
-
-  <!-- Keybinding for terminal button-->
-  <keybind key="XF86WWW">
-    <action name="Execute">
-      <command>qterminal</command>
-    </action>
-  </keybind>
-  <keybind key="XF86Terminal">
-    <action name="Execute">
-      <command>qterminal</command>
-    </action>
-  </keybind>
-
-  <!-- Keybinding for calculator button-->
-  <!--
-  <keybind key="XF86Calculator">
-    <action name="Execute">
-      <command>lxsession-default calculator</command>
-    </action>
-  </keybind>
--->
-
-  <!-- Keybinding for computer button-->
-  <keybind key="XF86MyComputer">
-    <action name="Execute">
-      <command>pcmanfm-qt</command>
-    </action>
-  </keybind>
-
-  <!-- Keybindings for Multimedia Keys and LCD Backlight (alternative when not using gnome-power-manager or xfce4-volumed) -->
-  <keybind key="C-F7">
-    <action name="Execute">
-      <command>xset dpms force off</command>
-    </action>
-  </keybind>
-  <keybind key="C-F10">
-    <action name="Execute">
-      <command>xbacklight -dec 10</command>
-    </action>
-  </keybind>
-  <keybind key="C-F11">
-    <action name="Execute">
-      <command>xbacklight -inc 10</command>
-    </action>
-  </keybind>
-
-  <!--
-      Take a screenshot of the current window with scrot when Alt+Print are pressed
-  -->
-  <!--
-  <keybind key="Print">
-    <action name="Execute">
-      <command>lxsession-default screenshot</command>
-    </action>
-  </keybind>
-  <keybind key="A-Print">
-    <action name="Execute">
-      <command>lxsession-default screenshot window</command>
-    </action>
-  </keybind>
-  -->
-
-  <!-- Launch logout when push on the shutdown button -->
-  <!--
-  <keybind key="XF86PowerOff">
-    <action name="Execute">
-      <command>lxsession-default quit</command>
-    </action>
-  </keybind>
--->
 </keyboard>
 
 <mouse>

@@ -1,3 +1,12 @@
+lubuntu-default-settings (19.10.5) eoan; urgency=medium
+
+  * Modified shortcuts so they don't interfere with lxqt-globalkeys.
+  * Removed shortcuts not relevant to LXQt releases.
+  * Removed non-functional shortcuts that were commented out.
+  * Included globalkeys.conf for lxqt-globalkeys. 
+
+ -- Raman Sarda <theloudspeaker@lubuntu.me>  Wed, 21 Aug 2019 15:58:19 +0530
+
 lubuntu-default-settings (19.10.4) eoan; urgency=medium
 
   * Added lximage-qt-screenshot.desktop with NoDisplay=true so it does not
