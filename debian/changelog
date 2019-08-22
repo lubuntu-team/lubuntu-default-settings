@@ -1,3 +1,10 @@
+lubuntu-default-settings (19.10.4) eoan; urgency=medium
+
+  * Added lximage-qt-screenshot.desktop with NoDisplay=true so it does not
+    appear because we changed screenshot program to screengrab
+
+ -- Hans P. Möller <hmollercl@lubuntu.me>  Tue, 20 Aug 2019 23:04:42 -0400
+
 lubuntu-default-settings (19.10.3) eoan; urgency=medium
 
   * Update mimeapps.list with more mimetypes.
