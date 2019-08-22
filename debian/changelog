@@ -1,9 +1,13 @@
 lubuntu-default-settings (19.10.5) eoan; urgency=medium
 
+  [ Raman Sarda ]
   * Modified shortcuts so they don't interfere with lxqt-globalkeys.
   * Removed shortcuts not relevant to LXQt releases.
   * Removed non-functional shortcuts that were commented out.
-  * Included globalkeys.conf for lxqt-globalkeys. 
+  * Included globalkeys.conf for lxqt-globalkeys.
+
+  [ Walter Lapchynski ]
+  * Bump Standards-Version and debhelper compat version, no changes needed.
 
  -- Raman Sarda <theloudspeaker@lubuntu.me>  Wed, 21 Aug 2019 15:58:19 +0530
 
