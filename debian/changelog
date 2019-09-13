@@ -1,3 +1,12 @@
+lubuntu-default-settings (19.10.7) eoan; urgency=medium
+
+  * Added config file for runner.
+  * Actually fixed the Ctrl+Alt+B
+  * Added setting for search media key.
+  * Modified homepage button setting to open default browser instead of firefox.
+
+ -- Raman Sarda <theloudspeaker@lubuntu.me>  Thu, 12 Sep 2019 21:04:11 +0000
+
 lubuntu-default-settings (19.10.6) eoan; urgency=medium
 
   * Fixed Ctrl+Alt+B
