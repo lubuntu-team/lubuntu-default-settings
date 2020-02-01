@@ -1,3 +1,9 @@
+lubuntu-default-settings (20.04.2) focal; urgency=medium
+
+  * Added SAL_USE_VCLPLUGIN=qt5 env variable in session.conf.
+
+ -- Hans P Möller <hmollercl@lubuntu.me>  Sat, 25 Jan 2020 22:44:42 -0300
+
 lubuntu-default-settings (20.04.1) focal; urgency=medium
 
   * Added default theme for XscreenSaver
