@@ -1,3 +1,11 @@
+lubuntu-default-settings (20.04.3) focal; urgency=medium
+
+  * Added nm-tray.conf in xdg for connection-editor
+  * Bump standards version, no changes needed
+  * Changed new debhelper and compat definition
+
+ -- Hans P. Möller <hmollecl@ubuntu.me>  Mon, 10 Feb 2020 19:33:03 -0300
+
 lubuntu-default-settings (20.04.2) focal; urgency=medium
 
   * Added SAL_USE_VCLPLUGIN=qt5 env variable in session.conf.

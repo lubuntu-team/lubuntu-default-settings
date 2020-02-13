@@ -3,11 +3,12 @@ Section: x11
 Priority: optional
 Maintainer: Lubuntu Developers <lubuntu-devel@lists.ubuntu.com>
 Uploaders: Simon Quigley <tsimonq2@ubuntu.com>
-Build-Depends: debhelper (>= 12), intltool
-Standards-Version: 4.4.0
+Build-Depends: debhelper-compat (= 12), intltool
+Standards-Version: 4.5.0
 Homepage: https://lubuntu.me
 Vcs-Browser: https://git.launchpad.net/lubuntu-default-settings?h=master
 Vcs-Git: https://git.launchpad.net/lubuntu-default-settings
+Rules-Requires-Root: no
 
 Package: lubuntu-default-settings
 Architecture: all
