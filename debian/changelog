@@ -1,3 +1,9 @@
+lubuntu-default-settings (20.04.4) focal; urgency=medium
+
+  * Add alt-tab switching for all desktops. Thanks to Einar Mostad.
+
+ -- Dan Simmons <kc2bez@lubuntu.me>  Tue, 18 Feb 2020 19:59:55 -0500
+
 lubuntu-default-settings (20.04.3) focal; urgency=medium
 
   * Added nm-tray.conf in xdg for connection-editor

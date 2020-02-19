@@ -248,6 +248,7 @@
         <action name="Raise"/>
         <action name="Unshade"/>
       </finalactions>
+      <allDesktops>yes</allDesktops>
     </action>
   </keybind>
   <keybind key="A-S-Tab">
@@ -257,6 +258,7 @@
         <action name="Raise"/>
         <action name="Unshade"/>
       </finalactions>
+      <allDesktops>yes</allDesktops>
     </action>
   </keybind>
 
