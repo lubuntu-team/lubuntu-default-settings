@@ -1,3 +1,10 @@
+lubuntu-default-settings (20.10.1) groovy; urgency=medium
+
+  * Added SAL_VCL_QT5_USE_CAIRO=true env variable in session.conf. LP: #1895216
+  * Bump debhelper-compat version, no changes needed.
+
+ -- Hans P Möller <hmollercl@lubuntu.me>  Tue, 06 Oct 2020 20:37:34 -0300
+
 lubuntu-default-settings (20.04.4) focal; urgency=medium
 
   * Add alt-tab switching for all desktops. Thanks to Einar Mostad.
