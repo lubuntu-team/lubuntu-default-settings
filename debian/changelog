@@ -1,3 +1,9 @@
+lubuntu-default-settings (21.04.1) UNRELEASED; urgency=medium
+
+  * Update XscreenSaver lock screen to 21.04.
+
+ -- Dan Simmons <kc2bez@lubuntu.me>  Sun, 03 Jan 2021 14:45:56 -0500
+
 lubuntu-default-settings (20.10.1) groovy; urgency=medium
 
   * Added SAL_VCL_QT5_USE_CAIRO=true env variable in session.conf. LP: #1895216
