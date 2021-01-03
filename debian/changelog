@@ -1,8 +1,8 @@
-lubuntu-default-settings (21.04.1) UNRELEASED; urgency=medium
+lubuntu-default-settings (21.04.1) hirsute; urgency=medium
 
   * Update XscreenSaver lock screen to 21.04.
 
- -- Dan Simmons <kc2bez@lubuntu.me>  Sun, 03 Jan 2021 14:45:56 -0500
+ -- Dan Simmons <kc2bez@lubuntu.me>  Sun, 03 Jan 2021 14:49:50 -0500
 
 lubuntu-default-settings (20.10.1) groovy; urgency=medium
 
