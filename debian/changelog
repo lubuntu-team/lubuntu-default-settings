@@ -1,8 +1,9 @@
-lubuntu-default-settings (21.10.1) UNRELEASED; urgency=medium
+lubuntu-default-settings (21.10.1) impish; urgency=medium
 
   * Update XscreenSaver lock screen to 21.10.
+  * Bump Standards version to 4.5.1, no changes needed.
 
- -- Dan Simmons <kc2bez@lubuntu.me>  Sun, 15 Aug 2021 20:17:23 -0400
+ -- Dan Simmons <kc2bez@lubuntu.me>  Sun, 15 Aug 2021 20:41:28 -0400
 
 lubuntu-default-settings (21.04.3) hirsute; urgency=medium
 
