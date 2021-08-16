@@ -1,3 +1,9 @@
+lubuntu-default-settings (21.10.1) UNRELEASED; urgency=medium
+
+  * Update XscreenSaver lock screen to 21.10.
+
+ -- Dan Simmons <kc2bez@lubuntu.me>  Sun, 15 Aug 2021 20:17:23 -0400
+
 lubuntu-default-settings (21.04.3) hirsute; urgency=medium
 
   * Swap ark for lxqt-archiver.
