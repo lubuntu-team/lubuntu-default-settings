@@ -1,3 +1,9 @@
+lubuntu-default-settings (22.04.1) UNRELEASED; urgency=medium
+
+  * Bump Standards version to 4.6.0, no changes needed.
+
+ -- Dan Simmons <kc2bez@lubuntu.me>  Sun, 14 Nov 2021 09:59:11 -0500
+
 lubuntu-default-settings (21.10.2) impish; urgency=medium
 
   * Move the Openbox settings to match upstream compatibility changes.

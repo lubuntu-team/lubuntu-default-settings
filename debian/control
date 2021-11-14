@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Lubuntu Developers <lubuntu-devel@lists.ubuntu.com>
 Uploaders: Simon Quigley <tsimonq2@ubuntu.com>
 Build-Depends: debhelper-compat (= 13), intltool
-Standards-Version: 4.5.1
+Standards-Version: 4.6.0
 Homepage: https://lubuntu.me
 Vcs-Browser: https://git.launchpad.net/lubuntu-default-settings?h=master
 Vcs-Git: https://git.launchpad.net/lubuntu-default-settings
