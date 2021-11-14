@@ -1,6 +1,7 @@
 lubuntu-default-settings (22.04.1) UNRELEASED; urgency=medium
 
   * Bump Standards version to 4.6.0, no changes needed.
+  * Update XscreenSaver lock screen to 22.04.
 
  -- Dan Simmons <kc2bez@lubuntu.me>  Sun, 14 Nov 2021 09:59:11 -0500
 
