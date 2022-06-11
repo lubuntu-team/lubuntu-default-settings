@@ -1,3 +1,9 @@
+lubuntu-default-settings (22.10.1) kinetic; urgency=medium
+
+  * Update XscreenSaver lock screen to 22.10.
+
+ -- Dan Simmons <kc2bez@lubuntu.me>  Sat, 11 Jun 2022 17:02:57 -0400
+
 lubuntu-default-settings (22.04.1) jammy; urgency=medium
 
   * Bump Standards version to 4.6.0, no changes needed.
