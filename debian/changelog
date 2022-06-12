@@ -1,3 +1,9 @@
+lubuntu-default-settings (22.10.2) kinetic; urgency=medium
+
+  * Add missing changelog and proper fonts depend.
+
+ -- Dan Simmons <kc2bez@lubuntu.me>  Sun, 12 Jun 2022 13:27:07 -0400
+
 lubuntu-default-settings (22.10.1) kinetic; urgency=medium
 
   * Update XscreenSaver lock screen to 22.10.
