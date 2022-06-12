@@ -17,7 +17,7 @@ Depends: lubuntu-artwork,
          lxqt-session,
          openbox,
          policykit-desktop-privileges,
-         ttf-ubuntu-font-family,
+         fonts-ubuntu,
          ${misc:Depends}
 Breaks: lubuntu-default-session (<< 1.0),
         lubuntu-default-settings (<< 1.0),
