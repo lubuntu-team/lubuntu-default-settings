@@ -2,6 +2,8 @@ lubuntu-default-settings (22.10.3) UNRELEASED; urgency=medium
 
   * By default, set the tab width to vary with the text content. This makes
     for a cleaner default, and the user can always revert back to fixed width.
+  * Add some minimal settings for powermanagement, including switching to a
+    much better power icon than the default circle.
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Fri, 17 Jun 2022 21:34:37 -0500
 
