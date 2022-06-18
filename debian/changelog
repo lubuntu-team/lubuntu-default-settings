@@ -1,4 +1,4 @@
-lubuntu-default-settings (22.10.3) kinetic; urgency=medium
+lubuntu-default-settings (22.10.4) kinetic; urgency=medium
 
   * By default, set the tab width to vary with the text content. This makes
     for a cleaner default, and the user can always revert back to fixed width.
@@ -6,6 +6,12 @@ lubuntu-default-settings (22.10.3) kinetic; urgency=medium
     much better power icon than the default circle.
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Fri, 17 Jun 2022 22:17:26 -0500
+
+lubuntu-default-settings (22.10.3) kinetic; urgency=medium
+
+  * Add a new default desktop entry for the Lubuntu Manual.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Thu, 16 Jun 2022 23:21:39 -0400
 
 lubuntu-default-settings (22.10.2) kinetic; urgency=medium
 
