@@ -1,3 +1,9 @@
+lubuntu-default-settings (22.10.5) kinetic; urgency=medium
+
+  * Change default Qt theme from Breeze to cleanlooks (LP: #1992196).
+
+ -- Aaron Rainbolt <arraybolt3@gmail.com>  Sun, 09 Oct 2022 13:41:02 -0500
+
 lubuntu-default-settings (22.10.4) kinetic; urgency=medium
 
   * By default, set the tab width to vary with the text content. This makes
