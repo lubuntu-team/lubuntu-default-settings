@@ -1,3 +1,9 @@
+lubuntu-default-settings (23.04.1) lunar; urgency=medium
+
+  * Welcome to the Lunar Lobster!
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Fri, 28 Oct 2022 15:03:57 -0500
+
 lubuntu-default-settings (22.10.4) kinetic; urgency=medium
 
   * By default, set the tab width to vary with the text content. This makes
