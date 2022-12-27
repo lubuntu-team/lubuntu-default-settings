@@ -441,7 +441,7 @@ GL: 				sierpinski3d -root			    \n\
 				squiral -root				    \n\
 				wander -root				    \n\
 -				webcollage -root			    \n\
-				xflame -root				    \n\
+-				xflame -root				    \n\
 				xmatrix -root				    \n\
 GL: 				gflux -root				    \n\
 -				nerverot -root				    \n\

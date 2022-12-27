@@ -1,3 +1,10 @@
+lubuntu-default-settings (23.04.3) lunar; urgency=medium
+
+  * Disabled the XFlame screensaver (the user can re-enable it themselves if
+    they want).
+
+ -- Aaron Rainbolt <arraybolt3@ubuntu.com>  Tue, 27 Dec 2022 13:46:46 -0600
+
 lubuntu-default-settings (23.04.2) lunar; urgency=medium
 
   * Overhauled default XScreenSaver configuration file for compatibility with
