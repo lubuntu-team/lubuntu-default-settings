@@ -1,4 +1,4 @@
-lubuntu-default-settings (23.04.1ubuntu1) UNRELEASED; urgency=medium
+lubuntu-default-settings (23.04.2) lunar; urgency=medium
 
   * Overhauled default XScreenSaver configuration file for compatibility with
     the current version of XScreenSaver in Lunar. (LP: #1989163)
@@ -8,7 +8,7 @@ lubuntu-default-settings (23.04.1ubuntu1) UNRELEASED; urgency=medium
     screen so that it points to the man page for xscreensaver on Ubuntu's
     website.
 
- -- Aaron Rainbolt <arraybolt3@ubuntu.com>  Tue, 27 Dec 2022 12:16:18 -0600
+ -- Aaron Rainbolt <arraybolt3@ubuntu.com>  Tue, 27 Dec 2022 13:22:02 -0600
 
 lubuntu-default-settings (23.04.1) lunar; urgency=medium
 
