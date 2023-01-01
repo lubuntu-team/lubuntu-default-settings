@@ -3,6 +3,7 @@ lubuntu-default-settings (23.04.4) lunar; urgency=medium
   * Added a Picom autostart desktop file to the /etc/xdg/xdg-Lubuntu/autostart
     file, enabling Picom by default.
   * Removed trailing whitespace from changelog.
+  * Bumped Standards-Version to 4.6.2, no changes necessary.
 
  -- Aaron Rainbolt <arraybolt3@ubuntu.com>  Sun, 01 Jan 2023 03:24:03 -0600
 
