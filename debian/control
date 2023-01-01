@@ -13,11 +13,11 @@ Rules-Requires-Root: no
 Package: lubuntu-default-settings
 Architecture: all
 Pre-Depends: ${misc:Pre-Depends}
-Depends: lubuntu-artwork,
+Depends: fonts-ubuntu,
+         lubuntu-artwork,
          lxqt-session,
          openbox,
          policykit-desktop-privileges,
-         fonts-ubuntu,
          ${misc:Depends}
 Breaks: lubuntu-default-session (<< 1.0),
         lubuntu-default-settings (<< 1.0),

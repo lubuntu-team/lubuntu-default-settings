@@ -4,6 +4,7 @@ lubuntu-default-settings (23.04.4) lunar; urgency=medium
     file, enabling Picom by default.
   * Removed trailing whitespace from changelog.
   * Bumped Standards-Version to 4.6.2, no changes necessary.
+  * Ran wrap-and-sort.
 
  -- Aaron Rainbolt <arraybolt3@ubuntu.com>  Sun, 01 Jan 2023 03:24:03 -0600
 
