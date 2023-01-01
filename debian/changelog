@@ -2,6 +2,7 @@ lubuntu-default-settings (23.04.4) lunar; urgency=medium
 
   * Added a Picom autostart desktop file to the /etc/xdg/xdg-Lubuntu/autostart
     file, enabling Picom by default.
+  * Removed trailing whitespace from changelog.
 
  -- Aaron Rainbolt <arraybolt3@ubuntu.com>  Sun, 01 Jan 2023 03:24:03 -0600
 
@@ -62,7 +63,7 @@ lubuntu-default-settings (22.04.2) jammy; urgency=medium
   * Depend on fonts-ubuntu instead of obsolete ttf-ubuntu-font-family.
 
  -- Steve Langasek <steve.langasek@ubuntu.com>  Fri, 11 Mar 2022 01:19:56 +0000
- 
+
 lubuntu-default-settings (22.04.1) jammy; urgency=medium
 
   * Bump Standards version to 4.6.0, no changes needed.
