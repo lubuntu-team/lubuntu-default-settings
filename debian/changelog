@@ -1,3 +1,11 @@
+lubuntu-default-settings (22.10.5) kinetic; urgency=medium
+
+  * Overhauled XScreenSaver configuration file to be compatible with the
+    version of XScreenSaver in Kinetic, adding customizations to work around
+    new and undesirable behavior. (LP: #1989163)
+
+ -- Aaron Rainbolt <arraybolt3@ubuntu.com>  Tue, 24 Jan 2023 02:26:54 -0600
+
 lubuntu-default-settings (22.10.4) kinetic; urgency=medium
 
   * By default, set the tab width to vary with the text content. This makes
