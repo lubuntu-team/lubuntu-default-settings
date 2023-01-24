@@ -4,6 +4,8 @@ lubuntu-default-settings (23.04.5) UNRELEASED; urgency=medium
     consistent with our existing default settings. This is to cover the case
     of our Qt 6 applications, which will use qt6ct for theming instead of
     lxqt-qtplugin until support is added. Feels hacky, yet a reasonable fix.
+  * Drop many obsolete Breaks/Replaces, since we are far past the transition
+    from LXDE.
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Tue, 24 Jan 2023 15:40:42 -0600
 
