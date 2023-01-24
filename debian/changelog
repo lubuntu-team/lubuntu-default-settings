@@ -1,4 +1,4 @@
-lubuntu-default-settings (23.04.5) UNRELEASED; urgency=medium
+lubuntu-default-settings (23.04.5) lunar; urgency=medium
 
   * Add qt6ct as a hard dependency and ship a default configuration file
     consistent with our existing default settings. This is to cover the case
@@ -8,7 +8,7 @@ lubuntu-default-settings (23.04.5) UNRELEASED; urgency=medium
     from LXDE.
   * Update the copyright for Lubuntu Developers to 2023.
 
- -- Simon Quigley <tsimonq2@ubuntu.com>  Tue, 24 Jan 2023 15:40:42 -0600
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Tue, 24 Jan 2023 15:51:27 -0600
 
 lubuntu-default-settings (23.04.4) lunar; urgency=medium
 
