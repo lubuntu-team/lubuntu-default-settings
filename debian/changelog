@@ -1,6 +1,9 @@
 lubuntu-default-settings (23.04.5) UNRELEASED; urgency=medium
 
-  * 
+  * Add qt6ct as a hard dependency and ship a default configuration file
+    consistent with our existing default settings. This is to cover the case
+    of our Qt 6 applications, which will use qt6ct for theming instead of
+    lxqt-qtplugin until support is added. Feels hacky, yet a reasonable fix.
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Tue, 24 Jan 2023 15:40:42 -0600
 
