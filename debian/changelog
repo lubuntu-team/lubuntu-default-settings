@@ -1,9 +1,9 @@
-lubuntu-default-settings (23.04.6) UNRELEASED; urgency=medium
+lubuntu-default-settings (23.04.6) lunar; urgency=medium
 
   * Revert usage of qt6ct, we should work on this natively in LXQt.
   * Reduce the value of SplitterPos in pcmanfm-qt, which looks much nicer.
 
- -- Simon Quigley <tsimonq2@ubuntu.com>  Fri, 10 Mar 2023 11:02:30 -0800
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Fri, 10 Mar 2023 11:07:15 -0800
 
 lubuntu-default-settings (23.04.5) lunar; urgency=medium
 
