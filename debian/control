@@ -18,7 +18,6 @@ Depends: fonts-ubuntu,
          lxqt-session,
          openbox,
          policykit-desktop-privileges,
-         qt6ct,
          ${misc:Depends}
 Description: default settings for Lubuntu
  Various system settings tailored for Lubuntu.
