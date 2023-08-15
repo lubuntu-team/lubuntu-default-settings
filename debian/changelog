@@ -1,3 +1,10 @@
+lubuntu-default-settings (23.10.1) UNRELEASED; urgency=medium
+
+  * Remove Picom autostart so it doesn't start twice, thanks wxl.
+    (LP: #2018620)
+
+ -- Dan Simmons <kc2bez@lubuntu.me>  Tue, 15 Aug 2023 07:05:04 -0400
+
 lubuntu-default-settings (23.04.6) lunar; urgency=medium
 
   * Revert usage of qt6ct, we should work on this natively in LXQt.
