@@ -1,3 +1,9 @@
+lubuntu-default-settings (23.10.2) UNRELEASED; urgency=medium
+
+  * Make XDG portals happier (LP: #2036098).
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Wed, 20 Sep 2023 22:39:15 -0500
+
 lubuntu-default-settings (23.10.1) mantic; urgency=medium
 
   * Remove Picom autostart so it doesn't start twice, thanks wxl.
