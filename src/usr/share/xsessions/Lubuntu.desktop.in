@@ -3,4 +3,4 @@ Name=Lubuntu
 Comment=Lubuntu session using LXQt
 Exec=/usr/bin/startlxqt
 Type=Application
-DesktopNames=Lubuntu;LXQt;
+DesktopNames=LXQt

@@ -1,3 +1,10 @@
+lubuntu-default-settings (23.10.3) mantic; urgency=medium
+
+  * Only keep LXQt as DesktopNames, since we don't have a Lubuntu-specific
+    config yet.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Fri, 22 Sep 2023 10:41:47 -0500
+
 lubuntu-default-settings (23.10.2) mantic; urgency=high
 
   * Make XDG portals happier (LP: #2036098).
