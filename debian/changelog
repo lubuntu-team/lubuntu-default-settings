@@ -1,3 +1,10 @@
+lubuntu-default-settings (23.10.4) mantic; urgency=medium
+
+  * Instead of stretching the wallpaper between two monitors, default to one
+    wallpaper per monitor.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Sun, 08 Oct 2023 11:19:50 -0500
+
 lubuntu-default-settings (23.10.3) mantic; urgency=medium
 
   * Only keep LXQt as DesktopNames, since we don't have a Lubuntu-specific
