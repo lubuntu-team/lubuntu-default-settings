@@ -2,6 +2,8 @@ lubuntu-default-settings (24.04.2) noble; urgency=medium
 
   * Change the default power icon type to have more details.
   * Disable the idleness watcher when LXQt is fullscreen.
+  * Slightly bump up the "power low" warnings, to work around some bugs about
+    not notifying quick enough.
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Wed, 22 Nov 2023 16:55:46 -0600
 
