@@ -19,5 +19,6 @@ Depends: fonts-ubuntu,
          openbox,
          policykit-desktop-privileges,
          ${misc:Depends}
+Recommends: breeze-gtk-theme
 Description: default settings for Lubuntu
  Various system settings tailored for Lubuntu.
