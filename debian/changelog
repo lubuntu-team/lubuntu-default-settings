@@ -1,3 +1,9 @@
+lubuntu-default-settings (24.04.4) noble; urgency=medium
+
+  * Updating quick launch for Firefox snap path. 
+
+ -- Walter Lapchynski <wxl@ubuntu.com>  Thu, 07 Mar 2024 21:50:30 +0000
+
 lubuntu-default-settings (24.04.3) noble; urgency=medium
 
   * Added breeze-gtk-theme to Recommends.
