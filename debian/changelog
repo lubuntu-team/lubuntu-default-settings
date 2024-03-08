@@ -1,3 +1,9 @@
+lubuntu-default-settings (24.04.5) noble; urgency=medium
+
+  * Setting Okular as default application for PDF files. 
+
+ -- Walter Lapchynski <wxl@ubuntu.com>  Fri, 08 Mar 2024 22:55:46 +0000
+
 lubuntu-default-settings (24.04.4) noble; urgency=medium
 
   * Updating quick launch for Firefox snap path. 
