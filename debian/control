@@ -3,7 +3,7 @@ Section: x11
 Priority: optional
 Maintainer: Lubuntu Developers <lubuntu-devel@lists.ubuntu.com>
 Uploaders: Simon Quigley <tsimonq2@ubuntu.com>
-Build-Depends: debhelper-compat (= 13), intltool
+Build-Depends: cmake, debhelper-compat (= 13), intltool, qtbase5-dev
 Standards-Version: 4.6.2
 Homepage: https://lubuntu.me
 Vcs-Browser: https://git.launchpad.net/lubuntu-default-settings?h=master
@@ -22,3 +22,10 @@ Depends: fonts-ubuntu,
 Recommends: breeze-gtk-theme
 Description: default settings for Lubuntu
  Various system settings tailored for Lubuntu.
+
+Package: lubuntu-snap-installation-monitor
+Architecture: amd64
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Simple notifier for snap installation
+ Let the user know if snaps are still being installed in the background when
+ booting up their desktop environment.

@@ -1,3 +1,12 @@
+lubuntu-default-settings (24.04.9) noble; urgency=medium
+
+  * Create lubuntu-snap-installation-monitor, which tells the user if snaps
+    are still being pre-seeded in the background. Mostly used in the case of
+    preseeding a lot of snaps, or preseeding snaps on a slower machine
+    (LP: #2045580, LP: #2061318).
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Sun, 14 Apr 2024 15:49:12 -0500
+
 lubuntu-default-settings (24.04.8) noble; urgency=medium
 
   * Don't decorate firmware-updater, it comes with its own (LP: #2061307).
