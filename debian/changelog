@@ -1,3 +1,9 @@
+lubuntu-default-settings (24.04.8) noble; urgency=medium
+
+  * Don't decorate firmware-updater, it comes with its own (LP: #2061307).
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Sun, 14 Apr 2024 12:44:19 -0500
+
 lubuntu-default-settings (24.04.7) noble; urgency=medium
 
   * Removing outdated Openbox configs. (LP: #2059845)

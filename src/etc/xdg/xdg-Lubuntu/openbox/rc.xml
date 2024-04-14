@@ -739,6 +739,10 @@
         Focus all applications launched
         Usefull when launching applications, like terminal from pcmanfm
   -->
+  <application name="firmware-updater">
+    <decor>no</decor>
+  </application>
+
   <application class="*">
     <focus>yes</focus>
   </application>
