@@ -1,3 +1,9 @@
+lubuntu-default-settings (24.04.10) noble; urgency=medium
+
+  * Do not show hibernate option in the menu. (LP: #1902497) 
+
+ -- Walter Lapchynski <wxl@ubuntu.com>  Tue, 16 Apr 2024 23:28:56 +0000
+
 lubuntu-default-settings (24.04.9) noble; urgency=medium
 
   * Create lubuntu-snap-installation-monitor, which tells the user if snaps
