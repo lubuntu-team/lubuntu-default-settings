@@ -1,3 +1,9 @@
+lubuntu-default-settings (24.04.11) noble; urgency=medium
+
+  * Do not show an actual popup, just the notification for the snap monitor.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Wed, 17 Apr 2024 22:27:23 -0500
+
 lubuntu-default-settings (24.04.10) noble; urgency=medium
 
   * Do not show hibernate option in the menu. (LP: #1902497) 

@@ -14,7 +14,6 @@
 #include <QSystemTrayIcon>
 #include <QtDBus/QtDBus>
 #include <QTimer>
-#include <QMessageBox>
 
 int main(int argc, char *argv[]) {
     QApplication app(argc, argv);
@@ -67,13 +66,6 @@ int main(int argc, char *argv[]) {
         QVariant newSubState = unit.property("SubState");
         if (newState.toString() == "active" && newSubState.toString() == "exited") {
             trayIcon.hide();
-            QMessageBox messageBox;
-            messageBox.setIcon(QMessageBox::Information);
-            messageBox.setText("Background snap installation is complete.");
-            messageBox.setWindowTitle("Installation Complete");
-            messageBox.setStandardButtons(QMessageBox::Ok);
-            messageBox.exec();
-
             QApplication::quit();
         }
     });
