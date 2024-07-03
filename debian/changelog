@@ -2,6 +2,7 @@ lubuntu-default-settings (24.10.1) UNRELEASED; urgency=medium
 
   * Switch back to qpdfview from okular.
   * Port snap-installation-monitor to Qt 6.
+  * Switch to the Qt 6 LibreOffice frontend.
   * Bump Standards-version to 4.7.0, no changes needed.
   * Various Lintian complaints.
 
