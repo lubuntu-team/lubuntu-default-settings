@@ -3,7 +3,7 @@ Section: x11
 Priority: optional
 Maintainer: Lubuntu Developers <lubuntu-devel@lists.ubuntu.com>
 Uploaders: Simon Quigley <tsimonq2@ubuntu.com>
-Build-Depends: cmake, debhelper-compat (= 13), intltool, qtbase5-dev
+Build-Depends: cmake, debhelper-compat (= 13), intltool, qt6-base-dev
 Standards-Version: 4.6.2
 Homepage: https://lubuntu.me
 Vcs-Browser: https://git.launchpad.net/lubuntu-default-settings?h=master

@@ -1,6 +1,7 @@
 lubuntu-default-settings (24.10.1) UNRELEASED; urgency=medium
 
   * Switch back to qpdfview from okular.
+  * Port snap-installation-monitor to Qt 6.
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Wed, 03 Jul 2024 09:50:54 -0500
 
