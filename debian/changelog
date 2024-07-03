@@ -3,6 +3,7 @@ lubuntu-default-settings (24.10.1) UNRELEASED; urgency=medium
   * Switch back to qpdfview from okular.
   * Port snap-installation-monitor to Qt 6.
   * Bump Standards-version to 4.7.0, no changes needed.
+  * Various Lintian complaints.
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Wed, 03 Jul 2024 09:50:54 -0500
 
@@ -14,7 +15,7 @@ lubuntu-default-settings (24.04.11) noble; urgency=medium
 
 lubuntu-default-settings (24.04.10) noble; urgency=medium
 
-  * Do not show hibernate option in the menu. (LP: #1902497) 
+  * Do not show hibernate option in the menu. (LP: #1902497)
 
  -- Walter Lapchynski <wxl@ubuntu.com>  Tue, 16 Apr 2024 23:28:56 +0000
 
@@ -47,13 +48,13 @@ lubuntu-default-settings (24.04.6) noble; urgency=medium
 
 lubuntu-default-settings (24.04.5) noble; urgency=medium
 
-  * Setting Okular as default application for PDF files. 
+  * Setting Okular as default application for PDF files.
 
  -- Walter Lapchynski <wxl@ubuntu.com>  Fri, 08 Mar 2024 22:55:46 +0000
 
 lubuntu-default-settings (24.04.4) noble; urgency=medium
 
-  * Updating quick launch for Firefox snap path. 
+  * Updating quick launch for Firefox snap path.
 
  -- Walter Lapchynski <wxl@ubuntu.com>  Thu, 07 Mar 2024 21:50:30 +0000
 
