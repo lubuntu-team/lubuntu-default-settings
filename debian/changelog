@@ -1,7 +1,7 @@
 lubuntu-default-settings (24.10.1) oracular; urgency=medium
 
   [ Aaron Rainbolt ]
-  * Fix theming.
+  * Fix theming. (LP: #2080442)
 
   [ Simon Quigley ]
   * Switch back to qpdfview from okular.
