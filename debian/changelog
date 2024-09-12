@@ -1,12 +1,16 @@
 lubuntu-default-settings (24.10.1) oracular; urgency=medium
 
+  [ Aaron Rainbolt ]
+  * Fix theming.
+
+  [ Simon Quigley ]
   * Switch back to qpdfview from okular.
   * Port snap-installation-monitor to Qt 6.
   * Switch to the Qt 6 LibreOffice frontend.
   * Bump Standards-version to 4.7.0, no changes needed.
   * Various Lintian complaints.
 
- -- Simon Quigley <tsimonq2@ubuntu.com>  Wed, 03 Jul 2024 10:16:33 -0500
+ -- Aaron Rainbolt <arraybolt3@ubuntu.com>  Wed, 11 Sep 2024 19:12:04 -0500
 
 lubuntu-default-settings (24.04.11) noble; urgency=medium
 
