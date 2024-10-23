@@ -1,3 +1,10 @@
+lubuntu-default-settings (25.04.1) UNRELEASED; urgency=medium
+
+  * Welcome to Plucky Puffin!
+  * Remove snap-installation-monitor (LP: #2061318).
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Tue, 22 Oct 2024 19:35:47 -0500
+
 lubuntu-default-settings (24.10.1) oracular; urgency=medium
 
   [ Aaron Rainbolt ]

@@ -1,3 +1,0 @@
-# These desktop files are not meant to be user-visible; ignore these flags
-lubuntu-default-settings: desktop-entry-lacks-icon-entry usr/share/xsessions/Lubuntu.desktop
-lubuntu-default-settings: desktop-entry-lacks-keywords-entry usr/share/xsessions/Lubuntu.desktop

@@ -1,8 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=Snap Installation Monitor
-Exec=/usr/libexec/snap-installation-monitor
-Icon=dialog-information
-Comment=Monitor snapd seeding at startup
-X-LXQt-Need-Tray=true
-NoDisplay=true
