@@ -1,3 +1,9 @@
+lubuntu-default-settings (25.04.4) plucky; urgency=medium
+
+  * Tone down the foreground a bit. 
+
+ -- Walter Lapchynski <wxl@ubuntu.com>  Fri, 07 Feb 2025 09:17:45 +0000
+
 lubuntu-default-settings (25.04.3) plucky; urgency=medium
 
   * Spin off the Ubuntu color scheme into a Lubuntu color scheme and default
