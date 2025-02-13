@@ -1,3 +1,9 @@
+lubuntu-default-settings (25.04.5) plucky; urgency=medium
+
+  * Replace mainmenu with fancymenu in panel.
+
+ -- Walter Lapchynski <wxl@ubuntu.com>  Wed, 12 Feb 2025 07:19:00 +0000
+
 lubuntu-default-settings (25.04.4) plucky; urgency=medium
 
   * Tone down the foreground a bit. 
