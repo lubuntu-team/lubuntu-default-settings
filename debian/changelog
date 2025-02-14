@@ -1,3 +1,9 @@
+lubuntu-default-settings (25.04.6) plucky; urgency=medium
+
+  * Update shortcuts for fancymenu change. 
+
+ -- Walter Lapchynski <wxl@ubuntu.com>  Fri, 14 Feb 2025 07:41:54 +0000
+
 lubuntu-default-settings (25.04.5) plucky; urgency=medium
 
   * Replace mainmenu with fancymenu in panel.
