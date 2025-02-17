@@ -1,3 +1,9 @@
+lubuntu-default-settings (25.04.7) plucky; urgency=medium
+
+  * Add a default Neochat configuration file, for future switching.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Mon, 17 Feb 2025 00:52:10 -0600
+
 lubuntu-default-settings (25.04.6) plucky; urgency=medium
 
   * Update shortcuts for fancymenu change. 
