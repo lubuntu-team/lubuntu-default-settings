@@ -1,6 +1,7 @@
-lubuntu-default-settings (25.04.8~ppa2) plucky; urgency=medium
+lubuntu-default-settings (25.04.8~ppa3) plucky; urgency=medium
 
   * Add explicit configuration for SDDM. 
+  * Prohibit virtual keyboard on SDDM. (LP: #2091958)
   * Add explicit configuration for Picom. (LP: #2100464)
   * Remove Firefox from quicklaunch. 
   * Add more sane defaults for fancymenu. 
