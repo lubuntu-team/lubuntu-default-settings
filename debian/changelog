@@ -1,3 +1,9 @@
+lubuntu-default-settings (25.04.8~ppa1) plucky; urgency=medium
+
+  * Add explicit configuration for SDDM. 
+
+ -- Walter Lapchynski <wxl@ubuntu.com>  Wed, 05 Mar 2025 02:54:39 +0000
+
 lubuntu-default-settings (25.04.7) plucky; urgency=medium
 
   * Add a default Neochat configuration file, for future switching.
