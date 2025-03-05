@@ -1,6 +1,7 @@
 lubuntu-default-settings (25.04.8~ppa1) plucky; urgency=medium
 
   * Add explicit configuration for SDDM. 
+  * Add explicit configuration for Picom. (LP: #2100464)
 
  -- Walter Lapchynski <wxl@ubuntu.com>  Wed, 05 Mar 2025 02:54:39 +0000
 
