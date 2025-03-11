@@ -1,3 +1,9 @@
+lubuntu-default-settings (25.04.9) plucky; urgency=medium
+
+  * Create a LXQt module for Picom. 
+
+ -- Walter Lapchynski <wxl@ubuntu.com>  Tue, 11 Mar 2025 02:35:31 +0000
+
 lubuntu-default-settings (25.04.8) plucky; urgency=medium
 
   * Add explicit configuration for SDDM. 
