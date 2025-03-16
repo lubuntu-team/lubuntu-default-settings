@@ -1,5 +1,6 @@
 [Desktop Entry]
 Name=X Compositor
-Type=Application
+Comment=picom
 Exec=picom
+Type=Application
 X-LXQt-Module=true
