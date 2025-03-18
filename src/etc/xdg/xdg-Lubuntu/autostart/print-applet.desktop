@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=Print Manager
+Comment=system-config-printer-applet
+Exec=system-config-printer-applet
+Type=Application
+X-LXQt-Module=true

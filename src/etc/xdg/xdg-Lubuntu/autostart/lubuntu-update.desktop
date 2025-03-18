@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=Lubuntu Update
+Comment=lubuntu-update
+Exec=/usr/bin/lubuntu-update
+Type=Application
+X-LXQt-Module=true

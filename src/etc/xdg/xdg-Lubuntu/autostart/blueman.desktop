@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=Bluetooth Manager
+Comment=blueman-applet
+Exec=blueman-applet
+Type=Application
+X-LXQt-Module=true

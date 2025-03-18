@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Clipboard Manager
+Comment=qlipper
+Exec=qlipper
+Type=Application
+X-LXQt-Need-Tray=true
+X-LXQt-Module=true

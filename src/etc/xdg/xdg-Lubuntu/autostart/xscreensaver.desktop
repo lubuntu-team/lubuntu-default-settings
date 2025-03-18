@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Screensaver
+Comment=xscreensaver
+Exec=xscreensaver -no-splash
+Type=Application
+X-LXQt-X11-Only=true
+X-LXQt-Module=true

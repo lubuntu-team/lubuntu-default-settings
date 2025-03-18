@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Network Manager
+Comment=nm-tray
+Exec=nm-tray
+Type=Application
+X-LXQt-Need-Tray=true
+X-LXQt-Module=true
