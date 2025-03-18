@@ -1,6 +1,13 @@
 lubuntu-default-settings (25.04.10) plucky; urgency=medium
 
   * Added Comment to Picom LXQt module so executable shown in tooltip. 
+  * Added LXQt Modules for the following (LP: #2059346):
+    * Bluetooth Manager (blueman)
+    * Lubuntu Update
+    * Clipboard Manager (qlipper)
+    * Screensaver (xscreensaver)
+    * Network Manager (nm-tray)
+    * Print Manager (print-applet)
 
  -- Walter Lapchynski <wxl@ubuntu.com>  Sun, 16 Mar 2025 20:45:11 +0000
 
