@@ -1,3 +1,9 @@
+lubuntu-default-settings (25.04.12) plucky; urgency=medium
+
+  * Change menu file to -compact to improve preferences display. 
+
+ -- Walter Lapchynski <wxl@ubuntu.com>  Sun, 23 Mar 2025 01:11:36 +0000
+
 lubuntu-default-settings (25.04.11) plucky; urgency=medium
 
   * Rename LXQt Modules to match those being superceded (LP: #2103824) 
