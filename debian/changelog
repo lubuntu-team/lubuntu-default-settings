@@ -1,3 +1,15 @@
+lubuntu-default-settings (26.04.2) resolute; urgency=medium
+
+  * Re-introduce the accidentally lost icon theme fix from 25.10.1.
+
+ -- Aaron Rainbolt <arraybolt3@ubuntu.com>  Mon, 16 Mar 2026 11:40:28 -0400
+
+lubuntu-default-settings (26.04.1) resolute; urgency=medium
+
+  * Fix Kvantum package names to unbreak ISO build.
+
+ -- Aaron Rainbolt <arraybolt3@ubuntu.com>  Mon, 09 Mar 2026 10:29:34 -0400
+
 lubuntu-default-settings (25.10.1) questing; urgency=medium
 
   * Switch to Papirus icon theme, ePapirus is no more. (LP: #2111542)

@@ -18,11 +18,11 @@ Depends: fonts-ubuntu,
          lxqt-session,
          openbox,
          policykit-desktop-privileges,
-         qt6-style-kvantum,
-         qt6-style-kvantum-l10n,
+         qt-style-kvantum,
+         qt-style-kvantum-l10n,
          ${misc:Depends}
 Recommends: breeze-gtk-theme,
-            qt6-style-kvantum-themes
+            qt-style-kvantum-themes
 Description: default settings for Lubuntu
  Various system settings tailored for Lubuntu's default session. This includes
  default settings, applications, and themes.
