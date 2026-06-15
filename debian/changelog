@@ -2,6 +2,8 @@ lubuntu-default-settings (26.10.1) UNRELEASED; urgency=medium
 
   * Add /usr/share/wayland-sessions/Lubuntu.desktop to add an opt-in Wayland
     session, with a runtime dependency on lxqt-wayland-session.
+  * Set miriway as the default Wayland compositor, with a runtime dependency
+    on miriway.
 
  -- Simon Quigley <tsimonq2@debian.org>  Mon, 15 Jun 2026 17:53:39 -0500
 
