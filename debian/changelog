@@ -1,3 +1,8 @@
+lubuntu-default-settings (26.10.1) UNRELEASED; urgency=medium
+
+
+ -- Simon Quigley <tsimonq2@debian.org>  Mon, 15 Jun 2026 17:53:39 -0500
+
 lubuntu-default-settings (26.04.2) resolute; urgency=medium
 
   * Re-introduce the accidentally lost icon theme fix from 25.10.1.
