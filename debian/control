@@ -16,6 +16,7 @@ Pre-Depends: ${misc:Pre-Depends}
 Depends: fonts-ubuntu,
          lubuntu-artwork,
          lxqt-session,
+         lxqt-wayland-session,
          openbox,
          policykit-desktop-privileges,
          qt-style-kvantum,
