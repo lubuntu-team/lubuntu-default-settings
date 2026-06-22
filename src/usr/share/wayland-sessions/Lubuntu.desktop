@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Exec=startlxqtwayland
+TryExec=startlxqtwayland
+DesktopNames=LXQt
+
+Name=Lubuntu (Wayland)
+Comment=Lightweight Qt Desktop - Wayland Session
